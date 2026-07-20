@@ -1,5 +1,6 @@
 import SiteShell from "../../components/SiteShell";
 import members from "../../../content/members.json";
+import { assetPath } from "../../../lib/paths";
 
 export const metadata = { title: members.metadata.professorTitle };
 
@@ -9,10 +10,13 @@ export default function ProfessorPage() {
   return (
     <SiteShell>
       <section className="profile-hero site-width">
-        <div className="profile-portrait" aria-label={professor.portraitLabel}>
-          <span>{professor.initials}</span>
-          <small>{professor.eyebrow}</small>
-        </div>
+        <div className="profile-portrait">
+  <img
+    src={assetPath(professor.profilePhoto)}
+    alt={professor.portraitLabel}
+  />
+  <small>{professor.eyebrow}</small>
+</div>
         <div className="profile-intro">
           <p className="eyebrow">{professor.eyebrow}</p>
           <h1>{professor.name}</h1>
