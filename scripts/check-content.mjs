@@ -24,4 +24,34 @@ if (!fs.existsSync(heroImage)) {
   process.exit(1);
 }
 
-console.log(`Content check passed (${jsonFiles.length} JSON files).`);
+const membersContent = JSON.parse(fs.readFileSync(path.join(contentDirectory, "members.json"), "utf8"));
+const members = membersContent.group.members;
+const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const seenSlugs = new Set();
+
+for (const member of members) {
+  if (!member.slug || !slugPattern.test(member.slug)) {
+    console.error(`Invalid member slug for ${member.name}: ${member.slug || "(empty)"}`);
+    console.error("Use lowercase letters, numbers, and hyphens only (example: cheolwoo-cho). ");
+    process.exit(1);
+  }
+
+  if (seenSlugs.has(member.slug)) {
+    console.error(`Duplicate member slug: ${member.slug}`);
+    process.exit(1);
+  }
+  seenSlugs.add(member.slug);
+
+  for (const photoField of ["cardPhoto", "profilePhoto", "photo"]) {
+    const photo = member[photoField];
+    if (!photo) continue;
+
+    const photoPath = path.join(root, "public", photo.replace(/^\//, ""));
+    if (!fs.existsSync(photoPath)) {
+      console.error(`Member ${photoField} not found for ${member.name}: ${photo}`);
+      process.exit(1);
+    }
+  }
+}
+
+console.log(`Content check passed (${jsonFiles.length} JSON files, ${members.length} member profiles).`);
