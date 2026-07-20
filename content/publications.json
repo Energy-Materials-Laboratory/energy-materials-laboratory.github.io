@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "landingTitle": "Publications",
+    "journalsTitle": "Journals",
+    "patentsTitle": "Patents"
+  },
+  "landing": {
+    "eyebrow": "Publications",
+    "titleLine1": "Ideas, tested",
+    "titleLine2": "and shared.",
+    "portals": [
+      {
+        "index": "01",
+        "title": "Journals",
+        "description": "Research articles, reviews, and perspectives",
+        "actionLabel": "Browse publications",
+        "href": "/publications/journals"
+      },
+      {
+        "index": "02",
+        "title": "Patents",
+        "description": "Materials-design methods and battery technologies",
+        "actionLabel": "Browse patents",
+        "href": "/publications/patents"
+      }
+    ]
+  },
+  "journalsPage": {
+    "eyebrow": "Publications · Journals",
+    "title": "Research archive.",
+    "note": "† Equal contribution · * Corresponding author"
+  },
+  "journals": [
+    {
+      "year": "2026",
+      "title": "Suppressing Transition Metal Migration via Cation Disorder Engineering for Enhanced Kinetics in Lithium-rich Cathodes",
+      "authors": "Hyejin Choi, Kyoung Sun Kim, Gyeongdo Park, et al.; Byunghoon Kim*, Kyojin Ku*",
+      "venue": "Energy Storage Materials · Accepted"
+    },
+    {
+      "year": "2026",
+      "title": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
+      "authors": "Jin Hyeok Yang†, Jae Yoon Sung†, Hyunji Kweon†, Seohyun Kim†, et al.",
+      "venue": "Advanced Science",
+      "doi": "10.1002/advs.76228"
+    },
+    {
+      "year": "2026",
+      "title": "Fluorine-Free Corrosion-Resistant Electrolyte Design for Enhanced Stability in Lithium Metal Batteries",
+      "authors": "Hyeonmin Jo, Uijun Lee, Jin Hwan Kwak, et al.; Byunghoon Kim*, Hee-Dae Lim*",
+      "venue": "Advanced Materials",
+      "doi": "10.1002/adma.202522875"
+    },
+    {
+      "year": "2025",
+      "title": "Elucidating lithium-ion diffusion kinetics in cation-disordered rocksalt cathodes",
+      "authors": "Byungwook Kang†, Jonghun Park†, Byunghoon Kim, et al.",
+      "venue": "Energy & Environmental Science · 18 · 2330–2341",
+      "doi": "10.1039/d4ee04580g"
+    },
+    {
+      "year": "2025",
+      "title": "Oxygen Dimerization-driven Cation Migration Induces Voltage Hysteresis in Disordered Rocksalt Cathodes",
+      "authors": "Byunghoon Kim, Peichen Zhong, Yunyeong Choi, Han-Ming Hau, Bowen Deng, Gerbrand Ceder*",
+      "venue": "Journal of the American Chemical Society · 147 · 223–233",
+      "doi": "10.1021/jacs.4c09070"
+    },
+    {
+      "year": "2024",
+      "title": "Structurally robust lithium-rich layered oxides for high-energy and long-lasting cathodes",
+      "authors": "Ho-Young Jang†, Donggun Eum†, Jiung Cho, et al.",
+      "venue": "Nature Communications · 15 · 1288",
+      "doi": "10.1038/s41467-024-45490-x"
+    },
+    {
+      "year": "2023",
+      "title": "Design of a trigonal halide superionic conductor by regulating cation order-disorder",
+      "authors": "Seungju Yu†, Joohyeon Noh†, Byunghoon Kim, et al.",
+      "venue": "Science · 382 · 573–579",
+      "doi": "10.1126/science.adg6591"
+    },
+    {
+      "year": "2023",
+      "title": "Slab gliding, a hidden factor that induces irreversibility and redox asymmetry of lithium-rich layered oxide cathodes",
+      "authors": "Jun Hyuk Song†, Seungju Yu†, Byunghoon Kim, et al.",
+      "venue": "Nature Communications · 14 · 4149",
+      "doi": "10.1038/s41467-023-39838-y"
+    },
+    {
+      "year": "2023",
+      "title": "Effects of cation superstructure ordering on oxygen redox stability in O2-type lithium-rich layered oxides",
+      "authors": "Donggun Eum, Ho Young Jang, Byunghoon Kim, et al.",
+      "venue": "Energy & Environmental Science · 16 · 673–686",
+      "doi": "10.1039/D2EE03527H"
+    },
+    {
+      "year": "2022",
+      "title": "A theoretical framework for oxygen redox chemistry for sustainable batteries",
+      "authors": "Byunghoon Kim, Jun Hyuk Song, Donggun Eum, et al.",
+      "venue": "Nature Sustainability · 5 · 708–716",
+      "doi": "10.1038/s41893-022-00890-z"
+    },
+    {
+      "year": "2022",
+      "title": "Coupling structural evolution and oxygen-redox electrochemistry in layered transition metal oxides",
+      "authors": "Donggun Eum, Byunghoon Kim, Jun Hyuk Song, et al.",
+      "venue": "Nature Materials · 21 · 664–672",
+      "doi": "10.1038/s41563-022-01209-1"
+    },
+    {
+      "year": "2021",
+      "title": "Permselective metal-organic framework gel membrane enables ultralong-life cycling of rechargeable organic batteries",
+      "authors": "Songyan Bai†, Byunghoon Kim†, Chungryeol Kim, et al.",
+      "venue": "Nature Nanotechnology · 16 · 77–84",
+      "doi": "10.1038/s41565-020-00788-x"
+    },
+    {
+      "year": "2020",
+      "title": "Voltage decay and redox asymmetry mitigation by reversible cation migration in lithium-rich layered oxide electrodes",
+      "authors": "Donggun Eum†, Byunghoon Kim†, Sung Joo Kim, et al.",
+      "venue": "Nature Materials · 19 · 419–427",
+      "doi": "10.1038/s41563-019-0572-4"
+    },
+    {
+      "year": "2020",
+      "title": "A new lithium diffusion model in layered oxides based on asymmetric but reversible transition metal migration",
+      "authors": "Kyojin Ku, Byunghoon Kim, Sung Kyun Jung, et al.",
+      "venue": "Energy & Environmental Science · 13 · 1269–1278",
+      "doi": "10.1039/C9EE04123K"
+    },
+    {
+      "year": "2018",
+      "title": "Native defects in Li10GeP2S12 and their effect on lithium diffusion",
+      "authors": "Kyungbae Oh, Donghee Chang, Byungju Lee, et al.",
+      "venue": "Chemistry of Materials · 30 · 4995–5004",
+      "doi": "10.1021/acs.chemmater.8b01163"
+    },
+    {
+      "year": "2017",
+      "title": "Using first-principles calculations for the advancement of materials for rechargeable batteries",
+      "authors": "Gabin Yoon†, Do Hoon Kim†, Inchul Park†, et al.",
+      "venue": "Advanced Functional Materials · 27 · 1702887",
+      "doi": "10.1002/adfm.201702887"
+    }
+  ],
+  "patentsPage": {
+    "eyebrow": "Publications · Patents",
+    "titleLine1": "From design rules",
+    "titleLine2": "to practical methods."
+  },
+  "patents": [
+    {
+      "year": "2025",
+      "date": "2025.12.16",
+      "korean": "이차전지용 양극 활물질의 도핑 원소 선별 방법",
+      "english": "Method for Selecting Dopant Elements for Cathode Active Material for Secondary Battery",
+      "inventors": "김병훈 · 박민규 · 김명훈 · 신동혁 · 김유탁 · 송승환 · 오해빈",
+      "number": "10-2025-0200644"
+    },
+    {
+      "year": "2025",
+      "date": "2025.12.16",
+      "korean": "도핑된 이차전지용 양극 활물질",
+      "english": "Doped Cathode Active Materials for Secondary Battery",
+      "inventors": "김병훈 · 박민규 · 김명훈 · 신동혁 · 김유탁 · 송승환 · 오해빈",
+      "number": "10-2025-0200645"
+    }
+  ]
+}

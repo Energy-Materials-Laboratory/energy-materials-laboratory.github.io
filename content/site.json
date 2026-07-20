@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "title": "Energy Materials Lab · SKKU",
+    "titleTemplate": "%s · Energy Materials Lab",
+    "description": "Byunghoon Kim Research Group at Sungkyunkwan University. We integrate computation and experiment to discover advanced materials for next-generation batteries."
+  },
+  "institution": {
+    "university": "Sungkyunkwan University",
+    "department": "Department of Advanced Materials Science and Engineering"
+  },
+  "brand": {
+    "name": "Energy Materials Lab",
+    "subtitle": "Byunghoon Kim Research Group",
+    "homeAriaLabel": "Energy Materials Laboratory home"
+  },
+  "navigation": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Research",
+      "href": "/research"
+    },
+    {
+      "label": "Members",
+      "href": "/members",
+      "children": [
+        {
+          "label": "Professor",
+          "href": "/members/professor"
+        },
+        {
+          "label": "Group members",
+          "href": "/members/group"
+        }
+      ]
+    },
+    {
+      "label": "Publications",
+      "href": "/publications",
+      "children": [
+        {
+          "label": "Journals",
+          "href": "/publications/journals"
+        },
+        {
+          "label": "Patents",
+          "href": "/publications/patents"
+        }
+      ]
+    },
+    {
+      "label": "Gallery",
+      "href": "/gallery"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "footer": {
+    "labName": "Energy Materials Lab",
+    "groupName": "Byunghoon Kim Research Group",
+    "visitLabel": "Visit",
+    "room": "Building 25, Room 25227",
+    "location": "Sungkyunkwan University, Suwon, Korea",
+    "connectLabel": "Connect",
+    "email": "byunghoonkim@skku.edu",
+    "joinLabel": "Join the group",
+    "copyright": "© 2026 Energy Materials Laboratory",
+    "affiliation": "Department of Advanced Materials Science and Engineering · SKKU"
+  }
+}

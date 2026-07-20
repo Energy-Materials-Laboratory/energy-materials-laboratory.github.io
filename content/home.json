@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "eyebrow": "Materials · Mechanisms · Discovery",
+    "title": "Materials for batteries, understood across scales.",
+    "description": "We integrate first-principles computation, high-throughput screening, synthesis, and multiscale characterization to discover advanced energy materials.",
+    "primaryAction": {
+      "label": "Explore our research",
+      "href": "/research"
+    },
+    "secondaryAction": {
+      "label": "Meet the group",
+      "href": "/members/group"
+    },
+    "image": "/images/hero-layered-cathode.png",
+    "imageAlt": "Layered cathode crystal structure with green lithium layers and a localized cation-migration region"
+  },
+  "pillars": [
+    {
+      "index": "01",
+      "title": "Structure",
+      "description": "Characterize materials across length and time scales."
+    },
+    {
+      "index": "02",
+      "title": "Mechanism",
+      "description": "Reveal the origins of electrochemical behavior and degradation."
+    },
+    {
+      "index": "03",
+      "title": "Discovery",
+      "description": "Design and validate materials for next-generation batteries."
+    }
+  ],
+  "approach": {
+    "label": "Our approach · 01",
+    "lead": "We move between atoms, particles, and devices to uncover the hidden properties of materials.",
+    "body": "Computation tells us where to look. Experiments show us how materials behave. Their connection turns fundamental understanding into rational design."
+  },
+  "researchSection": {
+    "label": "Research programs · 02",
+    "titleLine1": "One materials-science framework.",
+    "titleLine2": "Multiple battery chemistries.",
+    "actionLabel": "View all research"
+  },
+  "publicationsSection": {
+    "label": "Selected work · 03",
+    "title": "Publications",
+    "actionLabel": "Full publication list",
+    "startIndex": 4,
+    "count": 4
+  },
+  "recruitment": {
+    "label": "Join EML · 04",
+    "titleLine1": "Curious about materials?",
+    "titleLine2": "Build the next question with us.",
+    "description": "We welcome graduate students and undergraduate researchers interested in batteries, energy materials, first-principles calculations, and machine learning.",
+    "actionLabel": "Join the group"
+  }
+}

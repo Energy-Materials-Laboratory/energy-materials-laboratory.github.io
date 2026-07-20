@@ -1,0 +1,45 @@
+{
+  "metadataTitle": "Research",
+  "hero": {
+    "eyebrow": "Research",
+    "titleLine1": "Understanding materials.",
+    "titleLine2": "Designing better batteries.",
+    "description": "We connect atomistic mechanisms with synthesis, characterization, and electrochemical behavior to create actionable materials-design rules."
+  },
+  "areas": [
+    {
+      "index": "01",
+      "title": "High-energy cathodes",
+      "short": "Rationally designing cathodes that combine high capacity, fast kinetics, and long-term structural stability.",
+      "detail": "We study Li-rich layered oxides, high-Ni cathodes, and disordered rocksalt materials. By connecting high-valent redox chemistry with structural evolution, we seek design rules for cathodes that sustain high energy density without sacrificing stability.",
+      "tags": ["Li-rich", "High-Ni", "Disordered rocksalt"]
+    },
+    {
+      "index": "02",
+      "title": "Computational materials design",
+      "short": "Using first-principles calculations, high-throughput screening, and machine learning to accelerate discovery.",
+      "detail": "We evaluate synthesis feasibility, phase stability, ion diffusion, voltage, and defect chemistry at scales that are difficult to access experimentally. Large-scale computation helps us move from isolated intuition toward systematic materials discovery.",
+      "tags": ["DFT", "High-throughput", "Machine learning"]
+    },
+    {
+      "index": "03",
+      "title": "Sodium-ion batteries",
+      "short": "Establishing chemistry-specific design strategies for affordable and sustainable sodium-ion energy storage.",
+      "detail": "The distinct size and chemistry of Na ions create structural behavior that cannot be treated as a simple extension of lithium-ion materials. We combine computation and experiment to discover electrodes with high energy, power capability, and long cycle life.",
+      "tags": ["Layered oxides", "Electrode design", "Na-ion kinetics"]
+    },
+    {
+      "index": "04",
+      "title": "Beyond lithium-ion",
+      "short": "Exploring solid ion conductors and next-generation chemistries beyond conventional lithium-ion systems.",
+      "detail": "Our broader program includes new ion conductors for all-solid-state batteries and emerging systems such as multivalent and lithium-air batteries. These projects extend our core approach: reveal fundamental mechanisms, then translate them into materials design.",
+      "tags": ["Solid-state", "Multivalent", "Lithium-air"]
+    }
+  ],
+  "cta": {
+    "label": "Work with us",
+    "titleLine1": "Bring a materials question.",
+    "titleLine2": "Explore it across scales.",
+    "actionLabel": "Start a conversation"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadataTitle": "Gallery",
+  "hero": {
+    "eyebrow": "Gallery",
+    "titleLine1": "Research is also",
+    "titleLine2": "a shared life."
+  },
+  "events": [
+    {
+      "title": "2026 Teacher's Day",
+      "date": "2026.05.15",
+      "index": "01"
+    },
+    {
+      "title": "Spring Korean Electrochemistry Conference",
+      "date": "2026.04.01",
+      "index": "02"
+    },
+    {
+      "title": "2026 InterBattery",
+      "date": "2026.03.13",
+      "index": "03"
+    },
+    {
+      "title": "Celebrating Professor's Birthday",
+      "date": "2026.01.21",
+      "index": "04"
+    },
+    {
+      "title": "2025 Year-End Party",
+      "date": "2025.12.23",
+      "index": "05"
+    },
+    {
+      "title": "Fall Korean Electrochemistry Conference",
+      "date": "2025.11.19",
+      "index": "06"
+    },
+    {
+      "title": "Group dinner · New member",
+      "date": "2025.09.04",
+      "index": "07"
+    },
+    {
+      "title": "First group dinner",
+      "date": "2025.03.24",
+      "index": "08"
+    }
+  ]
+}

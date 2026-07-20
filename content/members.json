@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "landingTitle": "Members",
+    "professorTitle": "Professor",
+    "groupTitle": "Group Members"
+  },
+  "landing": {
+    "eyebrow": "Members",
+    "titleLine1": "The people behind",
+    "titleLine2": "the questions.",
+    "portals": [
+      {
+        "index": "01",
+        "title": "Professor",
+        "description": "Principal Investigator · Byunghoon Kim",
+        "href": "/members/professor"
+      },
+      {
+        "index": "02",
+        "title": "Group members",
+        "description": "Graduate students and undergraduate researchers",
+        "href": "/members/group"
+      }
+    ]
+  },
+  "professor": {
+    "name": "Byunghoon Kim",
+    "initials": "BK",
+    "eyebrow": "Principal Investigator",
+    "portraitLabel": "Portrait placeholder for Professor Byunghoon Kim",
+    "title": "Assistant Professor",
+    "department": "Department of Advanced Materials Science and Engineering",
+    "university": "Sungkyunkwan University",
+    "links": [
+      {
+        "label": "Email",
+        "href": "mailto:byunghoonkim@skku.edu"
+      },
+      {
+        "label": "ORCID",
+        "href": "https://orcid.org/0000-0003-3499-3357"
+      },
+      {
+        "label": "Google Scholar",
+        "href": "https://scholar.google.co.kr/citations?hl=ko&oi=ao&user=4Ni2rdgAAAAJ"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/byunghoon-kim-1b6647229"
+      }
+    ],
+    "education": [
+      {
+        "year": "2021",
+        "title": "Ph.D., Materials Science and Engineering",
+        "institution": "Seoul National University · Advisor: Prof. Kisuk Kang",
+        "detail": "Study on high-capacity layered oxide cathode materials for lithium rechargeable batteries"
+      },
+      {
+        "year": "2016",
+        "title": "B.S., Materials Science and Engineering",
+        "institution": "Seoul National University"
+      }
+    ],
+    "experience": [
+      {
+        "year": "2024—",
+        "title": "Assistant Professor",
+        "institution": "Sungkyunkwan University"
+      },
+      {
+        "year": "2022—24",
+        "title": "Postdoctoral Research Associate",
+        "institution": "Lawrence Berkeley National Laboratory"
+      },
+      {
+        "year": "2021—22",
+        "title": "Postdoctoral Research Associate",
+        "institution": "Research Institute of Advanced Materials, Seoul National University"
+      }
+    ],
+    "honors": [
+      {
+        "year": "2023—24",
+        "title": "Postdoctoral Researcher Fellowship",
+        "institution": "National Research Foundation of Korea"
+      },
+      {
+        "year": "2021",
+        "title": "MRS Graduate Student Award · Silver",
+        "institution": "Materials Research Society"
+      },
+      {
+        "year": "2021",
+        "title": "Best PhD Dissertation",
+        "institution": "Seoul National University"
+      },
+      {
+        "year": "2020",
+        "title": "Humantech Paper Award · Silver",
+        "institution": "Samsung"
+      }
+    ]
+  },
+  "group": {
+    "eyebrow": "Group members",
+    "titleLine1": "Different scales.",
+    "titleLine2": "Shared curiosity.",
+    "description": "Our group brings computation and experiment together through close, question-driven collaboration.",
+    "roleOrder": [
+      {
+        "heading": "MS/PhD Integrated Students",
+        "role": "MS/PhD Integrated Student"
+      },
+      {
+        "heading": "Master's Students",
+        "role": "Master's Student"
+      },
+      {
+        "heading": "Undergraduate Researchers",
+        "role": "Undergraduate Researcher"
+      }
+    ],
+    "members": [
+      {
+        "name": "Cheolwoo Cho",
+        "email": "jcw990104@skku.edu",
+        "role": "MS/PhD Integrated Student",
+        "initials": "CC"
+      },
+      {
+        "name": "Jaehoon Lim",
+        "email": "jhun5873@skku.edu",
+        "role": "MS/PhD Integrated Student",
+        "initials": "JL"
+      },
+      {
+        "name": "Chanhyuk Kim",
+        "email": "chkimg@skku.edu",
+        "role": "MS/PhD Integrated Student",
+        "initials": "CK"
+      },
+      {
+        "name": "Myunghoon Kim",
+        "email": "mhkim0501@skku.edu",
+        "role": "MS/PhD Integrated Student",
+        "initials": "MK"
+      },
+      {
+        "name": "Seohyun Kim",
+        "email": "kdkd63@skku.edu",
+        "role": "Master's Student",
+        "initials": "SK"
+      },
+      {
+        "name": "Kihwan Choi",
+        "email": "kihwan0903@skku.edu",
+        "role": "Master's Student",
+        "initials": "KC"
+      },
+      {
+        "name": "Seungyeob Shin",
+        "email": "tmdduq4586@skku.edu",
+        "role": "Master's Student",
+        "initials": "SS"
+      },
+      {
+        "name": "Donghyuk Shin",
+        "email": "tim3018@skku.edu",
+        "role": "Master's Student",
+        "initials": "DS"
+      },
+      {
+        "name": "Mingyu Park",
+        "email": "hjsmg205@skku.edu",
+        "role": "Master's Student",
+        "initials": "MP"
+      },
+      {
+        "name": "Hyeonbeom Lee",
+        "email": "hblee000@skku.edu",
+        "role": "Undergraduate Researcher",
+        "initials": "HL"
+      },
+      {
+        "name": "Jaewoo Sim",
+        "email": "jaewoo0721@g.skku.edu",
+        "role": "Undergraduate Researcher",
+        "initials": "JS"
+      },
+      {
+        "name": "Hyeokjong Lee",
+        "email": "hyeokjonglee80@gmail.com",
+        "role": "Undergraduate Researcher",
+        "initials": "HL"
+      }
+    ]
+  }
+}
