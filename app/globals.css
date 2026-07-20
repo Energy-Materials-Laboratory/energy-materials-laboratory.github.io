@@ -877,54 +877,41 @@ summary:focus-visible {
 
 .profile-portrait {
   position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  min-width: 0;
   overflow: hidden;
-  background: #dbe9f6;
-  color: rgba(6, 69, 138, 0.9);
+  background: #625b58;
 }
 
+/* 기존 파란 삼각형 완전 제거 */
 .profile-portrait::before {
-  content: "";
+  content: none;
+  display: none;
+}
+
+/* 사진이 layout 크기를 늘리지 않고 정해진 영역만 채우도록 고정 */
+.profile-portrait img {
   position: absolute;
-  inset: -25% -10% 35% 30%;
-  background: var(--blue);
-  transform: rotate(-13deg);
-  opacity: .88;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 50% 18%;
 }
 
-.profile-portrait span {
-  position: relative;
-  font-size: clamp(120px, 16vw, 230px);
-  font-weight: 760;
-  letter-spacing: -.1em;
-}
-
+/* 좌측 하단 라벨 */
 .profile-portrait small {
   position: absolute;
   z-index: 2;
   bottom: 24px;
   left: 26px;
   padding: 7px 9px;
-  background: rgba(255, 255, 255, 0.82);
-  color: var(--blue-dark);
+  background: rgba(17, 24, 32, 0.58);
+  color: #ffffff;
   font-family: var(--font-mono);
   font-size: 9px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-}
-
-.profile-portrait img {
-  width: 100%;
-  height: 100%;
-  display: block;
-  object-fit: cover;
-  object-position: center 25%;
-}
-
-.profile-portrait:has(img)::before {
-  display: none;
 }
 
 .profile-intro {
