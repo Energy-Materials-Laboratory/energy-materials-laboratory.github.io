@@ -77,8 +77,22 @@ summary:focus-visible {
 
 .brand {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  min-width: 360px;
+}
+
+.brand-mark {
+  width: 50px;
+  height: 50px;
+  flex: 0 0 auto;
+  object-fit: contain;
+}
+
+.brand-copy {
+  display: flex;
   flex-direction: column;
-  min-width: 300px;
 }
 
 .brand-name {
