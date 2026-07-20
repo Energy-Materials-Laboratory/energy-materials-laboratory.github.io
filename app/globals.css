@@ -879,36 +879,36 @@ summary:focus-visible {
   position: relative;
   min-width: 0;
   overflow: hidden;
-  background: #625b58;
+  background: #ffffff;
 }
 
-/* 기존 파란 삼각형 완전 제거 */
 .profile-portrait::before {
   content: none;
   display: none;
 }
 
-/* 사진이 layout 크기를 늘리지 않고 정해진 영역만 채우도록 고정 */
 .profile-portrait img {
   position: absolute;
-  top: 22px;
-  left: 0;
-  width: 100%;
-  height: calc(100% - 22px);
+  inset: 16px;
+
+  width: calc(100% - 32px);
+  height: calc(100% - 32px);
+
   display: block;
   object-fit: cover;
-  object-position: 50% 0%;
+  object-position: 50% 5%;
 }
 
-/* 좌측 하단 라벨 */
 .profile-portrait small {
   position: absolute;
   z-index: 2;
-  bottom: 24px;
-  left: 26px;
+  bottom: 34px;
+  left: 34px;
+
   padding: 7px 9px;
-  background: rgba(17, 24, 32, 0.58);
+  background: rgba(17, 24, 32, 0.62);
   color: #ffffff;
+
   font-family: var(--font-mono);
   font-size: 9px;
   letter-spacing: 0.15em;
