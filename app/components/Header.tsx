@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Fragment } from "react";
 import site from "../../content/site.json";
+import { assetPath } from "../../lib/paths";
 
 type NavItem = {
   label: string;
@@ -29,8 +30,16 @@ export default function Header() {
       <header className="site-header">
         <div className="site-width header-inner">
           <Link href="/" className="brand" aria-label={site.brand.homeAriaLabel}>
-            <span className="brand-name">{site.brand.name}</span>
-            <span className="brand-sub">{site.brand.subtitle}</span>
+            <img
+             className="brand-mark"
+             src={assetPath("/images/eml-mark.svg")}
+             alt=""
+             aria-hidden="true"
+            />
+            <span className="brand-copy">
+             <span className="brand-name">{site.brand.name}</span>
+             <span className="brand-sub">{site.brand.subtitle}</span>
+            </span>
           </Link>
 
           <nav className="desktop-nav" aria-label="Main navigation">
