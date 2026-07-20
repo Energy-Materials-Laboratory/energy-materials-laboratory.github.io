@@ -124,75 +124,180 @@
     "members": [
       {
         "name": "Cheolwoo Cho",
+        "slug": "cheolwoo-cho",
         "email": "jcw990104@skku.edu",
         "role": "MS/PhD Integrated Student",
-        "initials": "CC"
+        "initials": "CC",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "Cheolwoo Cho is an MS/PhD integrated student who joined the Kim group in spring 2025. He is working on lithium-ion battery materials. Outside the lab, he enjoys skiing and traveling.",
+        "education": [
+          {
+            "degree": "B.S., Advanced Materials Science & Engineering",
+            "institution": "Kyungpook National University",
+            "year": "2025"
+          }
+        ],
+        "researchInterests": [
+          "Lithium-ion batteries",
+          "Cathode materials"
+        ],
+        "selectedPublications": []
       },
       {
         "name": "Jaehoon Lim",
+        "slug": "jaehoon-lim",
         "email": "jhun5873@skku.edu",
         "role": "MS/PhD Integrated Student",
-        "initials": "JL"
+        "initials": "JL",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Chanhyuk Kim",
+        "slug": "chanhyuk-kim",
         "email": "chkimg@skku.edu",
         "role": "MS/PhD Integrated Student",
-        "initials": "CK"
+        "initials": "CK",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Myunghoon Kim",
+        "slug": "myunghoon-kim",
         "email": "mhkim0501@skku.edu",
         "role": "MS/PhD Integrated Student",
-        "initials": "MK"
+        "initials": "MK",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Seohyun Kim",
+        "slug": "seohyun-kim",
         "email": "kdkd63@skku.edu",
         "role": "Master's Student",
-        "initials": "SK"
+        "initials": "SK",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Kihwan Choi",
+        "slug": "kihwan-choi",
         "email": "kihwan0903@skku.edu",
         "role": "Master's Student",
-        "initials": "KC"
+        "initials": "KC",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Seungyeob Shin",
+        "slug": "seungyeob-shin",
         "email": "tmdduq4586@skku.edu",
         "role": "Master's Student",
-        "initials": "SS"
+        "initials": "SS",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Donghyuk Shin",
+        "slug": "donghyuk-shin",
         "email": "tim3018@skku.edu",
         "role": "Master's Student",
-        "initials": "DS"
+        "initials": "DS",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Mingyu Park",
+        "slug": "mingyu-park",
         "email": "hjsmg205@skku.edu",
         "role": "Master's Student",
-        "initials": "MP"
+        "initials": "MP",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Hyeonbeom Lee",
+        "slug": "hyeonbeom-lee",
         "email": "hblee000@skku.edu",
         "role": "Undergraduate Researcher",
-        "initials": "HL"
+        "initials": "HL",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Jaewoo Sim",
+        "slug": "jaewoo-sim",
         "email": "jaewoo0721@g.skku.edu",
         "role": "Undergraduate Researcher",
-        "initials": "JS"
+        "initials": "JS",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       },
       {
         "name": "Hyeokjong Lee",
+        "slug": "hyeokjong-lee",
         "email": "hyeokjonglee80@gmail.com",
         "role": "Undergraduate Researcher",
-        "initials": "HL"
+        "initials": "HL",
+        "cardPhoto": "",
+        "profilePhoto": "",
+        "photo": "",
+        "bio": "",
+        "education": [],
+        "researchInterests": [],
+        "selectedPublications": []
       }
     ]
   }
