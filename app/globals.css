@@ -43,7 +43,6 @@ summary:focus-visible {
   font-size: var(--size-label);
   font-weight: var(--weight-semibold);
   letter-spacing: 0.12em;
-  text-transform: uppercase;
 }
 
 .institution-inner {
@@ -100,7 +99,6 @@ summary:focus-visible {
   font-weight: var(--weight-bold);
   letter-spacing: -0.045em;
   line-height: 1;
-  text-transform: uppercase;
 }
 
 .brand-sub {
