@@ -903,12 +903,28 @@ summary:focus-visible {
 
 .profile-portrait small {
   position: absolute;
+  z-index: 2;
   bottom: 24px;
   left: 26px;
+  padding: 7px 9px;
+  background: rgba(255, 255, 255, 0.82);
+  color: var(--blue-dark);
   font-family: var(--font-mono);
   font-size: 9px;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
   text-transform: uppercase;
+}
+
+.profile-portrait img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center 25%;
+}
+
+.profile-portrait:has(img)::before {
+  display: none;
 }
 
 .profile-intro {
