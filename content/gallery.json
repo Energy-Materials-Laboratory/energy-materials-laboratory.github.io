@@ -26,5 +26,25 @@
         }
       ]
     }
+    {
+      "slug": "2026-interbattery",
+      "title": "2026 Inter Battery",
+      "date": "2026-03-13",
+      "cover": "/images/gallery/2026-interbattery/cover.jpg",
+      "coverAlt": "Energy Materials Lab members participated 2026 Inter Battery",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2026-interbattery/01.jpg",
+          "alt": "Energy Materials Lab members participated 2026 Inter Battery",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2026-interbattery/02.jpg",
+          "alt": "Energy Materials Lab members participated 2026 Inter Battery",
+          "position": "50% 50%"
+        }
+      ]
+    }
   ]
 }
