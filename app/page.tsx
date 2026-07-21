@@ -4,12 +4,22 @@ import home from "../content/home.json";
 import research from "../content/research.json";
 import publications from "../content/publications.json";
 import { assetPath } from "../lib/paths";
+import {
+  getPublicationYear,
+  sortPublications,
+  type JournalPublication,
+} from "../lib/publications";
 
 export default function Home() {
-  const selectedPublications = publications.journals.slice(
-    home.publicationsSection.startIndex,
-    home.publicationsSection.startIndex + home.publicationsSection.count
-  );
+  const sortedPublications = sortPublications(
+  publications.journals as unknown as JournalPublication[],
+);
+
+const selectedPublications = sortedPublications.slice(
+  home.publicationsSection.startIndex,
+  home.publicationsSection.startIndex +
+    home.publicationsSection.count,
+);
 
   return (
     <SiteShell>
@@ -80,7 +90,9 @@ export default function Home() {
         <div className="publication-list">
           {selectedPublications.map((publication) => (
             <article className="publication-row" key={publication.title}>
-              <span className="publication-year">{publication.year}</span>
+              <span className="publication-year">
+  {getPublicationYear(publication)}
+</span>
               <div>
                 <h3>{publication.title}</h3>
                 <p>{publication.venue}</p>
