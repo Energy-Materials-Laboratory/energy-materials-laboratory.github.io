@@ -33,9 +33,11 @@ export const dynamicParams = false;
  * GitHub Pages용 상세 페이지를 미리 생성합니다.
  */
 export function generateStaticParams() {
-  return events.map((event) => ({
-    slug: event.slug,
-  }));
+  return events
+    .filter((event) => event.photos && event.photos.length > 0)
+    .map((event) => ({
+      slug: event.slug,
+    }));
 }
 
 /*
@@ -74,17 +76,8 @@ export default async function GalleryDetailPage({
    * photos가 비어 있으면 대표 사진을 대신 표시합니다.
    * 실수로 세부 사진을 넣지 않아도 빈 페이지가 되지 않습니다.
    */
-  const photos =
-    event.photos.length > 0
-      ? event.photos
-      : [
-          {
-            src: event.cover,
-            alt: event.coverAlt,
-            position: event.coverPosition,
-          },
-        ];
-
+ const photos = event.photos ?? [];
+  
   return (
     <SiteShell>
       <main className="gallery-detail site-width">
