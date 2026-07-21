@@ -60,7 +60,8 @@ const publicationsContent = JSON.parse(
   ),
 );
 
-const publicationDatePattern = /^\d{4}-\d{2}-\d{2}$/;
+const publicationDatePattern =
+  /^\d{4}(?:-\d{2}(?:-\d{2})?)?$/;
 
 for (const publication of publicationsContent.journals) {
   if (
