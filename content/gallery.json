@@ -26,6 +26,34 @@
         }
       ]
     },
+   {
+  "metadataTitle": "Gallery",
+  "hero": {
+    "eyebrow": "Gallery",
+    "titleLine1": "Research is also",
+    "titleLine2": "a shared life."
+  },
+  "events": [
+    {
+      "slug": "2026-teachers-day",
+      "title": "2026 Teacher's Day",
+      "date": "2026-05-15",
+      "cover": "/images/gallery/2026-teachers-day/cover.jpg",
+      "coverAlt": "Energy Materials Lab members celebrating Teacher's Day",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2026-teachers-day/01.jpg",
+          "alt": "Group photo for Teacher's Day",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2026-teachers-day/02.jpg",
+          "alt": "Lab members presenting a gift",
+          "position": "50% 35%"
+        }
+      ]
+    }
     {
       "slug": "2026-interbattery",
       "title": "2026 Inter Battery",
@@ -45,6 +73,28 @@
           "position": "50% 50%"
         }
       ]
+    },
+     {
+      "slug": "2025-first-ever-group-dinner",
+      "title": "2025 First Ever Group Dinner",
+      "date": "2025-03-24",
+      "cover": "/images/gallery/2025-first-ever-group-dinner/cover.jpg",
+      "coverAlt": "First Ever Group Dinner",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2025-first-ever-group-dinner/01.jpg",
+          "alt": "First Ever Group Dinner",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2025-first-ever-group-dinner/02.jpg",
+          "alt": "First Ever Group Dinner",
+          "position": "50% 50%"
+        }
+      ]
     }
+  ]
+}
   ]
 }
