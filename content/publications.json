@@ -32,7 +32,7 @@
   },
   "journals": [
     {
-      "year": "2026",
+      "date": "2026-07",
       "title": "Suppressing Transition Metal Migration via Cation Disorder Engineering for Enhanced Kinetics in Lithium-rich Cathodes",
       "authors": [
         {
@@ -45,7 +45,16 @@
           "name": "Gyeongdo Park"
         },
         {
-          "name": "et al."
+          "name": "Sung-Pyo Cho"
+        },
+        {
+          "name": "Sechan Lee"
+        },
+        {
+          "name": "Hyungsub Kim"
+        },
+        {
+          "name": "Chungjoon Kim"
         },
         {
           "name": "Byunghoon Kim",
@@ -62,7 +71,7 @@
       "coverAlt": ""
     },
     {
-      "year": "2026",
+      "date": "2026-06",
       "title": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
       "authors": [
         {
@@ -83,16 +92,34 @@
           "bold": true
         },
         {
-          "name": "et al."
+          "name": "Byunghoon Kim",
+          "mark": "*",
+          "bold": true
+        },
+        {
+          "name": "Jongsoon Kim",
+          "mark": "*",
+        },
+          {
+          "name": "Junyoung Mun",
+          "mark": "*",
+        },
+          {
+          "name": "Jung Ho Kim",
+          "mark": "*",
+        },
+        {
+          "name": "Ki Jae Kim"
+          "mark": "*"
         }
       ],
-      "venue": "Advanced Science",
+      "venue": "Advanced Science · e76228",
       "cover": "",
       "coverAlt": "",
       "doi": "10.1002/advs.76228"
     },
     {
-      "year": "2026",
+      "date": "2026",
       "title": "Fluorine-Free Corrosion-Resistant Electrolyte Design for Enhanced Stability in Lithium Metal Batteries",
       "authors": [
         {
@@ -123,7 +150,7 @@
       "doi": "10.1002/adma.202522875"
     },
     {
-      "year": "2025",
+      "date": "2025",
       "title": "Elucidating lithium-ion diffusion kinetics in cation-disordered rocksalt cathodes",
       "authors": [
         {
@@ -161,7 +188,7 @@
       "doi": "10.1039/d4ee04580g"
     },
     {
-      "year": "2025",
+      "date": "2025",
       "title": "Oxygen Dimerization-driven Cation Migration Induces Voltage Hysteresis in Disordered Rocksalt Cathodes",
       "authors": [
         {
@@ -191,7 +218,7 @@
       "doi": "10.1021/jacs.4c09070"
     },
     {
-      "year": "2024",
+      "date": "2024",
       "title": "Structurally robust lithium-rich layered oxides for high-energy and long-lasting cathodes",
       "authors": [
         {
@@ -250,7 +277,7 @@
       "doi": "10.1038/s41467-024-45490-x"
     },
     {
-      "year": "2023",
+      "date": "2023",
       "title": "Design of a trigonal halide superionic conductor by regulating cation order-disorder",
       "authors": [
         {
@@ -300,7 +327,7 @@
       "doi": "10.1126/science.adg6591"
     },
     {
-      "year": "2023",
+      "date": "2023",
       "title": "Slab gliding, a hidden factor that induces irreversibility and redox asymmetry of lithium-rich layered oxide cathodes",
       "authors": [
         {
@@ -353,7 +380,7 @@
       "doi": "10.1038/s41467-023-39838-y"
     },
     {
-      "year": "2023",
+      "date": "2023",
       "title": "Effects of cation superstructure ordering on oxygen redox stability in O2-type lithium-rich layered oxides",
       "authors": [
         {
@@ -413,7 +440,7 @@
       "doi": "10.1039/D2EE03527H"
     },
     {
-      "year": "2023",
+      "date": "2023",
       "title": "An artificial neural network using multi-head intermolecular attention for predicting chemical reactivity of organic materials",
       "authors": [
         {
@@ -440,7 +467,7 @@
       "doi": "10.1039/d2ta07660h"
     },
     {
-      "year": "2022",
+      "date": "2022",
       "title": "A theoretical framework for oxygen redox chemistry for sustainable batteries",
       "authors": [
         {
@@ -476,7 +503,7 @@
       "doi": "10.1038/s41893-022-00890-z"
     },
     {
-      "year": "2022",
+      "date": "2022",
       "title": "Stabilizing oxygen redox chemistry for the realization of high-capacity batteries",
       "authors": [
         {
@@ -493,7 +520,7 @@
       "doi": "10.1038/s41893-022-00891-y"
     },
     {
-      "year": "2022",
+      "date": "2022",
       "title": "Non-electrode Components for Rechargeable Aqueous Zinc Batteries: Electrolytes, Solid Electrolyte Interphase, Current Collectors, Binders, and Separators",
       "authors": [
         {
@@ -520,7 +547,7 @@
       "doi": "10.1002/adma.202108206"
     },
     {
-      "year": "2022",
+      "date": "2022",
       "title": "Coupling structural evolution and oxygen-redox electrochemistry in layered transition metal oxides",
       "authors": [
         {
@@ -583,7 +610,7 @@
       "doi": "10.1038/s41563-022-01209-1"
     },
     {
-      "year": "2022",
+      "date": "2022",
       "title": "Stepwise dopant selection process for high-nickel layered oxide cathodes",
       "authors": [
         {
@@ -619,7 +646,7 @@
       "doi": "10.1002/aenm.202200136"
     },
     {
-      "year": "2021",
+      "date": "2021",
       "title": "Permselective metal-organic framework gel membrane enables ultralong-life cycling of rechargeable organic batteries",
       "authors": [
         {
@@ -657,7 +684,7 @@
       "doi": "10.1038/s41565-020-00788-x"
     },
     {
-      "year": "2021",
+      "date": "2021",
       "title": "Probing Lithium Metals in Batteries by Advanced Characterization and Analysis Tools",
       "authors": [
         {
@@ -703,7 +730,7 @@
       "doi": "10.1002/aenm.202003039"
     },
     {
-      "year": "2020",
+      "date": "2020",
       "title": "Voltage decay and redox asymmetry mitigation by reversible cation migration in lithium-rich layered oxide electrodes",
       "authors": [
         {
@@ -765,7 +792,7 @@
       "doi": "10.1038/s41563-019-0572-4"
     },
     {
-      "year": "2020",
+      "date": "2020",
       "title": "A new lithium diffusion model in layered oxides based on asymmetric but reversible transition metal migration",
       "authors": [
         {
@@ -819,7 +846,7 @@
       "doi": "10.1039/C9EE04123K"
     },
     {
-      "year": "2020",
+      "date": "2020",
       "title": "Anionic redox activity regulated by transition metal in lithium-rich layered oxides",
       "authors": [
         {
@@ -852,7 +879,7 @@
       "doi": "10.1002/aenm.202001207"
     },
     {
-      "year": "2020",
+      "date": "2020",
       "title": "The role of interlayer chemistry in Li-metal growth through a garnet-type solid electrolyte",
       "authors": [
         {
@@ -900,7 +927,7 @@
       "doi": "10.1002/aenm.201903993"
     },
     {
-      "year": "2020",
+      "date": "2020",
       "title": "Blue Graphene Quantum Dots with High Color Purity by Controlling Subdomain Formation for Light Emitting Devices",
       "authors": [
         {
@@ -939,7 +966,7 @@
       "doi": "10.1021/acsanm.0c00930"
     },
     {
-      "year": "2020",
+      "date": "2020",
       "title": "Nanoscale phenomena in lithium-ion batteries",
       "authors": [
         {
@@ -991,7 +1018,7 @@
       "doi": "10.1021/acs.chemrev.9b00405"
     },
     {
-      "year": "2019",
+      "date": "2019",
       "title": "Amorphous multinary phyllosilicate catalysts for electrochemical water oxidation",
       "authors": [
         {
@@ -1023,7 +1050,7 @@
       "doi": "10.1039/C9TA05599A"
     },
     {
-      "year": "2019",
+      "date": "2019",
       "title": "Redox mediators: A solution for advanced lithium-oxygen batteries",
       "authors": [
         {
@@ -1053,7 +1080,7 @@
       "doi": "10.1016/j.trechm.2019.03.016"
     },
     {
-      "year": "2019",
+      "date": "2019",
       "title": "Redox-sensitive facet dependency in etching of ceria nanocrystals directly observed by liquid cell TEM",
       "authors": [
         {
@@ -1099,7 +1126,7 @@
       "doi": "10.1021/jacs.9b09508"
     },
     {
-      "year": "2018",
+      "date": "2018",
       "title": "Atomistic investigation of doping effects on electrocatalytic properties of cobalt oxides for water oxidation",
       "authors": [
         {
@@ -1131,7 +1158,7 @@
       "doi": "10.1002/advs.201801632"
     },
     {
-      "year": "2018",
+      "date": "2018",
       "title": "Recent Progress on Multimetal Oxide Catalysts for the Oxygen Evolution Reaction",
       "authors": [
         {
@@ -1158,7 +1185,7 @@
       "doi": "10.1002/aenm.201702774"
     },
     {
-      "year": "2018",
+      "date": "2018",
       "title": "Native defects in Li10GeP2S12 and their effect on lithium diffusion",
       "authors": [
         {
@@ -1194,7 +1221,7 @@
       "doi": "10.1021/acs.chemmater.8b01163"
     },
     {
-      "year": "2017",
+      "date": "2017",
       "title": "Using first-principles calculations for the advancement of materials for rechargeable batteries",
       "authors": [
         {
@@ -1233,7 +1260,7 @@
       "doi": "10.1002/adfm.201702887"
     },
     {
-      "year": "2017",
+      "date": "2017",
       "title": "Amorphous cobalt phyllosilicate with layered crystalline motifs as water oxidation catalyst",
       "authors": [
         {
@@ -1285,7 +1312,7 @@
   },
   "patents": [
     {
-      "year": "2025",
+      "date": "2025",
       "date": "2025.12.16",
       "korean": "이차전지용 양극 활물질의 도핑 원소 선별 방법",
       "english": "Method for Selecting Dopant Elements for Cathode Active Material for Secondary Battery",
@@ -1293,7 +1320,7 @@
       "number": "10-2025-0200644"
     },
     {
-      "year": "2025",
+      "date": "2025",
       "date": "2025.12.16",
       "korean": "도핑된 이차전지용 양극 활물질",
       "english": "Doped Cathode Active Materials for Secondary Battery",
