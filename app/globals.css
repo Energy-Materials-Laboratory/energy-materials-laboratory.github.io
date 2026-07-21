@@ -872,7 +872,7 @@ summary:focus-visible {
   grid-template-columns: minmax(340px, 430px) minmax(0, 1fr);
   align-items: stretch;
 
-  border-inline: 1px solid var(--rule);
+  border-right: 1px solid var(--rule);
   border-bottom: 1px solid var(--ink);
 }
 
