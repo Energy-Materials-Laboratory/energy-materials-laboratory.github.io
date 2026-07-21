@@ -1,25 +1,91 @@
-import Link from "next/link";
-import SiteShell from "../components/SiteShell";
-import publications from "../../content/publications.json";
+import SiteShell from "../../components/SiteShell";
+import publicationMeta from "../../../content/publications.json";
+import patentsContent from "../../../content/patents.json";
 
-export const metadata = { title: publications.metadata.landingTitle };
+type Patent = {
+  year?: string;
+  date: string;
+  korean: string;
+  english: string;
+  inventors: string;
+  number: string;
+};
 
-export default function PublicationsPage() {
+export const metadata = {
+  title: publicationMeta.metadata.patentsTitle,
+};
+
+function getPatentYear(patent: Patent): string {
+  return patent.year ?? patent.date.slice(0, 4);
+}
+
+export default function PatentsPage() {
+  const sortedPatents = [
+    ...(patentsContent.patents as Patent[]),
+  ].sort((a, b) => b.date.localeCompare(a.date));
+
+  const years = [
+    ...new Set(
+      sortedPatents.map((patent) =>
+        getPatentYear(patent),
+      ),
+    ),
+  ];
+
   return (
     <SiteShell>
-      <section className="page-hero site-width compact">
-        <p className="eyebrow">{publications.landing.eyebrow}</p>
-        <h1>{publications.landing.titleLine1}<br />{publications.landing.titleLine2}</h1>
+      <section className="page-hero site-width compact publication-page-hero">
+        <p className="eyebrow">
+          {patentsContent.page.eyebrow}
+        </p>
+
+        <h1>
+          {patentsContent.page.titleLine1}
+          <br />
+          {patentsContent.page.titleLine2}
+        </h1>
       </section>
-      <section className="portal-grid site-width">
-        {publications.landing.portals.map((portal) => (
-          <Link href={portal.href} key={portal.href}>
-            <span>{portal.index}</span>
-            <h2>{portal.title}</h2>
-            <p>{portal.description}</p>
-            <b>{portal.actionLabel} ↗</b>
-          </Link>
-        ))}
+
+      <section className="patent-list site-width">
+        {years.map((year) => {
+          const yearlyPatents = sortedPatents.filter(
+            (patent) =>
+              getPatentYear(patent) === year,
+          );
+
+          return (
+            <section key={year}>
+              <h2>{year}</h2>
+
+              {yearlyPatents.map((patent, index) => (
+                <article
+                  className="patent-entry"
+                  key={patent.number}
+                >
+                  <span>
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+
+                  <div>
+                    <h3>{patent.korean}</h3>
+
+                    <p className="patent-english">
+                      {patent.english}
+                    </p>
+
+                    <p>{patent.inventors}</p>
+                  </div>
+
+                  <div>
+                    <p>Application No.</p>
+                    <strong>{patent.number}</strong>
+                    <small>{patent.date}</small>
+                  </div>
+                </article>
+              ))}
+            </section>
+          );
+        })}
       </section>
     </SiteShell>
   );
