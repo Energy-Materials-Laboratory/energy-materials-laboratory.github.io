@@ -3,7 +3,8 @@
 import { Fragment } from "react";
 
 import SiteShell from "../../components/SiteShell";
-import publications from "../../../content/publications.json";
+import publicationMeta from "../../../content/publications.json";
+import journalsContent from "../../../content/journals.json";
 import { assetPath } from "../../../lib/paths";
 import {
   getPublicationYear,
@@ -13,7 +14,7 @@ import {
 } from "../../../lib/publications";
 
 export const metadata = {
-  title: publications.metadata.journalsTitle,
+  title: publicationMeta.metadata.journalsTitle,
 };
 
 function PublicationAuthors({
@@ -61,8 +62,8 @@ function PublicationAuthors({
 }
 
 export default function JournalsPage() {
-  const journalData =
-    publications.journals as unknown as JournalPublication[];
+ const journalData =
+  journalsContent.journals as unknown as JournalPublication[];
 
   const sortedPublications =
     sortPublications(journalData);
@@ -79,12 +80,12 @@ export default function JournalsPage() {
     <SiteShell>
       <section className="page-hero site-width compact publication-page-hero">
         <p className="eyebrow">
-          {publications.journalsPage.eyebrow}
+          {journalsContent.page.eyebrow}
         </p>
 
-        <h1>{publications.journalsPage.title}</h1>
+        <h1>{journalsContent.page.title}</h1>
 
-        <p>{publications.journalsPage.note}</p>
+        <p>{journalsContent.page.note}</p>
       </section>
 
       <section className="journal-archive site-width">
