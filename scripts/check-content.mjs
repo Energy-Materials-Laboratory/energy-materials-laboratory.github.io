@@ -53,9 +53,9 @@ for (const member of members) {
     }
   }
 }
-const publicationsContent = JSON.parse(
+const journalsContent = JSON.parse(
   fs.readFileSync(
-    path.join(contentDirectory, "publications.json"),
+    path.join(contentDirectory, "journals.json"),
     "utf8",
   ),
 );
@@ -63,7 +63,7 @@ const publicationsContent = JSON.parse(
 const publicationDatePattern =
   /^\d{4}(?:-\d{2}(?:-\d{2})?)?$/;
 
-for (const publication of publicationsContent.journals) {
+for (const publication of journalsContent.journals) {
   if (
     publication.date &&
     !publicationDatePattern.test(publication.date)
@@ -72,8 +72,8 @@ for (const publication of publicationsContent.journals) {
       `Invalid publication date for "${publication.title}": ${publication.date}`,
     );
     console.error(
-      "Use YYYY-MM-DD format, for example 2026-07-21.",
-    );
+  "Use YYYY, YYYY-MM, or YYYY-MM-DD format.",
+);
     process.exit(1);
   }
 
