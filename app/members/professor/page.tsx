@@ -15,7 +15,6 @@ export default function ProfessorPage() {
     src={assetPath(professor.profilePhoto)}
     alt={professor.portraitLabel}
   />
-  <small>{professor.eyebrow}</small>
 </div>
         <div className="profile-intro">
           <p className="eyebrow">{professor.eyebrow}</p>
