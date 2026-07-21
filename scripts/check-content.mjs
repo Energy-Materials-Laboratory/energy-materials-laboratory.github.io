@@ -53,5 +53,42 @@ for (const member of members) {
     }
   }
 }
+const publicationsContent = JSON.parse(
+  fs.readFileSync(
+    path.join(contentDirectory, "publications.json"),
+    "utf8",
+  ),
+);
 
+const publicationDatePattern = /^\d{4}-\d{2}-\d{2}$/;
+
+for (const publication of publicationsContent.journals) {
+  if (
+    publication.date &&
+    !publicationDatePattern.test(publication.date)
+  ) {
+    console.error(
+      `Invalid publication date for "${publication.title}": ${publication.date}`,
+    );
+    console.error(
+      "Use YYYY-MM-DD format, for example 2026-07-21.",
+    );
+    process.exit(1);
+  }
+
+  if (publication.cover) {
+    const coverPath = path.join(
+      root,
+      "public",
+      publication.cover.replace(/^\//, ""),
+    );
+
+    if (!fs.existsSync(coverPath)) {
+      console.error(
+        `Publication cover not found for "${publication.title}": ${publication.cover}`,
+      );
+      process.exit(1);
+    }
+  }
+}
 console.log(`Content check passed (${jsonFiles.length} JSON files, ${members.length} member profiles).`);
