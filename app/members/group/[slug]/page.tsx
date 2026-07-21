@@ -33,6 +33,11 @@ type Member = {
   education: Education[];
   researchInterests: string[];
   selectedPublications: SelectedPublication[];
+  cardPhoto?: string;
+cardPosition?: string;
+
+profilePhoto?: string;
+profilePosition?: string;
 };
 
 const members = membersContent.group.members as Member[];
@@ -86,7 +91,13 @@ export default async function MemberProfilePage({
         <section className="member-detail-hero">
           <div className={`member-detail-portrait${profilePhoto ? " has-photo" : ""}`}>
             {profilePhoto ? (
-              <img src={assetPath(profilePhoto)} alt={`${member.name} portrait`} />
+             <img
+  src={assetPath(profilePhoto)}
+  alt={`${member.name} portrait`}
+  style={{
+    objectPosition: member.profilePosition || "50% 20%",
+  }}
+/>
             ) : (
               <><span>{member.initials}</span><small>Portrait</small></>
             )}
