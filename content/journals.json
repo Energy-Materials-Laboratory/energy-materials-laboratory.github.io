@@ -1,1 +1,1282 @@
-
+{
+  "Page": {
+    "eyebrow": "Publications · Journals",
+    "title": "Research archive.",
+    "note": "† Equal contribution · * Corresponding author"
+  },
+  "journals": [
+    {
+      "date": "2026-07",
+      "title": "Suppressing Transition Metal Migration via Cation Disorder Engineering for Enhanced Kinetics in Lithium-rich Cathodes",
+      "authors": [
+        {
+          "name": "Hyejin Choi"
+        },
+        {
+          "name": "Kyoung Sun Kim"
+        },
+        {
+          "name": "Gyeongdo Park"
+        },
+        {
+          "name": "Sung-Pyo Cho"
+        },
+        {
+          "name": "Sechan Lee"
+        },
+        {
+          "name": "Hyungsub Kim"
+        },
+        {
+          "name": "Chungjoon Kim"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "*",
+          "bold": true
+        },
+        {
+          "name": "Kyojin Ku",
+          "mark": "*"
+        }
+      ],
+      "venue": "Energy Storage Materials · Accepted",
+      "cover": "",
+      "coverAlt": ""
+    },
+    {
+      "date": "2026-06",
+      "title": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
+      "authors": [
+        {
+          "name": "Jin Hyeok Yang",
+          "mark": "†"
+        },
+        {
+          "name": "Jae Yoon Sung",
+          "mark": "†"
+        },
+        {
+          "name": "Hyunji Kweon",
+          "mark": "†"
+        },
+        {
+          "name": "Seohyun Kim",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "*",
+          "bold": true
+        },
+        {
+          "name": "Jongsoon Kim",
+          "mark": "*"
+        },
+          {
+          "name": "Junyoung Mun",
+          "mark": "*"
+        },
+          {
+          "name": "Jung Ho Kim",
+          "mark": "*"
+        },
+        {
+          "name": "Ki Jae Kim",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Science · e76228",
+      "cover": "/images/publications/2026-a-review-of-failure-modes.png",
+      "coverAlt": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
+      "doi": "10.1002/advs.76228"
+    },
+    {
+      "date": "2026",
+      "title": "Fluorine-Free Corrosion-Resistant Electrolyte Design for Enhanced Stability in Lithium Metal Batteries",
+      "authors": [
+        {
+          "name": "Hyeonmin Jo"
+        },
+        {
+          "name": "Uijun Lee"
+        },
+        {
+          "name": "Jin Hwan Kwak"
+        },
+        {
+          "name": "et al."
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "*",
+          "bold": true
+        },
+        {
+          "name": "Hee-Dae Lim",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Materials",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/adma.202522875"
+    },
+    {
+      "date": "2025",
+      "title": "Elucidating lithium-ion diffusion kinetics in cation-disordered rocksalt cathodes",
+      "authors": [
+        {
+          "name": "Byungwook Kang",
+          "mark": "†"
+        },
+        {
+          "name": "Jonghun Park",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Sung-O Park"
+        },
+        {
+          "name": "Jaekyun Yoo"
+        },
+        {
+          "name": "Seungju Yu"
+        },
+        {
+          "name": "Jun-Hyuk Song"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Energy & Environmental Science",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1039/d4ee04580g"
+    },
+    {
+      "date": "2025",
+      "title": "Oxygen Dimerization-driven Cation Migration Induces Voltage Hysteresis in Disordered Rocksalt Cathodes",
+      "authors": [
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Peichen Zhong"
+        },
+        {
+          "name": "Yunyeong Choi"
+        },
+        {
+          "name": "Han-Ming Hau"
+        },
+        {
+          "name": "Bowen Deng"
+        },
+        {
+          "name": "Gerbrand Ceder",
+          "mark": "*"
+        }
+      ],
+      "venue": "Journal of the American Chemical Society · Vol. 147 · 223–233",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1021/jacs.4c09070"
+    },
+    {
+      "date": "2024",
+      "title": "Structurally robust lithium-rich layered oxides for high-energy and long-lasting cathodes",
+      "authors": [
+        {
+          "name": "Ho-Young Jang",
+          "mark": "†"
+        },
+        {
+          "name": "Donggun Eum",
+          "mark": "†"
+        },
+        {
+          "name": "Jiung Cho"
+        },
+        {
+          "name": "Jun Lim"
+        },
+        {
+          "name": "Yeji Lee"
+        },
+        {
+          "name": "Jun-Hyuk Song"
+        },
+        {
+          "name": "Hyeokjun Park"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Do-Hoon Kim"
+        },
+        {
+          "name": "Sung-Pyo Cho"
+        },
+        {
+          "name": "Sugeun Jo"
+        },
+        {
+          "name": "Jae Hoon Heo"
+        },
+        {
+          "name": "Sunyoung Lee"
+        },
+        {
+          "name": "Jongwoo Lim"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Nature Communications · Vol. 15 · 1288",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1038/s41467-024-45490-x"
+    },
+    {
+      "date": "2023",
+      "title": "Design of a trigonal halide superionic conductor by regulating cation order-disorder",
+      "authors": [
+        {
+          "name": "Seungju Yu",
+          "mark": "†"
+        },
+        {
+          "name": "Joohyeon Noh",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Jun-Hyuk Song"
+        },
+        {
+          "name": "Kyungbae Oh"
+        },
+        {
+          "name": "Jaekyun Yoo"
+        },
+        {
+          "name": "Sunyoung Lee"
+        },
+        {
+          "name": "Sung-O Park"
+        },
+        {
+          "name": "Wonju Kim"
+        },
+        {
+          "name": "Byungwook Kang"
+        },
+        {
+          "name": "Donghyun Kil"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Science · Vol. 382 · 573–579",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1126/science.adg6591"
+    },
+    {
+      "date": "2023",
+      "title": "Slab gliding, a hidden factor that induces irreversibility and redox asymmetry of lithium-rich layered oxide cathodes",
+      "authors": [
+        {
+          "name": "Jun Hyuk Song",
+          "mark": "†"
+        },
+        {
+          "name": "Seungju Yu",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Donggun Eum"
+        },
+        {
+          "name": "Jiung Cho"
+        },
+        {
+          "name": "Ho Young Jang"
+        },
+        {
+          "name": "Sung O Park"
+        },
+        {
+          "name": "Jaekyun Yoo"
+        },
+        {
+          "name": "Youngmin Ko"
+        },
+        {
+          "name": "Kyeongsu Lee"
+        },
+        {
+          "name": "Myeong Hwan Lee"
+        },
+        {
+          "name": "Byungwook Kang"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Nature Communications · Vol. 14 · 4149",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1038/s41467-023-39838-y"
+    },
+    {
+      "date": "2023",
+      "title": "Effects of cation superstructure ordering on oxygen redox stability in O2-type lithium-rich layered oxides",
+      "authors": [
+        {
+          "name": "Donggun Eum"
+        },
+        {
+          "name": "Ho Young Jang"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Jinkyu Chung"
+        },
+        {
+          "name": "Dokyung Kim"
+        },
+        {
+          "name": "Sung Pyo Cho"
+        },
+        {
+          "name": "Seok Hyun Song"
+        },
+        {
+          "name": "Seongmin Kang"
+        },
+        {
+          "name": "Seungju Yu"
+        },
+        {
+          "name": "Sung O Park"
+        },
+        {
+          "name": "Jun Hyuk Song"
+        },
+        {
+          "name": "Hyungsub Kim"
+        },
+        {
+          "name": "Orapa Tamwattana"
+        },
+        {
+          "name": "Do Hoon Kim"
+        },
+        {
+          "name": "Jongwoo Lim"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Energy & Environmental Science · Vol. 16 · 673–686",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1039/D2EE03527H"
+    },
+    {
+      "date": "2023",
+      "title": "An artificial neural network using multi-head intermolecular attention for predicting chemical reactivity of organic materials",
+      "authors": [
+        {
+          "name": "Jaekyun Yoo"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Byungju Lee"
+        },
+        {
+          "name": "Jun Hyuk Song"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Journal of Materials Chemistry A · Vol. 11 · 12784–12792",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1039/d2ta07660h"
+    },
+    {
+      "date": "2022",
+      "title": "A theoretical framework for oxygen redox chemistry for sustainable batteries",
+      "authors": [
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Jun Hyuk Song"
+        },
+        {
+          "name": "Donggun Eum"
+        },
+        {
+          "name": "Seungju Yu"
+        },
+        {
+          "name": "Kyungbae Oh"
+        },
+        {
+          "name": "Myeong Hwan Lee"
+        },
+        {
+          "name": "Ho Young Jang"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Nature Sustainability · Vol. 5 · 708–716",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1038/s41893-022-00890-z"
+    },
+    {
+      "date": "2022",
+      "title": "Stabilizing oxygen redox chemistry for the realization of high-capacity batteries",
+      "authors": [
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Kisuk Kang"
+        }
+      ],
+      "venue": "Nature Sustainability · Vol. 5 · 647–648",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1038/s41893-022-00891-y"
+    },
+    {
+      "date": "2022",
+      "title": "Non-electrode Components for Rechargeable Aqueous Zinc Batteries: Electrolytes, Solid Electrolyte Interphase, Current Collectors, Binders, and Separators",
+      "authors": [
+        {
+          "name": "Qiao Ni",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Chuan Wu",
+          "mark": "*"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Materials · Vol. 34 · 2108206",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/adma.202108206"
+    },
+    {
+      "date": "2022",
+      "title": "Coupling structural evolution and oxygen-redox electrochemistry in layered transition metal oxides",
+      "authors": [
+        {
+          "name": "Donggun Eum"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Jun Hyuk Song"
+        },
+        {
+          "name": "Hyeokjun Park"
+        },
+        {
+          "name": "Ho Young Jang"
+        },
+        {
+          "name": "Sung Joo Kim"
+        },
+        {
+          "name": "Sung Pyo Cho"
+        },
+        {
+          "name": "Myeong Hwan Lee"
+        },
+        {
+          "name": "Jae Hoon Heo"
+        },
+        {
+          "name": "Jaehyun Park"
+        },
+        {
+          "name": "Youngmin Ko"
+        },
+        {
+          "name": "Sung Kwan Park"
+        },
+        {
+          "name": "Jinsoo Kim"
+        },
+        {
+          "name": "Kyungbae Oh"
+        },
+        {
+          "name": "Do Hoon Kim"
+        },
+        {
+          "name": "Seok Ju Kang"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Nature Materials · Vol. 21 · 664–672",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1038/s41563-022-01209-1"
+    },
+    {
+      "date": "2022",
+      "title": "Stepwise dopant selection process for high-nickel layered oxide cathodes",
+      "authors": [
+        {
+          "name": "Do Hoon Kim",
+          "mark": "†"
+        },
+        {
+          "name": "Jun Hyuk Song",
+          "mark": "†"
+        },
+        {
+          "name": "Chul Ho Jung",
+          "mark": "†"
+        },
+        {
+          "name": "Donggun Eum"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Seong Hyeon Hong"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Energy Materials · Vol. 12 · 2200136",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/aenm.202200136"
+    },
+    {
+      "date": "2021",
+      "title": "Permselective metal-organic framework gel membrane enables ultralong-life cycling of rechargeable organic batteries",
+      "authors": [
+        {
+          "name": "Songyan Bai",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Chungryeol Kim"
+        },
+        {
+          "name": "Orapa Tamwattana"
+        },
+        {
+          "name": "Hyeokjun Park"
+        },
+        {
+          "name": "Jihyeon Kim"
+        },
+        {
+          "name": "Dongwhan Lee"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Nature Nanotechnology · Vol. 16 · 77–84",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1038/s41565-020-00788-x"
+    },
+    {
+      "date": "2021",
+      "title": "Probing Lithium Metals in Batteries by Advanced Characterization and Analysis Tools",
+      "authors": [
+        {
+          "name": "Hyeokjun Park",
+          "mark": "†"
+        },
+        {
+          "name": "Orapa Tamwattana",
+          "mark": "†"
+        },
+        {
+          "name": "Jihyeon Kim"
+        },
+        {
+          "name": "Sunisa Buakeaw"
+        },
+        {
+          "name": "Rattiya Hongtong"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Piyachai Khomein"
+        },
+        {
+          "name": "Gao Liu",
+          "mark": "*"
+        },
+        {
+          "name": "Nonglak Meethong",
+          "mark": "*"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Energy Materials · Vol. 11 · 2003039",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/aenm.202003039"
+    },
+    {
+      "date": "2020",
+      "title": "Voltage decay and redox asymmetry mitigation by reversible cation migration in lithium-rich layered oxide electrodes",
+      "authors": [
+        {
+          "name": "Donggun Eum",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Sung Joo Kim"
+        },
+        {
+          "name": "Hyeokjun Park"
+        },
+        {
+          "name": "Jinpeng Wu"
+        },
+        {
+          "name": "Sung Pyo Cho"
+        },
+        {
+          "name": "Gabin Yoon"
+        },
+        {
+          "name": "Myeong Hwan Lee"
+        },
+        {
+          "name": "Sung Kyun Jung"
+        },
+        {
+          "name": "Wanli Yang"
+        },
+        {
+          "name": "Won Mo Seong"
+        },
+        {
+          "name": "Kyojin Ku"
+        },
+        {
+          "name": "Orapa Tamwattana"
+        },
+        {
+          "name": "Sung Kwan Park"
+        },
+        {
+          "name": "Insang Hwang"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Nature Materials · Vol. 19 · 419–427",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1038/s41563-019-0572-4"
+    },
+    {
+      "date": "2020",
+      "title": "A new lithium diffusion model in layered oxides based on asymmetric but reversible transition metal migration",
+      "authors": [
+        {
+          "name": "Kyojin Ku"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Sung Kyun Jung"
+        },
+        {
+          "name": "Yue Gong"
+        },
+        {
+          "name": "Donggun Eum"
+        },
+        {
+          "name": "Gabin Yoon"
+        },
+        {
+          "name": "Kyu Young Park"
+        },
+        {
+          "name": "Jihyun Hong"
+        },
+        {
+          "name": "Sung Pyo Cho"
+        },
+        {
+          "name": "Do Hoon Kim"
+        },
+        {
+          "name": "Hyungsub Kim"
+        },
+        {
+          "name": "Eunsuk Jeong"
+        },
+        {
+          "name": "Lin Gu"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Energy & Environmental Science · Vol. 13 · 1269–1278",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1039/C9EE04123K"
+    },
+    {
+      "date": "2020",
+      "title": "Anionic redox activity regulated by transition metal in lithium-rich layered oxides",
+      "authors": [
+        {
+          "name": "Jun Hyuk Song"
+        },
+        {
+          "name": "Gabin Yoon"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Donggun Eum"
+        },
+        {
+          "name": "Hyeokjun Park"
+        },
+        {
+          "name": "Do Hoon Kim"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Energy Materials · Vol. 10 · 2001207",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/aenm.202001207"
+    },
+    {
+      "date": "2020",
+      "title": "The role of interlayer chemistry in Li-metal growth through a garnet-type solid electrolyte",
+      "authors": [
+        {
+          "name": "Sewon Kim"
+        },
+        {
+          "name": "Changhoon Jung"
+        },
+        {
+          "name": "Hyunseok Kim"
+        },
+        {
+          "name": "Karen E. Thomas Alyea"
+        },
+        {
+          "name": "Gabin Yoon"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Michael E. Badding"
+        },
+        {
+          "name": "Zhen Song"
+        },
+        {
+          "name": "JaeMyung Chang"
+        },
+        {
+          "name": "Jusik Kim"
+        },
+        {
+          "name": "Dongmin Im"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Energy Materials · Vol. 10 · 1903993",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/aenm.201903993"
+    },
+    {
+      "date": "2020",
+      "title": "Blue Graphene Quantum Dots with High Color Purity by Controlling Subdomain Formation for Light Emitting Devices",
+      "authors": [
+        {
+          "name": "Hyewon Yoon"
+        },
+        {
+          "name": "Hyung Suk Kim"
+        },
+        {
+          "name": "Jungmo Kim"
+        },
+        {
+          "name": "Minsu Park"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Sukki Lee"
+        },
+        {
+          "name": "Kisuk Kang"
+        },
+        {
+          "name": "Seunghyup Yoo"
+        },
+        {
+          "name": "Seokwoo Jeon",
+          "mark": "*"
+        }
+      ],
+      "venue": "ACS Applied Nano Materials · Vol. 3 · 6469–6477",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1021/acsanm.0c00930"
+    },
+    {
+      "date": "2020",
+      "title": "Nanoscale phenomena in lithium-ion batteries",
+      "authors": [
+        {
+          "name": "Sung Kyun Jung",
+          "mark": "†"
+        },
+        {
+          "name": "Insang Hwang",
+          "mark": "†"
+        },
+        {
+          "name": "Donghee Chang",
+          "mark": "†"
+        },
+        {
+          "name": "Kyu Young Park",
+          "mark": "†"
+        },
+        {
+          "name": "Sung Joo Kim"
+        },
+        {
+          "name": "Won Mo Seong"
+        },
+        {
+          "name": "Donggun Eum"
+        },
+        {
+          "name": "Jooha Park"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Jihyeon Kim"
+        },
+        {
+          "name": "Jae Hoon Heo"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Chemical Reviews · Vol. 120 · 6684–6737",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1021/acs.chemrev.9b00405"
+    },
+    {
+      "date": "2019",
+      "title": "Amorphous multinary phyllosilicate catalysts for electrochemical water oxidation",
+      "authors": [
+        {
+          "name": "Byunghoon Kim",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Ju Seong Kim",
+          "mark": "†"
+        },
+        {
+          "name": "Hyunah Kim"
+        },
+        {
+          "name": "Inchul Park"
+        },
+        {
+          "name": "Won Mo Seong"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Journal of Materials Chemistry A · Vol. 7 · 18380–18387",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1039/C9TA05599A"
+    },
+    {
+      "date": "2019",
+      "title": "Redox mediators: A solution for advanced lithium-oxygen batteries",
+      "authors": [
+        {
+          "name": "Youngmin Ko",
+          "mark": "†"
+        },
+        {
+          "name": "Hyeokjun Park",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Ju Seong Kim"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Trends in Chemistry · Vol. 1 · 349–360",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1016/j.trechm.2019.03.016"
+    },
+    {
+      "date": "2019",
+      "title": "Redox-sensitive facet dependency in etching of ceria nanocrystals directly observed by liquid cell TEM",
+      "authors": [
+        {
+          "name": "Jongbaek Sung",
+          "mark": "†"
+        },
+        {
+          "name": "Back Kyu Choi",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Byung Hyo Kim"
+        },
+        {
+          "name": "Joodeok Kim"
+        },
+        {
+          "name": "Donghoon Lee"
+        },
+        {
+          "name": "Sungin Kim"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        },
+        {
+          "name": "Taeghwan Hyeon",
+          "mark": "*"
+        },
+        {
+          "name": "Jungwon Park",
+          "mark": "*"
+        }
+      ],
+      "venue": "Journal of the American Chemical Society · Vol. 141 · 18395–18399",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1021/jacs.9b09508"
+    },
+    {
+      "date": "2018",
+      "title": "Atomistic investigation of doping effects on electrocatalytic properties of cobalt oxides for water oxidation",
+      "authors": [
+        {
+          "name": "Byunghoon Kim",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Inchul Park",
+          "mark": "†"
+        },
+        {
+          "name": "Gabin Yoon"
+        },
+        {
+          "name": "Ju Seong Kim"
+        },
+        {
+          "name": "Hyunah Kim"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Science · Vol. 5 · 1801632",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/advs.201801632"
+    },
+    {
+      "date": "2018",
+      "title": "Recent Progress on Multimetal Oxide Catalysts for the Oxygen Evolution Reaction",
+      "authors": [
+        {
+          "name": "Ju Seong Kim",
+          "mark": "†"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Hyunah Kim",
+          "mark": "†"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Energy Materials · Vol. 8 · 1702774",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/aenm.201702774"
+    },
+    {
+      "date": "2018",
+      "title": "Native defects in Li10GeP2S12 and their effect on lithium diffusion",
+      "authors": [
+        {
+          "name": "Kyungbae Oh"
+        },
+        {
+          "name": "Donghee Chang"
+        },
+        {
+          "name": "Byungju Lee"
+        },
+        {
+          "name": "Do Hoon Kim"
+        },
+        {
+          "name": "Gabin Yoon"
+        },
+        {
+          "name": "Inchul Park"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Chemistry of Materials · Vol. 30 · 4995–5004",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1021/acs.chemmater.8b01163"
+    },
+    {
+      "date": "2017",
+      "title": "Using first-principles calculations for the advancement of materials for rechargeable batteries",
+      "authors": [
+        {
+          "name": "Gabin Yoon",
+          "mark": "†"
+        },
+        {
+          "name": "Do Hoon Kim",
+          "mark": "†"
+        },
+        {
+          "name": "Inchul Park",
+          "mark": "†"
+        },
+        {
+          "name": "Donghee Chang"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Byungju Lee"
+        },
+        {
+          "name": "Kyungbae Oh"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Functional Materials · Vol. 27 · 1702887",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/adfm.201702887"
+    },
+    {
+      "date": "2017",
+      "title": "Amorphous cobalt phyllosilicate with layered crystalline motifs as water oxidation catalyst",
+      "authors": [
+        {
+          "name": "Ju Seong Kim",
+          "mark": "†"
+        },
+        {
+          "name": "Inchul Park",
+          "mark": "†"
+        },
+        {
+          "name": "Eun Suk Jeong"
+        },
+        {
+          "name": "Kyoungsuk Jin"
+        },
+        {
+          "name": "Won Mo Seong"
+        },
+        {
+          "name": "Gabin Yoon"
+        },
+        {
+          "name": "Hyunah Kim"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Ki Tae Nam",
+          "mark": "*"
+        },
+        {
+          "name": "Kisuk Kang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Materials · Vol. 29 · 1606893",
+      "cover": "",
+      "coverAlt": "",
+      "doi": "10.1002/adma.201606893"
+    }
+  ],
+}
