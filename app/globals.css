@@ -1299,6 +1299,11 @@ summary:focus-visible {
   font-size: 12px;
 }
 
+.gallery-card-link,
+.gallery-card-static {
+  display: block;
+}
+
 .contact-hero {
   min-height: 690px;
   display: grid;
