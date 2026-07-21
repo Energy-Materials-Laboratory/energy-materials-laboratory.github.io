@@ -2,7 +2,7 @@ import Link from "next/link";
 import SiteShell from "./components/SiteShell";
 import home from "../content/home.json";
 import research from "../content/research.json";
-import publications from "../content/publications.json";
+import journalsContent from "../content/journals.json";
 import { assetPath } from "../lib/paths";
 import {
   getPublicationYear,
@@ -12,7 +12,7 @@ import {
 
 export default function Home() {
   const sortedPublications = sortPublications(
-  publications.journals as unknown as JournalPublication[],
+  journalsContent.journals as unknown as JournalPublication[],
 );
 
 const selectedPublications = sortedPublications.slice(
