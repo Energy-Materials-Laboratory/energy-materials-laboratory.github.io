@@ -1270,13 +1270,7 @@ summary:focus-visible {
   left: 18px;
 }
 
-.gallery-image span {
-  bottom: 18px;
-  color: #7c8995;
-  font-size: 50px;
-  font-weight: 680;
-  letter-spacing: -.06em;
-}
+
 
 .gallery-image small {
   top: 16px;
