@@ -65,6 +65,112 @@
           "position": "50% 50%"
         }
       ]
+    },
+    {
+      "slug": "2025-teachers-day",
+      "title": "2025 Teacher's Day",
+      "date": "2025-05-15",
+      "cover": "/images/gallery/2025-teachers-day/cover.jpg",
+      "coverAlt": "Energy Materials Lab members celebrating Teacher's Day",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2026-teachers-day/01.jpg",
+          "alt": "Energy Materials Lab members celebrating Teacher's Day",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2026-teachers-day/02.jpg",
+          "alt": "Energy Materials Lab members celebrating Teacher's Day",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
+      "slug": "2025-group-dinner",
+      "title": "2025 Group Dinner - New Member!",
+      "date": "2025-09-04",
+      "cover": "/images/gallery/2025-group-dinner/cover.jpg",
+      "coverAlt": "2025 Group dinner - New member",
+      "coverPosition": "50% 50%"
+    },
+    {
+      "slug": "2025-fall-keac",
+      "title": "2025 Fall Korean Electrochemistry Academic Conference",
+      "date": "2025-11-19",
+      "cover": "/images/gallery/2025-fall-keac/cover.jpg",
+      "coverAlt": "2025 fall keac",
+      "coverPosition": "50% 50%"
+    },
+    {
+      "slug": "2025-year-end-party",
+      "title": "2025 Year End Party",
+      "date": "2025-12-23",
+      "cover": "/images/gallery/2025-year-end-party/cover.jpg",
+      "coverAlt": "2025 Year end party",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2025-year-end-party/01.jpg",
+          "alt": "2025 Year end party",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2025-year-end-party/02.jpg",
+          "alt": "2025 Year end party",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
+      "slug": "2026-professor-birthday",
+      "title": "2026 Celebrating Professor's Birthday",
+      "date": "2026-01-22",
+      "cover": "/images/gallery/2026-professor-birthday/cover.jpg",
+      "coverAlt": "2026 Professor's birthday",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2026-professor-birthday/01.jpg",
+          "alt": "2026 Professor's birthday",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2026-professor-birthday/02.jpg",
+          "alt": "2026 Professor's birthday",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
+      "slug": "2026-spring-keac",
+      "title": "2026 Spring Korean Electrochemistry Academic Conference",
+      "date": "2026-04-01",
+      "cover": "/images/gallery/2026-spring-keac/cover.jpg",
+      "coverAlt": "2026 spring keac",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2026-spring-keac/01.jpg",
+          "alt": "2026 spring keac",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2026-spring-keac/02.jpg",
+          "alt": "2026 spring keac",
+          "position": "50% 50%"
+        },
+         {
+          "src": "/images/gallery/2026-spring-keac/03.jpg",
+          "alt": "2026 spring keac",
+          "position": "50% 50%"
+        },
+         {
+          "src": "/images/gallery/2026-spring-keac/04.jpg",
+          "alt": "2026 spring keac",
+          "position": "50% 50%"
+        }
+      ]
     }
   ]
 }
