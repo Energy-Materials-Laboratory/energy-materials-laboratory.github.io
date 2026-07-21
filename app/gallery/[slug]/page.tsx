@@ -21,7 +21,7 @@ type GalleryEvent = {
   cover: string;
   coverAlt: string;
   coverPosition?: string;
-  photos: GalleryPhoto[];
+  photos?: GalleryPhoto[];
 };
 
 const events = galleryContent.events as GalleryEvent[];
