@@ -98,18 +98,18 @@
         },
         {
           "name": "Jongsoon Kim",
-          "mark": "*",
+          "mark": "*"
         },
           {
           "name": "Junyoung Mun",
-          "mark": "*",
+          "mark": "*"
         },
           {
           "name": "Jung Ho Kim",
-          "mark": "*",
+          "mark": "*"
         },
         {
-          "name": "Ki Jae Kim"
+          "name": "Ki Jae Kim",
           "mark": "*"
         }
       ],
@@ -1312,7 +1312,7 @@
   },
   "patents": [
     {
-      "date": "2025",
+      "year": "2025",
       "date": "2025.12.16",
       "korean": "이차전지용 양극 활물질의 도핑 원소 선별 방법",
       "english": "Method for Selecting Dopant Elements for Cathode Active Material for Secondary Battery",
@@ -1320,7 +1320,7 @@
       "number": "10-2025-0200644"
     },
     {
-      "date": "2025",
+      "year": "2025",
       "date": "2025.12.16",
       "korean": "도핑된 이차전지용 양극 활물질",
       "english": "Doped Cathode Active Materials for Secondary Battery",
