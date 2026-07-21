@@ -36,7 +36,13 @@ export default function GroupMembersPage() {
                     >
                       <div className={`member-photo${cardPhoto ? " has-photo" : ""}`}>
                         {cardPhoto ? (
-                          <img src={assetPath(cardPhoto)} alt={`${member.name} portrait`} />
+                          <img
+  src={assetPath(cardPhoto)}
+  alt={`${member.name} portrait`}
+  style={{
+    objectPosition: member.cardPosition || "50% 20%",
+  }}
+/>
                         ) : (
                           <><span>{member.initials}</span><small>Portrait</small></>
                         )}
