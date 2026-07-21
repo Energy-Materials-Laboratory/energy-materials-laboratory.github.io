@@ -69,10 +69,6 @@ export default function GalleryPage() {
             objectPosition: event.coverPosition ?? "50% 50%",
           }}
         />
-
-        <span className="gallery-index" aria-hidden="true">
-          {String(index + 1).padStart(2, "0")}
-        </span>
       </div>
 
       <h2>{event.title}</h2>
