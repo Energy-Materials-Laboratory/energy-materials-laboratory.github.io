@@ -54,37 +54,55 @@ export default function GalleryPage() {
       </section>
 
       <section className="gallery-grid site-width">
-        {events.map((event, index) => (
-          <article className="gallery-card" key={event.slug}>
-            <Link
-              className="gallery-card-link"
-              href={`/gallery/${event.slug}`}
-              aria-label={`View photos from ${event.title}`}
-            >
-              <div className="gallery-image">
-                <img
-                  src={assetPath(event.cover)}
-                  alt={event.coverAlt}
-                  style={{
-                    objectPosition: event.coverPosition ?? "50% 50%",
-                  }}
-                />
+        {events.map((event, index) => {
+  const hasDetailPage = Boolean(
+    event.photos && event.photos.length > 0,
+  );
 
-                <span className="gallery-index" aria-hidden="true">
-                  {String(index + 1).padStart(2, "0")}
-                </span>
-              </div>
+  const cardContent = (
+    <>
+      <div className="gallery-image">
+        <img
+          src={assetPath(event.cover)}
+          alt={event.coverAlt}
+          style={{
+            objectPosition: event.coverPosition ?? "50% 50%",
+          }}
+        />
 
-              <h2>{event.title}</h2>
+        <span className="gallery-index" aria-hidden="true">
+          {String(index + 1).padStart(2, "0")}
+        </span>
+      </div>
 
-              <p>
-                <time dateTime={event.date}>
-                  {event.date.replaceAll("-", ".")}
-                </time>
-              </p>
-            </Link>
-          </article>
-        ))}
+      <h2>{event.title}</h2>
+
+      <p>
+        <time dateTime={event.date}>
+          {event.date.replaceAll("-", ".")}
+        </time>
+      </p>
+    </>
+  );
+
+  return (
+    <article className="gallery-card" key={event.slug}>
+      {hasDetailPage ? (
+        <Link
+          className="gallery-card-link"
+          href={`/gallery/${event.slug}`}
+          aria-label={`View photos from ${event.title}`}
+        >
+          {cardContent}
+        </Link>
+      ) : (
+        <div className="gallery-card-static">
+          {cardContent}
+        </div>
+      )}
+    </article>
+  );
+})}
       </section>
     </SiteShell>
   );
