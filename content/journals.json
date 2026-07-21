@@ -1,5 +1,5 @@
 {
-  "Page": {
+  "page": {
     "eyebrow": "Publications · Journals",
     "title": "Research archive.",
     "note": "† Equal contribution · * Corresponding author"
@@ -1278,5 +1278,5 @@
       "coverAlt": "",
       "doi": "10.1002/adma.201606893"
     }
-  ],
+  ]
 }
