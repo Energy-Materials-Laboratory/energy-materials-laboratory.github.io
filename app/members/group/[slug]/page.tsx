@@ -26,18 +26,18 @@ type Member = {
   email: string;
   role: string;
   initials: string;
+
   cardPhoto?: string;
+  cardPosition?: string;
+
   profilePhoto?: string;
+  profilePosition?: string;
+
   photo?: string;
   bio: string;
   education: Education[];
   researchInterests: string[];
   selectedPublications: SelectedPublication[];
-  cardPhoto?: string;
-cardPosition?: string;
-
-profilePhoto?: string;
-profilePosition?: string;
 };
 
 const members = membersContent.group.members as Member[];
