@@ -37,15 +37,15 @@
     "body": "Computation tells us where to look. Experiments show us how materials behave. Their connection turns fundamental understanding into rational design."
   },
   "researchSection": {
-    "label": "Research programs · 02",
+    "label": "Research programs · 03",
     "titleLine1": "One materials-science framework.",
     "titleLine2": "Multiple battery chemistries.",
     "actionLabel": "View all research"
   },
   "publicationsSection": {
-    "label": "Selected work · 03",
+    "label": "Selected work · 02",
     "title": "Publications",
-    "featuredLabel": "Latest publication",
+    "featuredLabel": "Recent publications",
     "actionLabel": "Full publication list",
     "startIndex": 0,
     "count": 3
