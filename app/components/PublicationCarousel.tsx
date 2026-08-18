@@ -2,7 +2,7 @@
 
 /* eslint-disable @next/next/no-img-element */
 
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import { assetPath } from "../../lib/paths";
 import {
   getPublicationYear,
@@ -14,16 +14,38 @@ type PublicationCarouselProps = {
   publications: JournalPublication[];
 };
 
-function getPublicationAuthorText(
-  authors: JournalPublication["authors"],
-) {
+function PublicationAuthors({
+  authors,
+}: {
+  authors: JournalPublication["authors"];
+}) {
   if (typeof authors === "string") {
-    return authors;
+    return <>{authors}</>;
   }
 
-  return authors
-    .map((author) => `${author.name}${author.mark ?? ""}`)
-    .join(", ");
+  return (
+    <>
+      {authors.map((author, index) => {
+        let separator = "";
+
+        if (index > 0) {
+          if (index === authors.length - 1) {
+            separator = authors.length === 2 ? " and " : ", and ";
+          } else {
+            separator = ", ";
+          }
+        }
+
+        return (
+          <Fragment key={`${author.name}-${index}`}>
+            {separator}
+            {author.bold ? <strong>{author.name}</strong> : author.name}
+            {author.mark ?? ""}
+          </Fragment>
+        );
+      })}
+    </>
+  );
 }
 
 export default function PublicationCarousel({
@@ -141,7 +163,7 @@ export default function PublicationCarousel({
           </p>
           <h3>{activePublication.title}</h3>
           <p className="featured-publication-authors">
-            {getPublicationAuthorText(activePublication.authors)}
+            <PublicationAuthors authors={activePublication.authors} />
           </p>
 
           <div className="publication-carousel-footer">
