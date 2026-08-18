@@ -167,6 +167,10 @@ export default function JournalsPage() {
                                 src={assetPath(
                                   publication.cover,
                                 )}
+                                loading="lazy"
+                                decoding="async"
+                                width="210"
+                                height="297"
                                 alt={
                                   publication.coverAlt ??
                                   `First page of ${publication.title}`
@@ -178,6 +182,10 @@ export default function JournalsPage() {
                               src={assetPath(
                                 publication.cover,
                               )}
+                              loading="lazy"
+                              decoding="async"
+                              width="210"
+                              height="297"
                               alt={
                                 publication.coverAlt ??
                                 `First page of ${publication.title}`

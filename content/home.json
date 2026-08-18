@@ -45,9 +45,10 @@
   "publicationsSection": {
     "label": "Selected work · 03",
     "title": "Publications",
+    "featuredLabel": "Latest publication",
     "actionLabel": "Full publication list",
     "startIndex": 0,
-    "count": 4
+    "count": 3
   },
   "recruitment": {
     "label": "Join EML · 04",
