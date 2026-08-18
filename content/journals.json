@@ -28,7 +28,7 @@
           "name": "Hyungsub Kim"
         },
         {
-          "name": "Chungjoon Kim"
+          "name": "Chunjoong Kim"
         },
         {
           "name": "Byunghoon Kim",
@@ -43,6 +43,37 @@
       "venue": "Energy Storage Materials · Accepted",
       "cover": "",
       "coverAlt": ""
+    },
+    {
+      "date": "2026-06",
+      "title": "Proton-Driven Self-Discharge Causing Chemical Degradation of Benzoquinone in Sulfide All-Solid-State Batteries",
+      "authors": [
+        {
+          "name": "Seokho Youn"
+        },
+        {
+          "name": "Jiwon Kim"
+        },
+        {
+          "name": "Da-Sol Kwon"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Sechan Lee",
+          "mark": "*"
+        },
+        {
+          "name": "Sung-Kyun Jung",
+          "mark": "*"
+        }
+      ],
+      "venue": "ACS Energy Letters",
+      "cover": "/images/publications/google-sites/2026-proton-driven-self-discharge-causing-chemical-degradation-of-benzoquinone-in-sulfi.webp",
+      "coverAlt": "Proton-Driven Self-Discharge Causing Chemical Degradation of Benzoquinone in Sulfide All-Solid-State Batteries",
+      "doi": "10.1021/acsenergylett.6c01251"
     },
     {
       "date": "2026-06",
@@ -74,11 +105,11 @@
           "name": "Jongsoon Kim",
           "mark": "*"
         },
-          {
+        {
           "name": "Junyoung Mun",
           "mark": "*"
         },
-          {
+        {
           "name": "Jung Ho Kim",
           "mark": "*"
         },
@@ -106,7 +137,25 @@
           "name": "Jin Hwan Kwak"
         },
         {
-          "name": "et al."
+          "name": "Jungjin Park"
+        },
+        {
+          "name": "Jiyoung Yun"
+        },
+        {
+          "name": "Seonju Kim"
+        },
+        {
+          "name": "Jun-Won Lee"
+        },
+        {
+          "name": "Hee Seung Ryu"
+        },
+        {
+          "name": "Sunjin Park"
+        },
+        {
+          "name": "Cheolwoo Jo"
         },
         {
           "name": "Byunghoon Kim",
@@ -119,9 +168,96 @@
         }
       ],
       "venue": "Advanced Materials",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2026-fluorine-free-corrision-resistant-electrolyte-design-for-enhanced-stability-in-lit.webp",
+      "coverAlt": "Fluorine-Free Corrosion-Resistant Electrolyte Design for Enhanced Stability in Lithium Metal Batteries",
       "doi": "10.1002/adma.202522875"
+    },
+    {
+      "date": "2026",
+      "title": "High-Performance Transparent p-Type Thin-Film Transistor and Circuit with Air-Stable CuI:Cd",
+      "authors": [
+        {
+          "name": "Minki Son"
+        },
+        {
+          "name": "Yeo Kyung Kang"
+        },
+        {
+          "name": "Jaesung Kim"
+        },
+        {
+          "name": "Jae-Hyeok Cho"
+        },
+        {
+          "name": "Minh Nhut Le"
+        },
+        {
+          "name": "Semin Kwon"
+        },
+        {
+          "name": "Yeong-Min Seon"
+        },
+        {
+          "name": "Choongik Kim"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Yunseok Kim"
+        },
+        {
+          "name": "In Soo Kim"
+        },
+        {
+          "name": "Donghee Son"
+        },
+        {
+          "name": "Kyunghan Ahn"
+        },
+        {
+          "name": "Yong-Young Noh"
+        },
+        {
+          "name": "Myung-Gil Kim",
+          "mark": "*"
+        }
+      ],
+      "venue": "Advanced Functional Materials",
+      "cover": "/images/publications/google-sites/2026-high-performance-transparent-p-type-thin-film-transistor-and-circuit-with-air-stab.webp",
+      "coverAlt": "High-Performance Transparent p-Type Thin-Film Transistor and Circuit with Air-Stable CuI:Cd",
+      "doi": "10.1002/adfm.202520710"
+    },
+    {
+      "date": "2025",
+      "title": "Synergistic electrochemical oxidation and electrosorption for enhanced arsenic removal using a modified Magnéli phase Ti₄O₇@nanodiamond electrocatalyst",
+      "authors": [
+        {
+          "name": "Yong-Uk Shin"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "bold": true
+        },
+        {
+          "name": "Ki-Myeong Lee"
+        },
+        {
+          "name": "Minjeong Kim"
+        },
+        {
+          "name": "Changha Lee"
+        },
+        {
+          "name": "Am Jang",
+          "mark": "*"
+        }
+      ],
+      "venue": "Chemical Engineering Journal",
+      "cover": "/images/publications/google-sites/2025-synergistic-electrochemical-oxidation-and-electrosorption-for-enhanced-arsenic-rem.webp",
+      "coverAlt": "Synergistic electrochemical oxidation and electrosorption for enhanced arsenic removal using a modified Magnéli phase Ti₄O₇@nanodiamond electrocatalyst",
+      "doi": "10.1016/j.cej.2025.166468"
     },
     {
       "date": "2025",
@@ -157,8 +293,8 @@
         }
       ],
       "venue": "Energy & Environmental Science",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2025-elucidating-lithium-ion-diffusion-kinetics-in-cation-disordered-rocksalt-cathodes.webp",
+      "coverAlt": "Elucidating lithium-ion diffusion kinetics in cation-disordered rocksalt cathodes",
       "doi": "10.1039/d4ee04580g"
     },
     {
@@ -187,8 +323,8 @@
         }
       ],
       "venue": "Journal of the American Chemical Society · Vol. 147 · 223–233",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2025-oxygen-dimerization-driven-cation-migration-induces-voltage-hysteresis-in-disorder.webp",
+      "coverAlt": "Oxygen Dimerization-driven Cation Migration Induces Voltage Hysteresis in Disordered Rocksalt Cathodes",
       "doi": "10.1021/jacs.4c09070"
     },
     {
@@ -246,8 +382,8 @@
         }
       ],
       "venue": "Nature Communications · Vol. 15 · 1288",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2024-structurally-robust-lithium-rich-layered-oxides-for-high-energy-and-long-lasting-c.webp",
+      "coverAlt": "Structurally robust lithium-rich layered oxides for high-energy and long-lasting cathodes",
       "doi": "10.1038/s41467-024-45490-x"
     },
     {
@@ -296,8 +432,8 @@
         }
       ],
       "venue": "Science · Vol. 382 · 573–579",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2023-design-of-a-trigonal-halide-superionic-conductor-by-regulating-cation-order-disord.webp",
+      "coverAlt": "Design of a trigonal halide superionic conductor by regulating cation order-disorder",
       "doi": "10.1126/science.adg6591"
     },
     {
@@ -349,8 +485,8 @@
         }
       ],
       "venue": "Nature Communications · Vol. 14 · 4149",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2023-slab-gliding-a-hidden-factor-that-induces-irreversibility-and-redox-asymmetry-of-l.webp",
+      "coverAlt": "Slab gliding, a hidden factor that induces irreversibility and redox asymmetry of lithium-rich layered oxide cathodes",
       "doi": "10.1038/s41467-023-39838-y"
     },
     {
@@ -409,8 +545,8 @@
         }
       ],
       "venue": "Energy & Environmental Science · Vol. 16 · 673–686",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2023-effects-of-cation-superstructure-ordering-on-oxygen-redox-stability-in-o2-type-lit.webp",
+      "coverAlt": "Effects of cation superstructure ordering on oxygen redox stability in O2-type lithium-rich layered oxides",
       "doi": "10.1039/D2EE03527H"
     },
     {
@@ -436,8 +572,8 @@
         }
       ],
       "venue": "Journal of Materials Chemistry A · Vol. 11 · 12784–12792",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2023-an-artificial-neural-network-using-multi-head-intermolecular-attention-for-predict.webp",
+      "coverAlt": "An artificial neural network using multi-head intermolecular attention for predicting chemical reactivity of organic materials",
       "doi": "10.1039/d2ta07660h"
     },
     {
@@ -472,8 +608,8 @@
         }
       ],
       "venue": "Nature Sustainability · Vol. 5 · 708–716",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2022-a-theoretical-framework-for-oxygen-redox-chemistry-for-sustainable-batteries.webp",
+      "coverAlt": "A theoretical framework for oxygen redox chemistry for sustainable batteries",
       "doi": "10.1038/s41893-022-00890-z"
     },
     {
@@ -489,8 +625,8 @@
         }
       ],
       "venue": "Nature Sustainability · Vol. 5 · 647–648",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2022-stabilizing-oxygen-redox-chemistry-for-the-realization-of-high-capacity-batteries.webp",
+      "coverAlt": "Stabilizing oxygen redox chemistry for the realization of high-capacity batteries",
       "doi": "10.1038/s41893-022-00891-y"
     },
     {
@@ -516,8 +652,8 @@
         }
       ],
       "venue": "Advanced Materials · Vol. 34 · 2108206",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2022-non-electrode-components-for-rechargeable-aqueous-zinc-batteries-electrolytes-soli.webp",
+      "coverAlt": "Non-electrode Components for Rechargeable Aqueous Zinc Batteries: Electrolytes, Solid Electrolyte Interphase, Current Collectors, Binders, and Separators",
       "doi": "10.1002/adma.202108206"
     },
     {
@@ -579,8 +715,8 @@
         }
       ],
       "venue": "Nature Materials · Vol. 21 · 664–672",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2022-coupling-the-structure-evolution-and-oxygen-redox-electrochemistry-in-layered-tran.webp",
+      "coverAlt": "Coupling structural evolution and oxygen-redox electrochemistry in layered transition metal oxides",
       "doi": "10.1038/s41563-022-01209-1"
     },
     {
@@ -615,8 +751,8 @@
         }
       ],
       "venue": "Advanced Energy Materials · Vol. 12 · 2200136",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2022-stepwise-dopant-selection-process-for-high-nickel-layered-oxide-cathodes.webp",
+      "coverAlt": "Stepwise dopant selection process for high-nickel layered oxide cathodes",
       "doi": "10.1002/aenm.202200136"
     },
     {
@@ -653,8 +789,8 @@
         }
       ],
       "venue": "Nature Nanotechnology · Vol. 16 · 77–84",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2021-permselective-metal-organic-framework-gel-membrane-enables-ultralong-life-cycling.webp",
+      "coverAlt": "Permselective metal-organic framework gel membrane enables ultralong-life cycling of rechargeable organic batteries",
       "doi": "10.1038/s41565-020-00788-x"
     },
     {
@@ -699,8 +835,8 @@
         }
       ],
       "venue": "Advanced Energy Materials · Vol. 11 · 2003039",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2021-probing-lithium-metals-in-batteries-by-advanced-characterization-and-analysis-tool.webp",
+      "coverAlt": "Probing Lithium Metals in Batteries by Advanced Characterization and Analysis Tools",
       "doi": "10.1002/aenm.202003039"
     },
     {
@@ -761,8 +897,8 @@
         }
       ],
       "venue": "Nature Materials · Vol. 19 · 419–427",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2020-voltage-decay-and-redox-asymmetry-mitigation-by-reversible-cation-migration-in-lit.webp",
+      "coverAlt": "Voltage decay and redox asymmetry mitigation by reversible cation migration in lithium-rich layered oxide electrodes",
       "doi": "10.1038/s41563-019-0572-4"
     },
     {
@@ -815,8 +951,8 @@
         }
       ],
       "venue": "Energy & Environmental Science · Vol. 13 · 1269–1278",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2020-a-new-lithium-diffusion-model-in-layered-oxides-based-on-asymmetric-but-reversible.webp",
+      "coverAlt": "A new lithium diffusion model in layered oxides based on asymmetric but reversible transition metal migration",
       "doi": "10.1039/C9EE04123K"
     },
     {
@@ -848,8 +984,8 @@
         }
       ],
       "venue": "Advanced Energy Materials · Vol. 10 · 2001207",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2020-anionic-redox-activity-regulated-by-transition-metal-in-lithium-rich-layered-oxide.webp",
+      "coverAlt": "Anionic redox activity regulated by transition metal in lithium-rich layered oxides",
       "doi": "10.1002/aenm.202001207"
     },
     {
@@ -896,8 +1032,8 @@
         }
       ],
       "venue": "Advanced Energy Materials · Vol. 10 · 1903993",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2020-the-role-of-interlayer-chemistry-in-li-metal-growth-through-a-garnet-type-solid-el.webp",
+      "coverAlt": "The role of interlayer chemistry in Li-metal growth through a garnet-type solid electrolyte",
       "doi": "10.1002/aenm.201903993"
     },
     {
@@ -935,8 +1071,8 @@
         }
       ],
       "venue": "ACS Applied Nano Materials · Vol. 3 · 6469–6477",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2020-blue-graphene-quantum-dots-with-high-color-purity-by-controlling-subdomain-formati.webp",
+      "coverAlt": "Blue Graphene Quantum Dots with High Color Purity by Controlling Subdomain Formation for Light Emitting Devices",
       "doi": "10.1021/acsanm.0c00930"
     },
     {
@@ -987,8 +1123,8 @@
         }
       ],
       "venue": "Chemical Reviews · Vol. 120 · 6684–6737",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2020-nanoscale-phenomena-in-lithium-ion-batteries.webp",
+      "coverAlt": "Nanoscale phenomena in lithium-ion batteries",
       "doi": "10.1021/acs.chemrev.9b00405"
     },
     {
@@ -1019,8 +1155,8 @@
         }
       ],
       "venue": "Journal of Materials Chemistry A · Vol. 7 · 18380–18387",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2019-amorphous-multinary-phyllosilicate-catalysts-for-electrochemical-water-oxidation.webp",
+      "coverAlt": "Amorphous multinary phyllosilicate catalysts for electrochemical water oxidation",
       "doi": "10.1039/C9TA05599A"
     },
     {
@@ -1049,8 +1185,8 @@
         }
       ],
       "venue": "Trends in Chemistry · Vol. 1 · 349–360",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2019-redox-mediators-a-solution-for-advanced-lithium-oxygen-batteries.webp",
+      "coverAlt": "Redox mediators: A solution for advanced lithium-oxygen batteries",
       "doi": "10.1016/j.trechm.2019.03.016"
     },
     {
@@ -1095,8 +1231,8 @@
         }
       ],
       "venue": "Journal of the American Chemical Society · Vol. 141 · 18395–18399",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2019-redox-sensitive-facet-dependency-in-etching-of-ceria-nanocrystals-directly-observe.webp",
+      "coverAlt": "Redox-sensitive facet dependency in etching of ceria nanocrystals directly observed by liquid cell TEM",
       "doi": "10.1021/jacs.9b09508"
     },
     {
@@ -1127,8 +1263,8 @@
         }
       ],
       "venue": "Advanced Science · Vol. 5 · 1801632",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2018-atomistic-investigation-of-doping-effects-on-electrocatalytic-properties-of-cobalt.webp",
+      "coverAlt": "Atomistic investigation of doping effects on electrocatalytic properties of cobalt oxides for water oxidation",
       "doi": "10.1002/advs.201801632"
     },
     {
@@ -1154,8 +1290,8 @@
         }
       ],
       "venue": "Advanced Energy Materials · Vol. 8 · 1702774",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2018-recent-progress-on-multimetal-oxide-catalysts-for-the-oxygen-evolution-reaction.webp",
+      "coverAlt": "Recent Progress on Multimetal Oxide Catalysts for the Oxygen Evolution Reaction",
       "doi": "10.1002/aenm.201702774"
     },
     {
@@ -1190,8 +1326,8 @@
         }
       ],
       "venue": "Chemistry of Materials · Vol. 30 · 4995–5004",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2018-native-defects-in-li10gep2s12-and-their-effect-on-lithium-diffusion.webp",
+      "coverAlt": "Native defects in Li10GeP2S12 and their effect on lithium diffusion",
       "doi": "10.1021/acs.chemmater.8b01163"
     },
     {
@@ -1229,8 +1365,8 @@
         }
       ],
       "venue": "Advanced Functional Materials · Vol. 27 · 1702887",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2017-using-first-principles-calculations-for-the-advancement-of-materials-for-rechargea.webp",
+      "coverAlt": "Using first-principles calculations for the advancement of materials for rechargeable batteries",
       "doi": "10.1002/adfm.201702887"
     },
     {
@@ -1274,8 +1410,8 @@
         }
       ],
       "venue": "Advanced Materials · Vol. 29 · 1606893",
-      "cover": "",
-      "coverAlt": "",
+      "cover": "/images/publications/google-sites/2017-amorphous-cobalt-phyllosilicate-with-layered-crystalline-motifs-as-water-oxidation.webp",
+      "coverAlt": "Amorphous cobalt phyllosilicate with layered crystalline motifs as water oxidation catalyst",
       "doi": "10.1002/adma.201606893"
     }
   ]
