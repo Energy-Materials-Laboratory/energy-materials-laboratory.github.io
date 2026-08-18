@@ -278,7 +278,8 @@ summary:focus-visible {
 }
 
 .hero-copy {
-  z-index: 2;
+  position: relative;
+  z-index: 3;
   display: flex;
   flex-direction: column;
   justify-content: center;
