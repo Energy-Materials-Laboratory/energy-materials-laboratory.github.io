@@ -6,7 +6,7 @@
 
 :root {
   /* Fonts */
-  --font-sans: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --font-sans: var(--font-manrope), "Segoe UI Variable Text", "Segoe UI", sans-serif;
   --font-mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 
   /* Font weights */
@@ -23,7 +23,7 @@
   --size-small: 17px;
   --size-label: 15px;
   --size-meta: 16px;
-  --size-micro: 14px;
+  --size-micro: 15px;
   --size-card-body: 18px;
   --size-list-title: 22px;
   --size-brand: clamp(25px, 2.15vw, 34px);
