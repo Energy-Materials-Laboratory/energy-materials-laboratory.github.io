@@ -31,27 +31,23 @@
       "description": "Design and validate materials for next-generation batteries."
     }
   ],
-  "approach": {
-    "label": "Our approach · 01",
-    "lead": "We move between atoms, particles, and devices to uncover the hidden properties of materials.",
-    "body": "Computation tells us where to look. Experiments show us how materials behave. Their connection turns fundamental understanding into rational design."
-  },
   "researchSection": {
-    "label": "Research programs · 03",
+    "label": "Research programs · 02",
     "titleLine1": "One materials-science framework.",
     "titleLine2": "Multiple battery chemistries.",
     "actionLabel": "View all research"
   },
   "publicationsSection": {
-    "label": "Selected work · 02",
+    "label": "Selected work · 01",
     "title": "Publications",
-    "featuredLabel": "Recent publications",
+    "featuredLabel": "Featured publications",
+    "listLabel": "More recent publications",
     "actionLabel": "Full publication list",
     "startIndex": 0,
     "count": 5
   },
   "recruitment": {
-    "label": "Join EML · 04",
+    "label": "Join EML · 03",
     "titleLine1": "Curious about materials?",
     "titleLine2": "Build the next question with us.",
     "description": "We welcome graduate students and undergraduate researchers interested in batteries, energy materials, first-principles calculations, and machine learning.",

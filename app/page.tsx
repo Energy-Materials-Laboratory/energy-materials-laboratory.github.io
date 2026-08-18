@@ -1,5 +1,6 @@
 import Link from "next/link";
 import PublicationCarousel from "./components/PublicationCarousel";
+import ResearchVisual from "./components/ResearchVisual";
 import SiteShell from "./components/SiteShell";
 import home from "../content/home.json";
 import research from "../content/research.json";
@@ -20,11 +21,17 @@ export default function Home() {
     .filter((publication) => Boolean(publication.cover))
     .slice(0, 4);
 
-  const selectedPublications = sortedPublications.slice(
-    home.publicationsSection.startIndex,
-    home.publicationsSection.startIndex +
-      home.publicationsSection.count,
+  const featuredTitles = new Set(
+    carouselPublications.map((publication) => publication.title),
   );
+
+  const selectedPublications = sortedPublications
+    .filter((publication) => !featuredTitles.has(publication.title))
+    .slice(
+      home.publicationsSection.startIndex,
+      home.publicationsSection.startIndex +
+        home.publicationsSection.count,
+    );
 
   return (
     <SiteShell>
@@ -56,14 +63,6 @@ export default function Home() {
         ))}
       </section>
 
-      <section className="statement-section site-width">
-        <div className="section-index">{home.approach.label}</div>
-        <div className="statement-copy">
-          <p className="statement-lead">{home.approach.lead}</p>
-          <p className="statement-body">{home.approach.body}</p>
-        </div>
-      </section>
-
       <section className="publication-section site-width">
         <div className="section-heading publication-heading">
           <div>
@@ -78,6 +77,9 @@ export default function Home() {
           publications={carouselPublications}
         />
 
+        <p className="publication-list-label">
+          {home.publicationsSection.listLabel}
+        </p>
         <div className="publication-list">
           {selectedPublications.map((publication) => (
             <article className="publication-row" key={publication.title}>
@@ -107,7 +109,10 @@ export default function Home() {
         <div className="research-grid">
           {research.areas.map((area) => (
             <Link href="/research" className="research-card" key={area.title}>
-              <span className="card-index">{area.index}</span>
+              <div className="research-card-topline">
+                <span className="card-index">{area.index}</span>
+                <ResearchVisual index={area.index} />
+              </div>
               <h3>{area.title}</h3>
               <p>{area.short}</p>
               <span className="card-arrow" aria-hidden="true">↗</span>
