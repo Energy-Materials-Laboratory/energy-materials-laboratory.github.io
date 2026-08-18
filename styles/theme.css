@@ -19,9 +19,9 @@
   --weight-label: 720;
 
   /* Main type sizes */
-  --size-body: 17px;
-  --size-small: 14px;
-  --size-label: 11px;
+  --size-body: 18px;
+  --size-small: 15px;
+  --size-label: 12px;
   --size-brand: clamp(25px, 2.15vw, 34px);
   --size-hero-title: clamp(51px, 4.6vw, 74px);
   --size-page-title: clamp(54px, 7.4vw, 104px);
