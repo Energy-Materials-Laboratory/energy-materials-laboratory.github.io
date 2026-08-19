@@ -7,9 +7,9 @@ export const metadata = { title: members.metadata.landingTitle };
 export default function MembersPage() {
   return (
     <SiteShell>
-      <section className="page-hero site-width compact">
+      <section className="page-hero page-hero-minimal site-width">
+        <h1 className="visually-hidden">{members.landing.eyebrow}</h1>
         <p className="eyebrow">{members.landing.eyebrow}</p>
-        <h1>{members.landing.titleLine1}<br />{members.landing.titleLine2}</h1>
       </section>
       <section className="portal-grid site-width">
         {members.landing.portals.map((portal) => (

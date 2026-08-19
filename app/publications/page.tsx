@@ -10,16 +10,13 @@ export const metadata = {
 export default function PublicationsPage() {
   return (
     <SiteShell>
-      <section className="page-hero site-width compact">
+      <section className="page-hero page-hero-minimal site-width">
+        <h1 className="visually-hidden">
+          {publications.landing.eyebrow}
+        </h1>
         <p className="eyebrow">
           {publications.landing.eyebrow}
         </p>
-
-        <h1>
-          {publications.landing.titleLine1}
-          <br />
-          {publications.landing.titleLine2}
-        </h1>
       </section>
 
       <section className="portal-grid site-width">

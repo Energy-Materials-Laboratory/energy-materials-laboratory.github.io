@@ -20,6 +20,18 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
 button,
 summary {
   font: inherit;
@@ -1153,6 +1165,47 @@ summary:focus-visible {
   color: var(--muted);
   font-size: var(--size-body);
   line-height: 1.65;
+}
+
+.page-hero.page-hero-minimal {
+  min-height: 0;
+  justify-content: flex-start;
+  padding-block: 58px 30px;
+}
+
+.page-hero-minimal > .eyebrow {
+  max-width: none;
+  margin: 0;
+  color: var(--blue);
+  font-size: var(--size-label);
+  font-weight: var(--weight-bold);
+  line-height: 1.4;
+}
+
+.page-hero.page-hero-with-summary {
+  display: grid;
+  grid-template-columns: minmax(180px, .55fr) minmax(0, 1.45fr);
+  gap: clamp(36px, 6vw, 88px);
+  align-items: end;
+}
+
+.page-hero-minimal > .page-hero-summary {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--size-card-body);
+  line-height: 1.62;
+}
+
+.page-hero-minimal + .portal-grid {
+  margin-top: 38px;
+}
+
+.page-hero-minimal + .research-detail-list,
+.page-hero-minimal + .member-groups,
+.page-hero-minimal + .patent-list,
+.page-hero-minimal + .gallery-grid {
+  padding-top: 38px;
 }
 
 .research-detail-list {
@@ -2370,6 +2423,26 @@ summary:focus-visible {
   .footer-bottom { align-items: flex-start; flex-direction: column; justify-content: center; padding-block: 18px; }
 
   .page-hero, .page-hero.compact { min-height: 360px; padding-block: 78px 48px; }
+  .page-hero.page-hero-minimal {
+    min-height: 0;
+    padding-block: 42px 24px;
+  }
+  .page-hero.page-hero-with-summary {
+    grid-template-columns: 1fr;
+    gap: 17px;
+  }
+  .page-hero-minimal > .page-hero-summary {
+    font-size: var(--size-small);
+  }
+  .page-hero-minimal + .portal-grid {
+    margin-top: 28px;
+  }
+  .page-hero-minimal + .research-detail-list,
+  .page-hero-minimal + .member-groups,
+  .page-hero-minimal + .patent-list,
+  .page-hero-minimal + .gallery-grid {
+    padding-top: 28px;
+  }
   .page-hero h1, .contact-hero h1 { font-size: var(--size-page-title-mobile); }
   .research-detail { grid-template-columns: 1fr; gap: 24px; padding-block: 48px; }
   .research-number, .research-figure { grid-column: 1; }

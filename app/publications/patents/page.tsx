@@ -34,16 +34,13 @@ export default function PatentsPage() {
 
   return (
     <SiteShell>
-      <section className="page-hero site-width compact publication-page-hero">
+      <section className="page-hero page-hero-minimal site-width">
+        <h1 className="visually-hidden">
+          {patentsContent.page.eyebrow}
+        </h1>
         <p className="eyebrow">
           {patentsContent.page.eyebrow}
         </p>
-
-        <h1>
-          {patentsContent.page.titleLine1}
-          <br />
-          {patentsContent.page.titleLine2}
-        </h1>
       </section>
 
       <section className="patent-list site-width">

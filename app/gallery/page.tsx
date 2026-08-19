@@ -43,14 +43,9 @@ export default function GalleryPage() {
 
   return (
     <SiteShell>
-      <section className="page-hero site-width compact">
+      <section className="page-hero page-hero-minimal site-width">
+        <h1 className="visually-hidden">{gallery.hero.eyebrow}</h1>
         <p className="eyebrow">{gallery.hero.eyebrow}</p>
-
-        <h1>
-          {gallery.hero.titleLine1}
-          <br />
-          {gallery.hero.titleLine2}
-        </h1>
       </section>
 
       <section className="gallery-grid site-width">

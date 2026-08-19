@@ -7,10 +7,10 @@ export const metadata = { title: research.metadataTitle };
 export default function ResearchPage() {
   return (
     <SiteShell>
-      <section className="page-hero site-width">
+      <section className="page-hero page-hero-minimal page-hero-with-summary site-width">
+        <h1 className="visually-hidden">{research.hero.eyebrow}</h1>
         <p className="eyebrow">{research.hero.eyebrow}</p>
-        <h1>{research.hero.titleLine1}<br />{research.hero.titleLine2}</h1>
-        <p>{research.hero.description}</p>
+        <p className="page-hero-summary">{research.hero.description}</p>
       </section>
 
       <section className="research-detail-list site-width">

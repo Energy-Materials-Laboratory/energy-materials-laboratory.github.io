@@ -31,16 +31,10 @@ const groups = membersContent.group.roleOrder.map((group) => ({
 export default function GroupMembersPage() {
   return (
     <SiteShell>
-      <section className="page-hero site-width compact">
+      <section className="page-hero page-hero-minimal page-hero-with-summary site-width">
+        <h1 className="visually-hidden">{membersContent.group.eyebrow}</h1>
         <p className="eyebrow">{membersContent.group.eyebrow}</p>
-
-        <h1>
-          {membersContent.group.titleLine1}
-          <br />
-          {membersContent.group.titleLine2}
-        </h1>
-
-        <p>{membersContent.group.description}</p>
+        <p className="page-hero-summary">{membersContent.group.description}</p>
       </section>
 
       <section className="member-groups site-width">
