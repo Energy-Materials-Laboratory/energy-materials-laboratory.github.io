@@ -159,9 +159,17 @@
         "profilePhoto": "/images/members/jaehoon-profile.jpg",
         "profilePosition": "50% 20%",
         "photo": "",
-        "bio": "",
-        "education": [],
-        "researchInterests": [],
+        "bio": "Jaehoon Lim is an MS/PhD integrated student who completed his B.S. in Advanced Materials Science & Engineering in spring 2025. He joined the Kim group in spring 2026 and is working on lithium-ion batteries. Outside the lab, he enjoys running and traveling.",
+        "education": [
+          {
+            "degree": "B.S., Advanced Materials Science & Engineering",
+            "institution": "Changwon National University",
+            "year": "2025"
+          }
+        ],
+        "researchInterests": [
+          "Lithium-ion batteries"
+        ],
         "selectedPublications": []
       },
       {
@@ -175,9 +183,17 @@
         "profilePhoto": "/images/members/chanhyuk-profile.jpg",
         "profilePosition": "50% 20%",
         "photo": "",
-        "bio": "",
-        "education": [],
-        "researchInterests": [],
+        "bio": "Chanhyuk Kim is an MS/PhD integrated student who completed his B.S. in Electronic Materials Engineering in spring 2025. He joined the Kim group in fall 2025 and is working with lithium-ion cathode materials. Outside the lab, he enjoys swimming and spending time with his friends.",
+        "education": [
+          {
+            "degree": "B.S., Electronic Materials Engineering",
+            "institution": "Kwangwoon University",
+            "year": "2025"
+          }
+        ],
+        "researchInterests": [
+          "Lithium-ion cathode materials"
+        ],
         "selectedPublications": []
       },
       {
@@ -191,9 +207,17 @@
         "profilePhoto": "/images/members/myunghoon-profile.jpg",
         "profilePosition": "50% 20%",
         "photo": "",
-        "bio": "",
-        "education": [],
-        "researchInterests": [],
+        "bio": "Myunghoon Kim is an MS/PhD integrated student who completed his B.S. in Advanced Materials Science & Engineering in spring 2026. He joined the Kim group in spring 2026 and is working on lithium-ion batteries. Outside the lab, he enjoys fitness training and weightlifting.",
+        "education": [
+          {
+            "degree": "B.S., Advanced Materials Science & Engineering",
+            "institution": "Sungkyunkwan University",
+            "year": "2026"
+          }
+        ],
+        "researchInterests": [
+          "Lithium-ion batteries"
+        ],
         "selectedPublications": []
       },
       {
@@ -207,9 +231,17 @@
         "profilePhoto": "/images/members/seohyun-profile.jpg",
         "profilePosition": "50% 20%",
         "photo": "",
-        "bio": "",
-        "education": [],
-        "researchInterests": [],
+        "bio": "Seohyun Kim is a master's student who completed his B.S. in Advanced Materials Science & Engineering in spring 2025. He joined the Kim group in spring 2025 and is working on lithium-ion batteries.",
+        "education": [
+          {
+            "degree": "B.S., Advanced Materials Science & Engineering",
+            "institution": "Sungkyunkwan University",
+            "year": "2025"
+          }
+        ],
+        "researchInterests": [
+          "Lithium-ion batteries"
+        ],
         "selectedPublications": []
       },
       {
@@ -223,9 +255,17 @@
         "profilePhoto": "/images/members/kihwan-profile.jpg",
         "profilePosition": "50% 20%",
         "photo": "",
-        "bio": "",
-        "education": [],
-        "researchInterests": [],
+        "bio": "Kihwan Choi is a master's student who completed his B.S. in Advanced Materials Science & Engineering in spring 2025. He joined the Kim group in spring 2025 and is working on Li-rich cathode materials. Outside the lab, he enjoys spending time with his friends and traveling around the world.",
+        "education": [
+          {
+            "degree": "B.S., Advanced Materials Science & Engineering",
+            "institution": "Sungkyunkwan University",
+            "year": "2025"
+          }
+        ],
+        "researchInterests": [
+          "Li-rich cathode materials"
+        ],
         "selectedPublications": []
       },
       {
@@ -239,9 +279,17 @@
         "profilePhoto": "/images/members/seungyeob-profile.jpg",
         "profilePosition": "50% 20%",
         "photo": "",
-        "bio": "",
-        "education": [],
-        "researchInterests": [],
+        "bio": "Seungyeob Shin is a master's student who completed his B.S. in Advanced Materials Science & Engineering in spring 2025. He joined the Kim group in spring 2025 and is working with Li-rich cathode materials. Outside the lab, he enjoys jogging and singing.",
+        "education": [
+          {
+            "degree": "B.S., Advanced Materials Science & Engineering",
+            "institution": "Sungkyunkwan University",
+            "year": "2025"
+          }
+        ],
+        "researchInterests": [
+          "Li-rich cathode materials"
+        ],
         "selectedPublications": []
       },
       {
@@ -255,9 +303,17 @@
         "profilePhoto": "/images/members/donghyuk-profile.png",
         "profilePosition": "50% 20%",
         "photo": "",
-        "bio": "",
-        "education": [],
-        "researchInterests": [],
+        "bio": "Donghyuk Shin is a master's student who completed his B.S. in Advanced Materials Science & Engineering in spring 2026. He joined the Kim group in spring 2026 and is working on lithium-ion batteries. Outside the lab, he enjoys jogging and working out at the gym.",
+        "education": [
+          {
+            "degree": "B.S., Advanced Materials Science & Engineering",
+            "institution": "Sungkyunkwan University",
+            "year": "2026"
+          }
+        ],
+        "researchInterests": [
+          "Lithium-ion batteries"
+        ],
         "selectedPublications": []
       },
       {
@@ -271,9 +327,17 @@
         "profilePhoto": "/images/members/mingyu-card.jpg",
         "profilePosition": "50% 20%",
         "photo": "",
-        "bio": "",
-        "education": [],
-        "researchInterests": [],
+        "bio": "Mingyu Park is a master's student who completed his B.S. in Advanced Materials Science & Engineering in spring 2026. He joined the Kim group in spring 2026 and is working on lithium-ion batteries. Outside the lab, he enjoys watching variety shows and TV dramas.",
+        "education": [
+          {
+            "degree": "B.S., Advanced Materials Science & Engineering",
+            "institution": "Sungkyunkwan University",
+            "year": "2026"
+          }
+        ],
+        "researchInterests": [
+          "Lithium-ion batteries"
+        ],
         "selectedPublications": []
       },
       {
