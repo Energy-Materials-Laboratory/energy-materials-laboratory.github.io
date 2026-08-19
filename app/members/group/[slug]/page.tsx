@@ -2,6 +2,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import EmailCopyButton from "../../../components/EmailCopyButton";
 import SiteShell from "../../../components/SiteShell";
 import membersContent from "../../../../content/members.json";
 import { assetPath } from "../../../../lib/paths";
@@ -108,7 +109,7 @@ export default async function MemberProfilePage({
             <h1>{member.name}</h1>
             <div className="member-detail-contact">
               <span>Contact</span>
-              <a href={`mailto:${member.email}`}>{member.email} ↗</a>
+              <EmailCopyButton email={member.email} />
             </div>
           </div>
         </section>

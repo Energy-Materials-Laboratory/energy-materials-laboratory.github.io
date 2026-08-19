@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Header from "./Header";
+import EmailCopyButton from "./EmailCopyButton";
 import site from "../../content/site.json";
 
 export default function SiteShell({ children }: { children: React.ReactNode }) {
@@ -20,7 +21,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
           </div>
           <div>
             <p className="footer-label">{site.footer.connectLabel}</p>
-            <a href={`mailto:${site.footer.email}`}>{site.footer.email}</a>
+            <EmailCopyButton email={site.footer.email} />
             <Link href="/contact">{site.footer.joinLabel} <span aria-hidden="true">↗</span></Link>
           </div>
         </div>

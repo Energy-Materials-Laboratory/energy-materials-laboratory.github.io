@@ -25,6 +25,48 @@ summary {
   font: inherit;
 }
 
+.email-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.email-copy-icon {
+  font-size: .9em;
+  line-height: 1;
+  transition: transform 160ms ease;
+}
+
+.email-copy:hover .email-copy-icon {
+  transform: translate(1px, -1px);
+}
+
+.email-copy-feedback {
+  position: fixed;
+  z-index: 100;
+  right: 24px;
+  bottom: 24px;
+  padding: 13px 17px;
+  border: 1px solid rgba(255, 255, 255, .14);
+  background: #10171f;
+  box-shadow: 0 14px 38px rgba(16, 23, 31, .22);
+  color: #fff;
+  font-size: var(--size-meta);
+  font-weight: var(--weight-semibold);
+  line-height: 1.35;
+}
+
+.email-copy-feedback.is-error {
+  background: #8a2731;
+}
+
 a:focus-visible,
 button:focus-visible,
 summary:focus-visible {
@@ -1036,7 +1078,8 @@ summary:focus-visible {
 }
 
 .footer-grid p,
-.footer-grid a {
+.footer-grid a,
+.footer-grid .email-copy {
   display: block;
   margin: 5px 0;
   font-size: var(--size-meta);
@@ -1059,7 +1102,8 @@ summary:focus-visible {
   text-transform: uppercase;
 }
 
-.footer-grid a:hover {
+.footer-grid a:hover,
+.footer-grid .email-copy:hover {
   color: white;
 }
 
@@ -1361,6 +1405,10 @@ summary:focus-visible {
   font-weight: 620;
 }
 
+.profile-links .email-copy:hover {
+  color: var(--blue-bright);
+}
+
 .cv-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -1529,13 +1577,19 @@ summary:focus-visible {
 }
 
 .member-card p,
-.member-card a {
+.member-card a,
+.member-card .email-copy {
   margin: 5px 0;
   color: var(--muted);
   font-size: var(--size-meta);
 }
 
-.member-card a:hover { color: var(--blue); }
+.member-card h2 a {
+  color: var(--ink);
+}
+
+.member-card a:hover,
+.member-card .email-copy:hover { color: var(--blue); }
 
 .publication-page-hero h1 {
   font-size: clamp(58px, 7vw, 96px);
@@ -1656,7 +1710,7 @@ summary:focus-visible {
   text-transform: uppercase;
 }
 
-.member-detail-contact > a {
+.member-detail-contact > .email-copy {
   width: fit-content;
   color: var(--blue-dark);
   font-size: var(--size-card-body);
@@ -1665,7 +1719,7 @@ summary:focus-visible {
   overflow-wrap: anywhere;
 }
 
-.member-detail-contact > a:hover {
+.member-detail-contact > .email-copy:hover {
   color: var(--blue-bright);
 }
 
@@ -2084,13 +2138,15 @@ summary:focus-visible {
 }
 
 .contact-details p,
-.contact-details a {
+.contact-details a,
+.contact-details .email-copy {
   color: var(--muted);
   font-size: var(--size-meta);
   line-height: 1.65;
 }
 
-.contact-details a {
+.contact-details a,
+.contact-details .email-copy {
   display: inline-block;
   margin-top: 14px;
   color: var(--blue-dark);
@@ -2412,8 +2468,14 @@ summary:focus-visible {
     padding-block: 17px;
   }
 
-  .member-detail-contact > a {
+  .member-detail-contact > .email-copy {
     font-size: var(--size-meta);
+  }
+
+  .email-copy-feedback {
+    right: 14px;
+    bottom: 14px;
+    max-width: calc(100% - 28px);
   }
 
   .member-detail-body {

@@ -32,11 +32,8 @@
     "title": "Assistant Professor",
     "department": "Department of Advanced Materials Science and Engineering",
     "university": "Sungkyunkwan University",
+    "email": "byunghoonkim@skku.edu",
     "links": [
-      {
-        "label": "Email",
-        "href": "mailto:byunghoonkim@skku.edu"
-      },
       {
         "label": "ORCID",
         "href": "https://orcid.org/0000-0003-3499-3357"

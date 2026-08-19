@@ -1,3 +1,4 @@
+import EmailCopyButton from "../../components/EmailCopyButton";
 import SiteShell from "../../components/SiteShell";
 import members from "../../../content/members.json";
 import { assetPath } from "../../../lib/paths";
@@ -21,6 +22,7 @@ export default function ProfessorPage() {
           <h1>{professor.name}</h1>
           <p className="profile-role">{professor.title}<br />{professor.department}<br />{professor.university}</p>
           <div className="profile-links">
+            <EmailCopyButton email={professor.email}>Email</EmailCopyButton>
             {professor.links.map((link) => (
               <a
                 href={link.href}

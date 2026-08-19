@@ -1,3 +1,4 @@
+import EmailCopyButton from "../components/EmailCopyButton";
 import SiteShell from "../components/SiteShell";
 import contact from "../../content/contact.json";
 
@@ -15,7 +16,7 @@ export default function ContactPage() {
           <div>
             <p className="section-index">{contact.principalInvestigator.label}</p>
             <h2>{contact.principalInvestigator.name}</h2>
-            <a href={`mailto:${contact.principalInvestigator.email}`}>{contact.principalInvestigator.email} ↗</a>
+            <EmailCopyButton email={contact.principalInvestigator.email} />
           </div>
           <div>
             <p className="section-index">{contact.laboratory.label}</p>
@@ -32,12 +33,12 @@ export default function ContactPage() {
             <h2>{contact.recruitment.title}</h2>
             <p>{contact.recruitment.english}</p>
             <p>{contact.recruitment.korean}</p>
-            <a
+            <EmailCopyButton
               className="button button-light"
-              href={`mailto:${contact.principalInvestigator.email}?subject=${encodeURIComponent(contact.recruitment.emailSubject)}`}
+              email={contact.principalInvestigator.email}
             >
               {contact.recruitment.actionLabel}
-            </a>
+            </EmailCopyButton>
           </div>
         </div>
       </section>
