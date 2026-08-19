@@ -1078,9 +1078,15 @@ summary:focus-visible {
 }
 
 .footer-grid p,
-.footer-grid a,
-.footer-grid .email-copy {
+.footer-grid a {
   display: block;
+  margin: 5px 0;
+  font-size: var(--size-meta);
+  line-height: 1.6;
+}
+
+.footer-grid .email-copy {
+  display: inline-flex;
   margin: 5px 0;
   font-size: var(--size-meta);
   line-height: 1.6;
@@ -2147,7 +2153,7 @@ summary:focus-visible {
 
 .contact-details a,
 .contact-details .email-copy {
-  display: inline-block;
+  display: inline-flex;
   margin-top: 14px;
   color: var(--blue-dark);
   font-weight: 630;
