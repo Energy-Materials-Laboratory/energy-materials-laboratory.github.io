@@ -16,17 +16,14 @@
   },
   "pillars": [
     {
-      "index": "01",
       "title": "Structure",
       "description": "Characterize materials across length and time scales."
     },
     {
-      "index": "02",
       "title": "Mechanism",
       "description": "Reveal the origins of electrochemical behavior and degradation."
     },
     {
-      "index": "03",
       "title": "Discovery",
       "description": "Design and validate materials for next-generation batteries."
     }
@@ -38,7 +35,7 @@
     "actionLabel": "View all research"
   },
   "publicationsSection": {
-    "label": "Selected work · 01",
+    "label": "Selected work",
     "title": "Publications",
     "featuredLabel": "Featured publications",
     "listLabel": "More recent publications",

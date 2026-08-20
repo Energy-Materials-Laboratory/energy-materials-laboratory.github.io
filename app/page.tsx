@@ -55,8 +55,7 @@ export default function Home() {
 
       <section className="pillar-strip site-width" aria-label="Research philosophy">
         {home.pillars.map((pillar) => (
-          <article key={pillar.index}>
-            <span>{pillar.index}</span>
+          <article key={pillar.title}>
             <h2>{pillar.title}</h2>
             <p>{pillar.description}</p>
           </article>

@@ -456,15 +456,6 @@ summary:focus-visible {
   border-right: 0;
 }
 
-.pillar-strip span {
-  position: absolute;
-  top: 30px;
-  right: 28px;
-  color: #9aa4ad;
-  font-family: var(--font-mono);
-  font-size: var(--size-micro);
-}
-
 .pillar-strip h2 {
   margin: 0 0 12px;
   color: var(--blue);
