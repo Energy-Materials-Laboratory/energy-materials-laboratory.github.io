@@ -155,7 +155,8 @@
           "name": "Sunjin Park"
         },
         {
-          "name": "Cheolwoo Jo"
+          "name": "Cheolwoo Jo",
+          "bold": true
         },
         {
           "name": "Byunghoon Kim",

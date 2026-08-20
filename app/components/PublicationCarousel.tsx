@@ -53,18 +53,15 @@ export default function PublicationCarousel({
   publications,
 }: PublicationCarouselProps) {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isHovered, setIsHovered] = useState(false);
-  const [hasFocus, setHasFocus] = useState(false);
   const [isUserPaused, setIsUserPaused] = useState(false);
 
   const publicationCount = publications.length;
   const activePublication = publications[activeIndex];
-  const isAutoPaused = isHovered || hasFocus || isUserPaused;
 
   useEffect(() => {
     if (
       publicationCount < 2 ||
-      isAutoPaused ||
+      isUserPaused ||
       window.matchMedia("(prefers-reduced-motion: reduce)").matches
     ) {
       return;
@@ -77,7 +74,7 @@ export default function PublicationCarousel({
     }, 6500);
 
     return () => window.clearTimeout(timer);
-  }, [activeIndex, isAutoPaused, publicationCount]);
+  }, [activeIndex, isUserPaused, publicationCount]);
 
   if (!activePublication) {
     return null;
@@ -101,18 +98,6 @@ export default function PublicationCarousel({
       role="region"
       aria-roledescription="carousel"
       aria-label="Recent publications"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-      onFocusCapture={() => setHasFocus(true)}
-      onBlurCapture={(event) => {
-        if (
-          !event.currentTarget.contains(
-            event.relatedTarget as Node | null,
-          )
-        ) {
-          setHasFocus(false);
-        }
-      }}
     >
       <article
         className="featured-publication publication-carousel-slide"
