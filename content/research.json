@@ -9,53 +9,44 @@
       "title": "High-energy cathodes",
       "short": "Rationally designing cathodes that combine high capacity, fast kinetics, and long-term structural stability.",
       "detail": "We study Li-rich layered oxides, high-Ni cathodes, and disordered rocksalt materials. By connecting high-valent redox chemistry with structural evolution, we seek design rules for cathodes that sustain high energy density without sacrificing stability.",
-      "tags": ["Li-rich", "High-Ni", "Disordered rocksalt"]
+      "tags": [
+        "Li-rich",
+        "High-Ni",
+        "Disordered rocksalt"
+      ]
     },
     {
       "index": "02",
       "title": "Computational materials design",
       "short": "Using first-principles calculations, high-throughput screening, and machine learning to accelerate discovery.",
       "detail": "We evaluate synthesis feasibility, phase stability, ion diffusion, voltage, and defect chemistry at scales that are difficult to access experimentally. Large-scale computation helps us move from isolated intuition toward systematic materials discovery.",
-      "tags": ["DFT", "High-throughput", "Machine learning"]
+      "tags": [
+        "DFT",
+        "High-throughput",
+        "Machine learning"
+      ]
     },
     {
       "index": "03",
       "title": "Sodium-ion batteries",
       "short": "Establishing chemistry-specific design strategies for affordable and sustainable sodium-ion energy storage.",
       "detail": "The distinct size and chemistry of Na ions create structural behavior that cannot be treated as a simple extension of lithium-ion materials. We combine computation and experiment to discover electrodes with high energy, power capability, and long cycle life.",
-      "tags": ["Layered oxides", "Electrode design", "Na-ion kinetics"]
+      "tags": [
+        "Layered oxides",
+        "Electrode design",
+        "Na-ion kinetics"
+      ]
     },
     {
       "index": "04",
       "title": "All-solid-state batteries",
       "short": "Designing solid electrolytes and buried interfaces for fast ion transport and stable electrochemical operation.",
       "detail": "We investigate sulfide, halide, and oxide solid electrolytes together with the interfaces they form against electrodes. By resolving ion-transport pathways, defect chemistry, interphase reactions, and chemo-mechanical compatibility, we aim to establish materials principles for safe and durable all-solid-state batteries.",
-      "tags": ["Sulfide electrolytes", "Halide conductors", "Solid-solid interfaces"]
+      "tags": [
+        "Sulfide electrolytes",
+        "Halide conductors",
+        "Solid-solid interfaces"
+      ]
     }
-  ],
-  "methods": {
-    "label": "How we work",
-    "items": [
-      {
-        "index": "01",
-        "title": "Compute",
-        "detail": "DFT, high-throughput screening, and machine learning"
-      },
-      {
-        "index": "02",
-        "title": "Synthesize",
-        "detail": "Composition-controlled synthesis and phase engineering"
-      },
-      {
-        "index": "03",
-        "title": "Characterize",
-        "detail": "Diffraction, spectroscopy, microscopy, and operando analysis"
-      },
-      {
-        "index": "04",
-        "title": "Validate",
-        "detail": "Electrochemical kinetics, degradation, and safety evaluation"
-      }
-    ]
-  }
+  ]
 }

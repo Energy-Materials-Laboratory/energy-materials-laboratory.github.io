@@ -30,20 +30,6 @@ export default function ResearchPage() {
           </article>
         ))}
       </section>
-
-      <section className="research-methods site-width">
-        <h2 className="visually-hidden">{research.methods.label}</h2>
-        <p className="section-index">{research.methods.label}</p>
-        <div className="research-method-grid">
-          {research.methods.items.map((item) => (
-            <article key={item.index}>
-              <span>{item.index}</span>
-              <h3>{item.title}</h3>
-              <p>{item.detail}</p>
-            </article>
-          ))}
-        </div>
-      </section>
     </SiteShell>
   );
 }

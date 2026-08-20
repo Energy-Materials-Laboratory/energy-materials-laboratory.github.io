@@ -29,7 +29,7 @@
     }
   ],
   "researchSection": {
-    "label": "Research programs · 02",
+    "label": "Research programs",
     "titleLine1": "One materials-science framework.",
     "titleLine2": "Multiple battery chemistries.",
     "actionLabel": "View all research"
@@ -44,7 +44,7 @@
     "count": 5
   },
   "recruitment": {
-    "label": "Join EML · 03",
+    "label": "Join EML",
     "titleLine1": "Curious about materials?",
     "titleLine2": "Build the next question with us.",
     "description": "We welcome graduate students and undergraduate researchers interested in batteries, energy materials, first-principles calculations, and machine learning.",
