@@ -1,10 +1,7 @@
 {
   "metadataTitle": "Research",
   "hero": {
-    "eyebrow": "Research",
-    "titleLine1": "Understanding materials.",
-    "titleLine2": "Designing better batteries.",
-    "description": "We connect atomistic mechanisms with synthesis, characterization, and electrochemical behavior to create actionable materials-design rules."
+    "eyebrow": "Research"
   },
   "areas": [
     {
@@ -30,16 +27,35 @@
     },
     {
       "index": "04",
-      "title": "Beyond lithium-ion",
-      "short": "Exploring solid ion conductors and next-generation chemistries beyond conventional lithium-ion systems.",
-      "detail": "Our broader program includes new ion conductors for all-solid-state batteries and emerging systems such as multivalent and lithium-air batteries. These projects extend our core approach: reveal fundamental mechanisms, then translate them into materials design.",
-      "tags": ["Solid-state", "Multivalent", "Lithium-air"]
+      "title": "All-solid-state batteries",
+      "short": "Designing solid electrolytes and buried interfaces for fast ion transport and stable electrochemical operation.",
+      "detail": "We investigate sulfide, halide, and oxide solid electrolytes together with the interfaces they form against electrodes. By resolving ion-transport pathways, defect chemistry, interphase reactions, and chemo-mechanical compatibility, we aim to establish materials principles for safe and durable all-solid-state batteries.",
+      "tags": ["Sulfide electrolytes", "Halide conductors", "Solid-solid interfaces"]
     }
   ],
-  "cta": {
-    "label": "Work with us",
-    "titleLine1": "Bring a materials question.",
-    "titleLine2": "Explore it across scales.",
-    "actionLabel": "Start a conversation"
+  "methods": {
+    "label": "How we work",
+    "items": [
+      {
+        "index": "01",
+        "title": "Compute",
+        "detail": "DFT, high-throughput screening, and machine learning"
+      },
+      {
+        "index": "02",
+        "title": "Synthesize",
+        "detail": "Composition-controlled synthesis and phase engineering"
+      },
+      {
+        "index": "03",
+        "title": "Characterize",
+        "detail": "Diffraction, spectroscopy, microscopy, and operando analysis"
+      },
+      {
+        "index": "04",
+        "title": "Validate",
+        "detail": "Electrochemical kinetics, degradation, and safety evaluation"
+      }
+    ]
   }
 }
