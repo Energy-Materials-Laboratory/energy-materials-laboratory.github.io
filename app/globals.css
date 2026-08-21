@@ -1164,6 +1164,10 @@ summary:focus-visible {
   padding-block: 58px 30px;
 }
 
+.page-hero.page-hero-borderless {
+  border-bottom: 0;
+}
+
 .page-hero.page-hero-minimal > .eyebrow {
   max-width: none;
   margin: 0;
