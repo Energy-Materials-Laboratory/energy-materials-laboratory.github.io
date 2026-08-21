@@ -1,6 +1,8 @@
+import Image from "next/image";
 import ResearchVisual from "../components/ResearchVisual";
 import SiteShell from "../components/SiteShell";
 import research from "../../content/research.json";
+import { assetPath } from "../../lib/paths";
 
 export const metadata = { title: research.metadataTitle };
 
@@ -23,9 +25,41 @@ export default function ResearchPage() {
               <div className="tag-list">
                 {area.tags.map((tag) => <span key={tag}>{tag}</span>)}
               </div>
+              <div className="research-selected">
+                <p className="research-selected-label">Selected publications</p>
+                <div className="research-selected-list">
+                  {area.selectedPublications.map((publication) => (
+                    <a
+                      href={`https://doi.org/${publication.doi}`}
+                      key={publication.doi}
+                      rel="noreferrer"
+                      target="_blank"
+                    >
+                      <span>
+                        <strong>{publication.title}</strong>
+                        <small>{publication.venue}</small>
+                      </span>
+                      <b aria-hidden="true">↗</b>
+                    </a>
+                  ))}
+                </div>
+              </div>
             </div>
-            <div className="research-detail-visual">
-              <ResearchVisual index={area.index} />
+            <div className={`research-detail-visual${area.visual ? " has-figure" : ""}`}>
+              {area.visual ? (
+                <figure className="research-detail-figure">
+                  <Image
+                    alt={area.visual.alt}
+                    height={area.visual.height}
+                    sizes="(max-width: 620px) calc(100vw - 76px), (max-width: 920px) 520px, 38vw"
+                    src={assetPath(area.visual.image)}
+                    width={area.visual.width}
+                  />
+                  <figcaption>{area.visual.caption}</figcaption>
+                </figure>
+              ) : (
+                <ResearchVisual index={area.index} />
+              )}
             </div>
           </article>
         ))}

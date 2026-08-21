@@ -6,46 +6,114 @@
   "areas": [
     {
       "index": "01",
-      "title": "High-energy cathodes",
-      "short": "Rationally designing cathodes that combine high capacity, fast kinetics, and long-term structural stability.",
-      "detail": "We study Li-rich layered oxides, high-Ni cathodes, and disordered rocksalt materials. By connecting high-valent redox chemistry with structural evolution, we seek design rules for cathodes that sustain high energy density without sacrificing stability.",
+      "title": "High-energy-density Li-ion cathodes",
+      "short": "Linking redox chemistry, ion transport, and structural evolution to design cathodes with high capacity and durable cycling.",
+      "detail": "Our group studies Li-rich layered oxides, high-Ni layered cathodes, and disordered-rocksalt materials. We resolve how high-valent transition-metal and oxygen redox, cation migration, oxygen dimerization, and phase evolution control capacity, voltage hysteresis or decay, and long-term stability. By integrating atomistic computation, synthesis, electrochemistry, and multiscale characterization, we translate degradation mechanisms into practical design rules.",
       "tags": [
-        "Li-rich",
-        "High-Ni",
-        "Disordered rocksalt"
+        "Li-rich layered oxides",
+        "High-Ni cathodes",
+        "Disordered rocksalt",
+        "Oxygen redox"
+      ],
+      "visual": {
+        "image": "/images/research/high-energy-cathodes.jpg",
+        "width": 1122,
+        "height": 451,
+        "alt": "O2-type layered structure, reversible transition-metal migration mechanism, and microscopy images after the first charge and discharge",
+        "caption": "Reversible cation migration and structural recovery in Li-rich layered cathodes"
+      },
+      "selectedPublications": [
+        {
+          "title": "Voltage decay and redox asymmetry mitigation by reversible cation migration in lithium-rich layered oxide electrodes",
+          "venue": "Nature Materials · 2020",
+          "doi": "10.1038/s41563-019-0572-4"
+        },
+        {
+          "title": "Oxygen Dimerization-driven Cation Migration Induces Voltage Hysteresis in Disordered Rocksalt Cathodes",
+          "venue": "Journal of the American Chemical Society · 2025",
+          "doi": "10.1021/jacs.4c09070"
+        }
       ]
     },
     {
       "index": "02",
       "title": "Computational materials design",
-      "short": "Using first-principles calculations, high-throughput screening, and machine learning to accelerate discovery.",
-      "detail": "We evaluate synthesis feasibility, phase stability, ion diffusion, voltage, and defect chemistry at scales that are difficult to access experimentally. Large-scale computation helps us move from isolated intuition toward systematic materials discovery.",
+      "short": "Using first-principles calculations, high-throughput screening, and machine learning to explore chemical space systematically.",
+      "detail": "First-principles calculations reveal mechanisms at time and length scales that are difficult to access experimentally. We screen synthesis feasibility, phase stability, redox energetics, voltage, ion diffusion, defect chemistry, and interfacial reactions across broad compositional spaces. High-throughput workflows and machine learning expand this search, while targeted synthesis and characterization close the loop between prediction and experiment.",
       "tags": [
         "DFT",
         "High-throughput",
-        "Machine learning"
+        "Machine learning",
+        "Structure prediction"
+      ],
+      "visual": {
+        "image": "/images/research/computational-materials-design.jpg",
+        "width": 1109,
+        "height": 560,
+        "alt": "Examples of atomistic structural relaxation, theoretical voltage prediction, and energy-landscape mapping",
+        "caption": "From atomistic relaxation to voltage prediction and materials-property landscapes"
+      },
+      "selectedPublications": [
+        {
+          "title": "A theoretical framework for oxygen redox chemistry for sustainable batteries",
+          "venue": "Nature Sustainability · 2022",
+          "doi": "10.1038/s41893-022-00890-z"
+        },
+        {
+          "title": "Using first-principles calculations for the advancement of materials for rechargeable batteries",
+          "venue": "Advanced Functional Materials · 2017",
+          "doi": "10.1002/adfm.201702887"
+        }
       ]
     },
     {
       "index": "03",
-      "title": "Sodium-ion batteries",
-      "short": "Establishing chemistry-specific design strategies for affordable and sustainable sodium-ion energy storage.",
-      "detail": "The distinct size and chemistry of Na ions create structural behavior that cannot be treated as a simple extension of lithium-ion materials. We combine computation and experiment to discover electrodes with high energy, power capability, and long cycle life.",
+      "title": "Sodium-ion battery materials",
+      "short": "Establishing chemistry-specific design rules for affordable sodium-ion electrodes with high energy and long cycle life.",
+      "detail": "The larger size and distinct chemistry of Na ions produce stacking preferences, phase transitions, and transport behavior that cannot be treated as a simple extension of lithium-ion materials. We map the chemical space of layered sodium transition-metal oxides, predict structure and redox activity, and validate promising compositions experimentally. The goal is to discover electrode materials that combine energy density, rate capability, and structural reversibility.",
       "tags": [
-        "Layered oxides",
-        "Electrode design",
-        "Na-ion kinetics"
+        "P2/O3 layered oxides",
+        "Structure prediction",
+        "Na-ion transport",
+        "Oxygen redox"
+      ],
+      "visual": {
+        "image": "/images/research/sodium-ion-materials.jpg",
+        "width": 1202,
+        "height": 305,
+        "alt": "Chemical-space mapping and cationic-potential-based structure prediction for P2 and O3 sodium layered oxides",
+        "caption": "Chemical-space screening and structure prediction for layered sodium oxides"
+      },
+      "selectedPublications": [
+        {
+          "title": "Coupling structural evolution and oxygen-redox electrochemistry in layered transition metal oxides",
+          "venue": "Nature Materials · 2022",
+          "doi": "10.1038/s41563-022-01209-1"
+        }
       ]
     },
     {
       "index": "04",
-      "title": "All-solid-state batteries",
-      "short": "Designing solid electrolytes and buried interfaces for fast ion transport and stable electrochemical operation.",
-      "detail": "We investigate sulfide, halide, and oxide solid electrolytes together with the interfaces they form against electrodes. By resolving ion-transport pathways, defect chemistry, interphase reactions, and chemo-mechanical compatibility, we aim to establish materials principles for safe and durable all-solid-state batteries.",
+      "title": "Solid-state ion conductors and interfaces",
+      "short": "An emerging direction connecting superionic-conductor design with stable solid-solid interfaces.",
+      "detail": "Building on our work on defect chemistry in sulfide electrolytes and cation order-disorder in halide superionic conductors, we investigate how lattice topology, defects, and local structure govern ion transport. We are extending these principles toward electrochemical and chemo-mechanical stability at buried electrode-electrolyte interfaces for durable all-solid-state batteries.",
       "tags": [
-        "Sulfide electrolytes",
         "Halide conductors",
+        "Sulfide electrolytes",
+        "Cation disorder",
         "Solid-solid interfaces"
+      ],
+      "selectedPublications": [
+        {
+          "title": "Design of a trigonal halide superionic conductor by regulating cation order-disorder",
+          "venue": "Science · 2023",
+          "doi": "10.1126/science.adg6591"
+        },
+        {
+          "title": "Native defects in Li10GeP2S12 and their effect on lithium diffusion",
+          "venue": "Chemistry of Materials · 2018",
+          "doi": "10.1021/acs.chemmater.8b01163"
+        }
       ]
     }
   ]
