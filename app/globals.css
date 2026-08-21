@@ -1164,14 +1164,14 @@ summary:focus-visible {
   padding-block: 58px 30px;
 }
 
-.page-hero-minimal > .eyebrow {
+.page-hero.page-hero-minimal > .eyebrow {
   max-width: none;
   margin: 0;
-  color: var(--blue);
-  font-size: clamp(20px, 1.8vw, 26px);
+  color: var(--page-label);
+  font-size: clamp(23px, 1.9vw, 30px);
   font-weight: var(--weight-bold);
   letter-spacing: .11em;
-  line-height: 1.4;
+  line-height: 1.35;
 }
 
 .page-hero-minimal + .portal-grid {
@@ -1181,7 +1181,8 @@ summary:focus-visible {
 .page-hero-minimal + .research-detail-list,
 .page-hero-minimal + .member-groups,
 .page-hero-minimal + .patent-list,
-.page-hero-minimal + .gallery-grid {
+.page-hero-minimal + .gallery-grid,
+.page-hero-minimal + .journal-archive {
   padding-top: 38px;
 }
 
@@ -1850,6 +1851,14 @@ summary:focus-visible {
 .member-detail-note {
   margin: 0;
   font-size: var(--size-card-body);
+  line-height: 1.6;
+}
+
+.journal-author-note {
+  grid-column: 1 / -1;
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--size-small);
   line-height: 1.6;
 }
 

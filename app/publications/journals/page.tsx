@@ -78,17 +78,20 @@ export default function JournalsPage() {
 
   return (
     <SiteShell>
-      <section className="page-hero site-width compact publication-page-hero">
+      <section className="page-hero page-hero-minimal site-width">
+        <h1 className="visually-hidden">
+          {journalsContent.page.title}
+        </h1>
+
         <p className="eyebrow">
           {journalsContent.page.eyebrow}
         </p>
-
-        <h1>{journalsContent.page.title}</h1>
-
-        <p>{journalsContent.page.note}</p>
       </section>
 
       <section className="journal-archive site-width">
+        <p className="journal-author-note">
+          {journalsContent.page.note}
+        </p>
         <aside
           className="year-index"
           aria-label="Publication years"
