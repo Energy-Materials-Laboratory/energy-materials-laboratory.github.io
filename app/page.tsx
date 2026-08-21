@@ -1,7 +1,9 @@
 import Link from "next/link";
+import EmailCopyButton from "./components/EmailCopyButton";
 import PublicationCarousel from "./components/PublicationCarousel";
 import ResearchVisual from "./components/ResearchVisual";
 import SiteShell from "./components/SiteShell";
+import contact from "../content/contact.json";
 import home from "../content/home.json";
 import research from "../content/research.json";
 import journalsContent from "../content/journals.json";
@@ -120,14 +122,20 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="recruit-section">
-        <div className="site-width recruit-grid">
-          <p className="section-index">{home.recruitment.label}</p>
-          <div>
-            <h2>{home.recruitment.titleLine1}<br />{home.recruitment.titleLine2}</h2>
-            <p>{home.recruitment.description}</p>
+      <section className="recruitment-detail">
+        <div className="site-width">
+          <p className="section-index">{contact.recruitment.label}</p>
+          <div className="recruitment-copy">
+            <h2>{contact.recruitment.title}</h2>
+            <p>{contact.recruitment.english}</p>
+            <p>{contact.recruitment.korean}</p>
+            <EmailCopyButton
+              className="button button-light"
+              email={contact.principalInvestigator.email}
+            >
+              {contact.recruitment.actionLabel}
+            </EmailCopyButton>
           </div>
-          <Link className="button button-light" href="/contact">{home.recruitment.actionLabel}</Link>
         </div>
       </section>
     </SiteShell>
