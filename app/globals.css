@@ -1199,7 +1199,7 @@ summary:focus-visible {
   display: grid;
   grid-template-columns: 72px minmax(0, 1.18fr) minmax(340px, .82fr);
   gap: clamp(38px, 5vw, 72px);
-  align-items: center;
+  align-items: start;
   padding-block: 76px;
   border-bottom: 1px solid var(--rule);
 }
@@ -1252,6 +1252,66 @@ summary:focus-visible {
   text-transform: uppercase;
 }
 
+.research-selected {
+  max-width: 680px;
+  margin-top: 34px;
+}
+
+.research-selected-label {
+  margin: 0 0 12px;
+  color: var(--blue);
+  font-size: var(--size-label);
+  font-weight: var(--weight-bold);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.research-selected-list {
+  border-top: 1px solid var(--ink);
+}
+
+.research-selected-list a {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 24px;
+  gap: 18px;
+  align-items: start;
+  padding: 16px 2px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.research-selected-list strong,
+.research-selected-list small {
+  display: block;
+}
+
+.research-selected-list strong {
+  font-size: var(--size-meta);
+  font-weight: var(--weight-semibold);
+  line-height: 1.45;
+}
+
+.research-selected-list small {
+  margin-top: 5px;
+  color: var(--muted);
+  font-size: var(--size-label);
+  line-height: 1.45;
+}
+
+.research-selected-list b {
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: var(--weight-medium);
+  transition: transform 180ms ease;
+}
+
+.research-selected-list a:hover strong {
+  color: var(--blue-dark);
+}
+
+.research-selected-list a:hover b {
+  transform: translate(2px, -2px);
+}
+
 .research-detail-visual {
   min-height: 280px;
   display: flex;
@@ -1260,6 +1320,30 @@ summary:focus-visible {
   padding: 34px;
   border: 1px solid var(--rule);
   background: linear-gradient(145deg, #fbfcfd, #eef3f7);
+}
+
+.research-detail-visual.has-figure {
+  min-height: 0;
+  padding: 22px 22px 18px;
+  background: #fff;
+}
+
+.research-detail-figure {
+  width: 100%;
+  margin: 0;
+}
+
+.research-detail-figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.research-detail-figure figcaption {
+  margin-top: 16px;
+  color: var(--muted);
+  font-size: var(--size-label);
+  line-height: 1.5;
 }
 
 .research-detail-visual .research-visual {
