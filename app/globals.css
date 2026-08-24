@@ -590,201 +590,321 @@ summary:focus-visible {
 }
 
 .research-visual {
-  --rv-accent: #69a06e;
-  --rv-accent-soft: #bad4bc;
-  width: min(58%, 260px);
+  width: min(62%, 280px);
   height: 116px;
   flex: 0 0 auto;
   overflow: visible;
-  color: var(--blue);
+  filter: drop-shadow(0 5px 9px rgba(28, 49, 77, .08));
 }
 
-.research-visual-02 {
-  --rv-accent: #6c68a8;
-  --rv-accent-soft: #c3c0df;
-}
-
-.research-visual-03 {
-  --rv-accent: #d67745;
-  --rv-accent-soft: #edb38f;
-}
-
-.research-visual-04 {
-  --rv-accent: #6d61a2;
-  --rv-accent-soft: #65a79c;
-}
-
-.rv-plane,
-.rv-na-slab,
-.rv-electrode,
-.rv-solid-frame {
-  fill: rgba(7, 93, 187, .045);
-  stroke: currentColor;
-  stroke-width: 1.2;
-}
-
-.rv-plane-accent {
-  fill: rgba(105, 160, 110, .12);
-}
-
-.rv-bond,
-.rv-ion-guide,
-.rv-axis,
-.rv-threshold,
-.rv-na-path,
-.rv-solid-grid,
-.rv-conduction-path {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.25;
-  opacity: .3;
-}
-
-.rv-ion-guide,
-.rv-na-path,
-.rv-conduction-path {
-  stroke: var(--rv-accent);
-  stroke-dasharray: 4 5;
-  opacity: .72;
-}
-
-.rv-tm-node,
-.rv-na-host,
-.rv-solid-node {
-  fill: currentColor;
-  opacity: .48;
-}
-
-.rv-li-site,
-.rv-na-site {
-  fill: var(--rv-accent-soft);
-  stroke: var(--rv-accent);
+.rv-scientific-frame {
+  fill: rgba(248, 250, 252, .8);
+  stroke: #97a7b8;
   stroke-width: .8;
 }
 
-.rv-li-ion,
-.rv-energy-point,
-.rv-conducting-ion {
-  fill: var(--rv-accent);
-  stroke: #fff;
+/* High-energy Li-ion cathodes: O2 slabs and reversible TM migration. */
+.rv01-slab {
+  stroke: #52698e;
+  stroke-width: .65;
+  transform-box: fill-box;
+}
+
+.rv01-slab-top,
+.rv01-slab-lower {
+  fill: url("#rv01-purple");
+}
+
+.rv01-slab-middle,
+.rv01-slab-bottom {
+  fill: url("#rv01-green");
+}
+
+.rv01-oxygen {
+  fill: #df5b57;
+  stroke: #9e302f;
+  stroke-width: .55;
+}
+
+.rv01-tm-site,
+.rv01-migrating-tm {
+  fill: url("#rv01-tm");
+  stroke: #334a9b;
+  stroke-width: .8;
+}
+
+.rv01-li-site {
+  fill: #c8e5ba;
+  stroke: #5b9f68;
+  stroke-width: .65;
+}
+
+.rv01-octahedron {
+  stroke-width: .9;
+}
+
+.rv01-octahedron-a {
+  fill: rgba(91, 100, 182, .26);
+  stroke: #5b64b6;
+}
+
+.rv01-octahedron-b {
+  fill: rgba(114, 183, 133, .25);
+  stroke: #5b9f68;
+}
+
+.rv01-intermediate {
+  fill: #fff;
+  stroke: #596ab3;
+  stroke-dasharray: 2 2;
+  stroke-width: 1.2;
+}
+
+.rv01-migration-path {
+  fill: none;
+  stroke: #4568c7;
+  stroke-dasharray: 3 3;
   stroke-width: 1.5;
 }
 
-.rv-li-ion {
-  offset-path: path("M29 56H234");
+.rv01-migrating-tm {
+  offset-distance: 0%;
+  offset-path: path("M190 33C190 43 193 47 203 50S214 61 213 76");
+  offset-rotate: 0deg;
 }
 
-.rv-energy-point {
-  offset-path: path("M130 24C145 76 157 29 174 58S204 80 218 76S235 78 246 78");
+.rv01-repulsion {
+  fill: none;
+  stroke: #d4574f;
+  stroke-linecap: round;
+  stroke-width: 1.5;
 }
 
-.rv-na-ion {
-  offset-path: path("M27 61C49 61 52 45 75 45S101 68 124 68S151 45 174 45S205 62 233 52");
+/* Computational design: atomistic relaxation and an energy landscape. */
+.rv02-polyhedron {
+  stroke: #8f3f7c;
+  stroke-width: .9;
 }
 
-.rv-conducting-ion {
-  offset-path: path("M28 70C56 70 60 43 86 43S112 75 139 75S165 38 191 38S211 61 234 48");
+.rv02-polyhedron-before {
+  fill: rgba(180, 75, 153, .28);
 }
 
-.rv-li-ion,
-.rv-energy-point,
-.rv-na-ion,
-.rv-conducting-ion {
+.rv02-polyhedron-after {
+  fill: rgba(180, 75, 153, .46);
+}
+
+.rv02-bond {
+  fill: none;
+  stroke: #485467;
+  stroke-width: 1;
+}
+
+.rv02-metal {
+  fill: #bd4e9d;
+  stroke: #78336b;
+  stroke-width: .8;
+}
+
+.rv02-ligand {
+  fill: #55b356;
+  stroke: #2f7f38;
+  stroke-width: .8;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.rv02-relax-arrow,
+.rv02-relax-arrow-head,
+.rv03-prediction-arrow,
+.rv03-prediction-arrow-head {
+  fill: none;
+  stroke: #728093;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.35;
+}
+
+.rv02-contour {
+  fill: none;
+  stroke: rgba(45, 77, 109, .34);
+  stroke-width: .65;
+}
+
+.rv02-screening-point {
+  fill: #101820;
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.rv02-screening-point-b {
+  fill: #fff;
+  stroke: #101820;
+  stroke-width: 1.5;
+}
+
+/* Sodium-ion materials: ternary chemical space and P2/O3 prediction. */
+.rv03-triangle {
+  fill: rgba(237, 179, 115, .07);
+  stroke: #536170;
+  stroke-linejoin: round;
+  stroke-width: 1.2;
+}
+
+.rv03-capacity-limit {
+  fill: none;
+  stroke: #5f85a6;
+  stroke-dasharray: 4 4;
+  stroke-width: 1.1;
+}
+
+.rv03-composition-site {
+  fill: #9ebc88;
+  stroke: #618458;
+  stroke-width: .6;
+}
+
+.rv03-screening-path {
+  fill: none;
+  stroke: #d58042;
+  stroke-dasharray: 3 3;
+  stroke-width: 1.4;
+}
+
+.rv03-composition-ion {
+  fill: #d58042;
+  stroke: #fff;
+  stroke-width: 1.2;
+  offset-distance: 0%;
+  offset-path: path("M28 88C43 74 58 75 66 59S88 39 107 28");
+  offset-rotate: 0deg;
+}
+
+.rv03-phase text {
+  fill: #526170;
+  font-family: var(--font-mono);
+  font-size: 8px;
+  font-weight: 700;
+  letter-spacing: .06em;
+}
+
+.rv03-phase,
+.rv04-halide-layer {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.rv03-layer {
+  stroke: #536170;
+  stroke-width: .55;
+}
+
+.rv03-layer-blue {
+  fill: url("#rv03-o3");
+}
+
+.rv03-layer-yellow {
+  fill: url("#rv03-p2");
+}
+
+.rv03-oxygen {
+  fill: #d9514d;
+  stroke: #9d302f;
+  stroke-width: .5;
+}
+
+/* Solid-state conductors: sulfide polyhedra and ordered halide layers. */
+.rv04-polyhedron {
+  stroke-width: .7;
+}
+
+.rv04-polyhedron-blue {
+  fill: url("#rv04-blue");
+  stroke: #397eae;
+}
+
+.rv04-polyhedron-green {
+  fill: rgba(37, 188, 159, .62);
+  stroke: #168e79;
+}
+
+.rv04-center {
+  fill: #e36e4d;
+  stroke: #a43e32;
+  stroke-width: .55;
+}
+
+.rv04-divider {
+  stroke: #aab4c0;
+  stroke-dasharray: 2 4;
+  stroke-width: .75;
+}
+
+.rv04-halide-sheet {
+  fill: url("#rv04-purple");
+  stroke: #694a91;
+  stroke-width: .75;
+}
+
+.rv04-cl {
+  fill: #d95755;
+  stroke: #993331;
+  stroke-width: .5;
+}
+
+.rv04-y {
+  fill: #71509b;
+  stroke: #4c3470;
+  stroke-width: .65;
+}
+
+.rv04-ion-network {
+  fill: none;
+  stroke: #d8c232;
+  stroke-dasharray: 3 3;
+  stroke-width: 2;
+}
+
+.rv04-li-ion {
+  fill: #96d27f;
+  stroke: #fff;
+  stroke-width: 1.2;
   offset-distance: 0%;
   offset-rotate: 0deg;
 }
 
-.rv-density-frame {
-  fill: rgba(108, 104, 168, .035);
-  stroke: currentColor;
-  stroke-width: 1;
-  opacity: .45;
+.rv04-li-ion-a {
+  offset-path: path("M9 76C27 72 31 43 52 46S73 82 91 72S102 35 119 30");
 }
 
-.rv-density-contour {
+.rv04-li-ion-b {
+  offset-path: path("M148 97C164 83 162 52 180 45S198 70 214 55S228 25 246 19");
+}
+
+.rv04-vacancy {
   fill: none;
-  stroke: var(--rv-accent);
-  stroke-width: 1.2;
+  stroke: #d95755;
+  stroke-dasharray: 2 2;
+  stroke-width: 1.35;
+  transform-box: fill-box;
+  transform-origin: center;
 }
 
-.rv-density-contour-outer {
-  fill: rgba(108, 104, 168, .055);
-  stroke-dasharray: 3 3;
-  opacity: .48;
+.research-card:hover .rv-scientific-frame {
+  fill: rgba(255, 255, 255, .08);
+  stroke: rgba(255, 255, 255, .58);
 }
 
-.rv-density-contour-middle {
-  opacity: .68;
+.research-card:hover .rv02-relax-arrow,
+.research-card:hover .rv02-relax-arrow-head,
+.research-card:hover .rv03-prediction-arrow,
+.research-card:hover .rv03-prediction-arrow-head,
+.research-card:hover .rv04-divider {
+  stroke: rgba(255, 255, 255, .72);
 }
 
-.rv-density-contour-inner {
-  fill: rgba(108, 104, 168, .07);
-  opacity: .9;
-}
-
-.rv-density-bond {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.15;
-  opacity: .42;
-}
-
-.rv-density-nucleus {
-  fill: currentColor;
-  opacity: .6;
-}
-
-.rv-density-nucleus-main {
-  fill: var(--rv-accent);
-  opacity: 1;
-}
-
-.rv-density-electron {
-  fill: var(--rv-accent-soft);
-  stroke: var(--rv-accent);
-  stroke-width: .75;
-}
-
-.rv-density-label {
-  fill: currentColor;
-  font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: .04em;
-  opacity: .72;
-}
-
-.rv-convergence {
-  fill: none;
-  stroke: var(--rv-accent);
-  stroke-width: 2.2;
-}
-
-.rv-threshold {
-  stroke-dasharray: 4 4;
-}
-
-.rv-na-ion circle {
-  fill: var(--rv-accent);
-  stroke: #fff;
-  stroke-width: 1.4;
-}
-
-.rv-na-ion path {
-  fill: none;
-  stroke: #fff;
-  stroke-linecap: round;
-  stroke-width: 1.2;
-}
-
-.research-card:hover .research-visual {
-  color: #fff;
-}
-
-.research-card:hover .rv-plane,
-.research-card:hover .rv-na-slab,
-.research-card:hover .rv-electrode,
-.research-card:hover .rv-solid-frame {
-  fill: rgba(255, 255, 255, .07);
+.research-card:hover .rv03-phase text {
+  fill: rgba(255, 255, 255, .84);
 }
 
 .publication-section {
@@ -2277,37 +2397,57 @@ summary:focus-visible {
     animation: publication-carousel-enter 420ms both cubic-bezier(.22,.61,.36,1);
   }
 
-  .rv-layer-top {
-    animation: rv-layer-shear 7.5s ease-in-out infinite;
+  .rv01-slab-middle,
+  .rv01-slab-bottom {
+    animation: rv01-slab-glide 8s ease-in-out infinite;
   }
 
-  .rv-li-ion {
+  .rv01-migrating-tm {
+    animation: rv-path-travel 7.2s ease-in-out infinite;
+  }
+
+  .rv01-intermediate {
+    animation: rv-site-pulse 7.2s ease-in-out infinite;
+  }
+
+  .rv02-ligand-before {
+    animation: rv02-structure-relax 6.8s ease-in-out infinite;
+  }
+
+  .rv02-screening-point-a {
+    animation: rv02-screening-search 7.4s ease-in-out infinite;
+  }
+
+  .rv02-screening-point-b {
+    animation: rv-site-pulse 3.7s ease-in-out infinite;
+  }
+
+  .rv03-composition-ion {
+    animation: rv-path-travel 7.8s ease-in-out infinite;
+  }
+
+  .rv03-phase-o3 {
+    animation: rv03-phase-focus 7.8s ease-in-out infinite;
+  }
+
+  .rv03-phase-p2 {
+    animation: rv03-phase-focus 7.8s -3.9s ease-in-out infinite;
+  }
+
+  .rv04-li-ion-a {
     animation: rv-path-travel 6.8s ease-in-out infinite;
   }
 
-  .rv-density-contour-outer {
-    animation: rv-density-flow 6s linear infinite;
+  .rv04-li-ion-b {
+    animation: rv-path-travel 6.8s -3.4s ease-in-out infinite;
   }
 
-  .rv-density-contour-middle,
-  .rv-density-contour-inner {
-    animation: rv-density-pulse 4.8s ease-in-out infinite;
+  .rv04-halide-layer-2 {
+    animation: rv04-cation-order 8.2s ease-in-out infinite;
   }
 
-  .rv-energy-point {
-    animation: rv-path-travel 5.8s ease-in-out infinite;
-  }
-
-  .rv-na-ion {
-    animation: rv-path-travel 6.6s ease-in-out infinite;
-  }
-
-  .rv-conducting-ion-a {
-    animation: rv-path-travel 6.4s ease-in-out infinite;
-  }
-
-  .rv-conducting-ion-b {
-    animation: rv-path-travel 6.4s 3.2s ease-in-out infinite;
+  .rv04-vacancy {
+    animation: rv-vacancy-pulse 4.1s ease-in-out infinite;
   }
 
   @keyframes publication-carousel-enter {
@@ -2315,9 +2455,9 @@ summary:focus-visible {
     to { opacity: 1; transform: translateY(0); }
   }
 
-  @keyframes rv-layer-shear {
-    0%, 18%, 100% { transform: translateX(0); }
-    48%, 68% { transform: translateX(7px); }
+  @keyframes rv01-slab-glide {
+    0%, 20%, 100% { transform: translateX(0); }
+    50%, 72% { transform: translateX(5px); }
   }
 
   @keyframes rv-path-travel {
@@ -2327,13 +2467,35 @@ summary:focus-visible {
     94%, 100% { opacity: 0; offset-distance: 100%; }
   }
 
-  @keyframes rv-density-flow {
-    to { stroke-dashoffset: -18; }
+  @keyframes rv-site-pulse {
+    0%, 35%, 100% { opacity: .35; }
+    50%, 72% { opacity: 1; }
   }
 
-  @keyframes rv-density-pulse {
-    0%, 100% { opacity: .52; }
-    50% { opacity: .95; }
+  @keyframes rv02-structure-relax {
+    0%, 22%, 100% { transform: translate(0); }
+    48%, 72% { transform: translate(-4px, 4px); }
+  }
+
+  @keyframes rv02-screening-search {
+    0%, 12% { opacity: .3; transform: translate(0); }
+    55%, 78% { opacity: 1; transform: translate(24px, -29px); }
+    100% { opacity: .3; transform: translate(0); }
+  }
+
+  @keyframes rv03-phase-focus {
+    0%, 18%, 100% { opacity: .48; }
+    38%, 62% { opacity: 1; }
+  }
+
+  @keyframes rv04-cation-order {
+    0%, 22%, 100% { transform: translateX(0); }
+    50%, 72% { transform: translateX(5px); }
+  }
+
+  @keyframes rv-vacancy-pulse {
+    0%, 100% { opacity: .22; transform: scale(.8); }
+    48%, 68% { opacity: 1; transform: scale(1.12); }
   }
 }
 
