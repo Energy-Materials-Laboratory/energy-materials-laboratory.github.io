@@ -907,6 +907,169 @@ summary:focus-visible {
   fill: rgba(255, 255, 255, .84);
 }
 
+/* Figure-led homepage visuals. The source figure carries the visual weight;
+   motion only identifies the mechanism represented in each area. */
+.research-card-topline {
+  min-height: 142px;
+  margin-bottom: 22px;
+}
+
+.research-visual {
+  position: relative;
+  width: min(70%, 320px);
+  height: 132px;
+  overflow: hidden;
+  border: 1px solid rgba(113, 129, 146, .32);
+  border-radius: 3px;
+  background: #f7f9fb;
+  box-shadow: 0 10px 24px rgba(24, 42, 64, .1);
+  filter: none;
+  isolation: isolate;
+}
+
+.research-visual-source,
+.research-visual-shade,
+.rv-motion-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.research-visual-source {
+  display: block;
+  object-fit: cover;
+  transition: filter 220ms ease;
+}
+
+.research-visual-01 .research-visual-source {
+  object-position: 50% 61%;
+  transform: scale(1.13);
+}
+
+.research-visual-02 .research-visual-source {
+  object-position: 78% 56%;
+  transform: scale(1.72);
+  transform-origin: 78% 56%;
+}
+
+.research-visual-03 .research-visual-source {
+  object-position: 100% 54%;
+  transform: scale(1.06);
+  transform-origin: right center;
+}
+
+.research-visual-04 .research-visual-source {
+  object-position: 100% 70%;
+  transform: scale(1.42);
+  transform-origin: 100% 70%;
+}
+
+.research-visual-shade {
+  z-index: 1;
+  background:
+    linear-gradient(90deg, rgba(255,255,255,.2), transparent 18%, transparent 82%, rgba(255,255,255,.14)),
+    linear-gradient(180deg, rgba(255,255,255,.08), transparent 66%, rgba(21,42,67,.08));
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,.46);
+}
+
+.rv-motion-layer {
+  z-index: 2;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.rv-motion-path {
+  fill: none;
+  stroke: rgba(6, 85, 174, .75);
+  stroke-dasharray: 4 5;
+  stroke-linecap: round;
+  stroke-width: 1.5;
+}
+
+.rv-motion-site,
+.rv-screening-target {
+  fill: rgba(255,255,255,.15);
+  stroke: rgba(6, 85, 174, .8);
+  stroke-dasharray: 2 3;
+  stroke-width: 1.2;
+}
+
+.rv-motion-particle,
+.rv-screening-dot {
+  fill: #ffd84d;
+  stroke: #fff;
+  stroke-width: 1.5;
+  filter: drop-shadow(0 1px 3px rgba(23, 42, 62, .45));
+  offset-distance: 0%;
+  offset-rotate: 0deg;
+}
+
+.rv-motion-particle-01 {
+  offset-path: path("M132 33C151 40 160 56 178 63S207 77 223 96");
+}
+
+.rv-screening-window {
+  fill: rgba(255,255,255,.08);
+  stroke: rgba(8, 83, 164, .56);
+  stroke-width: 1;
+}
+
+.rv-screening-line {
+  fill: none;
+  stroke: rgba(255,255,255,.95);
+  stroke-width: 1.4;
+  filter: drop-shadow(0 1px 2px rgba(8, 83, 164, .9));
+}
+
+.rv-screening-target {
+  stroke: rgba(205, 55, 55, .9);
+}
+
+.rv-screening-dot {
+  fill: #d33f3f;
+}
+
+.rv-motion-particle-03 {
+  fill: #e48a3b;
+  offset-path: path("M37 105C76 89 105 70 143 65S205 53 276 31");
+}
+
+.rv-phase-bracket {
+  fill: none;
+  stroke: rgba(255,255,255,.92);
+  stroke-linecap: round;
+  stroke-width: 2;
+  filter: drop-shadow(0 1px 2px rgba(24, 43, 65, .8));
+}
+
+.rv-motion-path-04a,
+.rv-motion-path-04b {
+  stroke: rgba(239, 216, 55, .9);
+}
+
+.rv-motion-particle-04a,
+.rv-motion-particle-04b {
+  fill: #9bd77e;
+}
+
+.rv-motion-particle-04a {
+  offset-path: path("M19 99C50 88 63 59 94 65S131 96 158 76");
+}
+
+.rv-motion-particle-04b {
+  offset-path: path("M166 102C188 82 192 51 216 46S252 67 300 27");
+}
+
+.research-card:hover .research-visual {
+  border-color: rgba(255,255,255,.62);
+  box-shadow: 0 12px 28px rgba(0, 28, 66, .24);
+}
+
+.research-card:hover .research-visual-source {
+  filter: saturate(1.06) contrast(1.02);
+}
+
 .publication-section {
   border-bottom: 1px solid var(--rule);
 }
@@ -2496,6 +2659,104 @@ summary:focus-visible {
   @keyframes rv-vacancy-pulse {
     0%, 100% { opacity: .22; transform: scale(.8); }
     48%, 68% { opacity: 1; transform: scale(1.12); }
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .research-visual-01 .research-visual-source {
+    animation: rv-source-pan-01 12s ease-in-out infinite alternate;
+  }
+
+  .research-visual-02 .research-visual-source {
+    animation: rv-source-pan-02 13s ease-in-out infinite alternate;
+  }
+
+  .research-visual-03 .research-visual-source {
+    animation: rv-source-pan-03 14s ease-in-out infinite alternate;
+  }
+
+  .research-visual-04 .research-visual-source {
+    animation: rv-source-pan-04 13s ease-in-out infinite alternate;
+  }
+
+  .rv-motion-particle-01,
+  .rv-motion-particle-03,
+  .rv-motion-particle-04a {
+    animation: rv-figure-path-travel 6.8s ease-in-out infinite;
+  }
+
+  .rv-motion-particle-04b {
+    animation: rv-figure-path-travel 6.8s -3.4s ease-in-out infinite;
+  }
+
+  .rv-motion-path {
+    animation: rv-figure-path-flow 4.8s linear infinite;
+  }
+
+  .rv-motion-site,
+  .rv-screening-target,
+  .rv-screening-dot {
+    animation: rv-figure-focus 4.2s ease-in-out infinite;
+  }
+
+  .rv-screening-line {
+    animation: rv-screening-scan 5.2s ease-in-out infinite;
+  }
+
+  .rv-phase-bracket-o3 {
+    animation: rv-phase-select 6.4s ease-in-out infinite;
+  }
+
+  .rv-phase-bracket-p2 {
+    animation: rv-phase-select 6.4s -3.2s ease-in-out infinite;
+  }
+
+  @keyframes rv-source-pan-01 {
+    from { transform: scale(1.13) translate(-1px, 1px); }
+    to { transform: scale(1.18) translate(2px, -1px); }
+  }
+
+  @keyframes rv-source-pan-02 {
+    from { transform: scale(1.72) translate(-1px, 1px); }
+    to { transform: scale(1.78) translate(1px, -1px); }
+  }
+
+  @keyframes rv-source-pan-03 {
+    from { transform: scale(1.06) translateX(0); }
+    to { transform: scale(1.1) translateX(-3px); }
+  }
+
+  @keyframes rv-source-pan-04 {
+    from { transform: scale(1.42) translate(0); }
+    to { transform: scale(1.47) translate(-2px, -1px); }
+  }
+
+  @keyframes rv-figure-path-travel {
+    0%, 8% { opacity: 0; offset-distance: 0%; }
+    16% { opacity: 1; }
+    84% { opacity: 1; offset-distance: 100%; }
+    94%, 100% { opacity: 0; offset-distance: 100%; }
+  }
+
+  @keyframes rv-figure-path-flow {
+    to { stroke-dashoffset: -18; }
+  }
+
+  @keyframes rv-figure-focus {
+    0%, 100% { opacity: .42; }
+    48%, 68% { opacity: 1; }
+  }
+
+  @keyframes rv-screening-scan {
+    0%, 12%, 100% { opacity: 0; transform: translateY(0); }
+    22% { opacity: 1; }
+    78% { opacity: 1; transform: translateY(64px); }
+    90% { opacity: 0; transform: translateY(64px); }
+  }
+
+  @keyframes rv-phase-select {
+    0%, 18%, 100% { opacity: .25; }
+    38%, 64% { opacity: 1; }
   }
 }
 
