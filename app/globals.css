@@ -794,74 +794,93 @@ summary:focus-visible {
   stroke-width: 1.5;
 }
 
-.rv-nfpp-cell path {
+.rv-nfpp-cell-2d {
+  fill: none;
+  stroke: currentColor;
+  stroke-dasharray: 4 4;
+  stroke-width: .9;
+  opacity: .18;
+}
+
+.rv-nfpp-network path {
   fill: none;
   stroke: currentColor;
   stroke-width: 1;
-  opacity: .2;
+  opacity: .3;
 }
 
-.rv-nfpp-cell-back,
-.rv-nfpp-cell-front {
-  stroke-dasharray: 4 4;
-}
-
-.rv-nfpp-framework {
-  transform-box: fill-box;
-  transform-origin: center;
-}
-
-.rv-nfpp-polyhedron > path:first-child {
-  fill: url(#rv-nfpp-polyhedron);
-  fill-opacity: .78;
-  stroke: #c85e27;
+.rv-nfpp-fe-octahedron > path:first-child {
+  fill: #7fa8c8;
+  fill-opacity: .66;
+  stroke: #3e72a1;
   stroke-linejoin: round;
-  stroke-width: 1.05;
+  stroke-width: 1.15;
 }
 
-.rv-nfpp-polyhedron-lines {
+.rv-nfpp-fe-lines,
+.rv-nfpp-p-lines {
   fill: none;
-  stroke: rgba(122, 52, 20, .62);
   stroke-width: .75;
 }
 
-.rv-nfpp-fe {
-  fill: url(#rv-nfpp-fe);
-  stroke: #9f3818;
-  stroke-width: .9;
+.rv-nfpp-fe-lines {
+  stroke: rgba(40, 86, 126, .72);
 }
 
-.rv-nfpp-p {
-  fill: #f39a4d;
-  stroke: #b95326;
+.rv-nfpp-fe-center {
+  fill: #3e72a1;
+  stroke: #fff;
+  stroke-width: .8;
+}
+
+.rv-nfpp-polyanions path:not(.rv-nfpp-p-lines) {
+  fill: #ef9951;
+  fill-opacity: .78;
+  stroke: #c9652f;
+  stroke-linejoin: round;
+  stroke-width: 1;
+}
+
+.rv-nfpp-p-lines {
+  stroke: rgba(137, 62, 24, .7);
+}
+
+.rv-nfpp-p-center {
+  fill: #d86e31;
+  stroke: #fff;
   stroke-width: .75;
 }
 
-.rv-nfpp-link {
-  fill: none;
-  stroke: currentColor;
-  stroke-width: .9;
-  opacity: .42;
+.rv-nfpp-o {
+  fill: #4f78aa;
+  stroke: #fff;
+  stroke-width: .7;
+}
+
+.rv-nfpp-bridge-o {
+  fill: #315f92;
 }
 
 .rv-nfpp-na-site,
 .rv-nfpp-na-mobile {
-  fill: url(#rv-nfpp-na);
-  stroke: #1e7078;
-  stroke-width: .95;
+  fill: #d94c3f;
+  stroke: #a52e26;
+  stroke-width: 1;
 }
 
 .rv-nfpp-na-site {
-  opacity: .76;
+  fill: rgba(217, 76, 63, .12);
+  stroke-dasharray: 2 2;
+  opacity: .8;
 }
 
 .rv-nfpp-channel {
   fill: none;
-  stroke: #4aaab2;
+  stroke: #d94c3f;
   stroke-dasharray: 3.5 4.5;
   stroke-linecap: round;
-  stroke-width: 1.35;
-  opacity: .58;
+  stroke-width: 1.2;
+  opacity: .44;
 }
 
 .rv-nfpp-na-mobile {
@@ -872,11 +891,11 @@ summary:focus-visible {
 }
 
 .rv-nfpp-na-mobile-a {
-  offset-path: path("M45 32C70 21 88 33 112 20S167 14 198 19S214 35 215 53");
+  offset-path: path("M27 16C42 31 31 49 45 64S51 88 66 101");
 }
 
 .rv-nfpp-na-mobile-b {
-  offset-path: path("M55 73C78 64 84 54 101 52S133 66 151 65S197 72 219 88");
+  offset-path: path("M193 14C213 27 210 47 224 60S221 84 237 100");
 }
 
 .research-card:hover .research-visual {
@@ -2421,8 +2440,8 @@ summary:focus-visible {
     animation: rv-dft-nucleus-pulse 3.6s ease-in-out infinite;
   }
 
-  .rv-nfpp-framework {
-    animation: rv-nfpp-breathe 5.8s ease-in-out infinite;
+  .rv-nfpp-polyanions {
+    animation: rv-nfpp-polyanion-pulse 5.8s ease-in-out infinite;
   }
 
   .rv-nfpp-na-site {
@@ -2480,9 +2499,9 @@ summary:focus-visible {
     50% { opacity: 1; transform: scale(1.12); }
   }
 
-  @keyframes rv-nfpp-breathe {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.018); }
+  @keyframes rv-nfpp-polyanion-pulse {
+    0%, 100% { opacity: .78; }
+    50% { opacity: 1; }
   }
 
   @keyframes rv-nfpp-site-pulse {
