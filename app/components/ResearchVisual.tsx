@@ -184,16 +184,45 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
         <path className="rv-assb-composite-fill" d="M13 14H99V102H13Z" />
         <path
           className="rv-assb-composite-network"
-          d="M51 14L46 51L99 44M13 53L46 51L57 102M46 51L99 84"
+          d="M45 14L41 44L99 39M13 49L41 44L54 102M41 44L99 78"
         />
-        <circle className="rv-assb-active rv-assb-active-a" cx="31" cy="31" r="10.5" />
-        <circle className="rv-assb-active rv-assb-active-b" cx="66" cy="28" r="7.5" />
-        <circle className="rv-assb-active rv-assb-active-c" cx="36" cy="75" r="12" />
-        <circle className="rv-assb-active rv-assb-active-d" cx="69" cy="78" r="8.5" />
+
+        <circle className="rv-assb-active rv-assb-active-a" cx="25" cy="27" r="8" />
+        <path
+          className="rv-assb-active rv-assb-active-facet rv-assb-active-b"
+          d="M42 17L55 16L62 25L55 36L42 34L37 25Z"
+        />
+        <circle className="rv-assb-active" cx="79" cy="27" r="6.5" />
+        <path
+          className="rv-assb-active rv-assb-active-facet rv-assb-active-d"
+          d="M72 40L86 38L95 48L91 61L77 63L68 53Z"
+        />
+        <circle className="rv-assb-active" cx="27" cy="57" r="6.5" />
+        <path
+          className="rv-assb-active rv-assb-active-facet rv-assb-active-c"
+          d="M42 49L55 44L66 52L64 64L52 69L41 61Z"
+        />
+        <circle className="rv-assb-active" cx="25" cy="83" r="8.5" />
+        <path
+          className="rv-assb-active rv-assb-active-facet"
+          d="M45 75L58 69L69 77L66 91L52 96L42 87Z"
+        />
+        <circle className="rv-assb-active rv-assb-active-d" cx="83" cy="83" r="7.5" />
+
         {[
-          [47, 27], [80, 48], [20, 55], [60, 61], [90, 92],
+          [68, 20], [64, 40], [74, 69], [38, 69],
         ].map(([x, y]) => (
-          <circle className="rv-assb-composite-se" cx={x} cy={y} r="3.2" key={`${x}-${y}`} />
+          <circle className="rv-assb-composite-se" cx={x} cy={y} r="2.8" key={`${x}-${y}`} />
+        ))}
+        {[
+          [20, 44], [36, 42], [92, 72], [74, 98],
+        ].map(([x, y]) => (
+          <path
+            className="rv-assb-composite-se rv-assb-composite-se-facet"
+            d="M0 -3.6L3.6 0L0 3.6L-3.6 0Z"
+            transform={`translate(${x} ${y})`}
+            key={`${x}-${y}`}
+          />
         ))}
       </g>
 

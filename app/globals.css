@@ -656,10 +656,18 @@ summary:focus-visible {
   fill: #6d61a2;
 }
 
+.rv-assb-active-facet {
+  stroke-linejoin: round;
+}
+
 .rv-assb-composite-se {
   fill: var(--rv-accent-soft);
   stroke: #fff;
   stroke-width: .8;
+}
+
+.rv-assb-composite-se-facet {
+  stroke-linejoin: round;
 }
 
 .rv-assb-electrolyte-frame {
