@@ -51,7 +51,7 @@ export default function ResearchPage() {
                   <Image
                     alt={area.visual.alt}
                     height={area.visual.height}
-                    sizes="(max-width: 620px) calc(100vw - 56px), (max-width: 920px) calc(100vw - 84px), 54vw"
+                    sizes="(max-width: 620px) calc(100vw - 76px), (max-width: 920px) 520px, 38vw"
                     src={assetPath(area.visual.image)}
                     width={area.visual.width}
                   />
