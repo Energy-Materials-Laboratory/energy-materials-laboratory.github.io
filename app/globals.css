@@ -1197,9 +1197,8 @@ summary:focus-visible {
 
 .research-detail {
   display: grid;
-  grid-template-columns: 56px minmax(0, 1fr);
-  column-gap: clamp(30px, 3.5vw, 48px);
-  row-gap: 38px;
+  grid-template-columns: 56px minmax(360px, .78fr) minmax(520px, 1.22fr);
+  gap: clamp(30px, 3.5vw, 56px);
   align-items: start;
   padding-block: 76px;
   border-bottom: 1px solid var(--rule);
@@ -1219,12 +1218,8 @@ summary:focus-visible {
   letter-spacing: -0.05em;
 }
 
-.research-detail-copy {
-  grid-column: 2;
-}
-
 .research-detail-lead {
-  max-width: 880px;
+  max-width: 680px;
   margin: 0 0 16px;
   color: var(--ink);
   font-size: clamp(20px, 1.7vw, 24px);
@@ -1234,7 +1229,7 @@ summary:focus-visible {
 }
 
 .research-detail-description {
-  max-width: 840px;
+  max-width: 650px;
   margin: 0;
   color: var(--muted);
   font-size: var(--size-small);
@@ -1258,7 +1253,7 @@ summary:focus-visible {
 }
 
 .research-selected {
-  max-width: 880px;
+  max-width: 680px;
   margin-top: 34px;
 }
 
@@ -1318,8 +1313,6 @@ summary:focus-visible {
 }
 
 .research-detail-visual {
-  grid-column: 1 / -1;
-  width: 100%;
   min-height: 280px;
   display: flex;
   align-items: center;
@@ -1331,7 +1324,7 @@ summary:focus-visible {
 
 .research-detail-visual.has-figure {
   min-height: 0;
-  padding: 14px;
+  padding: 16px 16px 14px;
   background: #fff;
 }
 
@@ -1344,6 +1337,10 @@ summary:focus-visible {
   width: 100%;
   height: auto;
   display: block;
+}
+
+.research-detail-figure figcaption {
+  display: none !important;
 }
 
 .research-detail-visual .research-visual {
@@ -2408,7 +2405,7 @@ summary:focus-visible {
   .footer-grid { grid-template-columns: 1fr 1fr; }
 
   .research-detail { grid-template-columns: 58px 1fr; }
-  .research-detail-visual { grid-column: 1 / -1; width: 100%; }
+  .research-detail-visual { grid-column: 2; width: 100%; }
   .profile-hero { grid-template-columns: 1fr; }
   .profile-portrait { min-height: 520px; }
   .cv-section { grid-template-columns: 1fr; }
