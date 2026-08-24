@@ -2622,11 +2622,11 @@ summary:focus-visible {
   }
 
   .rv-li-ion {
-    animation: rv-li-hop 7.2s ease-in-out infinite;
+    animation: rv-li-hop 7.2s linear infinite;
   }
 
   .rv-li-ion-halo {
-    animation: rv-li-halo-hop 7.2s ease-in-out infinite;
+    animation: rv-li-halo-hop 7.2s linear infinite;
   }
 
   .rv-redox-ring-top {
@@ -2671,7 +2671,7 @@ summary:focus-visible {
   }
 
   .rv-nfpp-na-mobile-a {
-    animation: rv-nfpp-na-hop 7.2s ease-in-out infinite;
+    animation: rv-nfpp-na-hop 7.2s linear infinite;
   }
 
   .rv-assb-active-a,
@@ -2726,23 +2726,23 @@ summary:focus-visible {
   @keyframes rv-li-hop {
     0%, 7% { opacity: 0; offset-distance: 0%; }
     11% { opacity: 1; offset-distance: 0%; }
-    22%, 28% { offset-distance: 20%; }
-    37%, 43% { offset-distance: 40%; }
-    52%, 58% { offset-distance: 60%; }
-    67%, 73% { offset-distance: 80%; }
-    82%, 90% { opacity: 1; offset-distance: 100%; }
-    97%, 100% { opacity: 0; offset-distance: 100%; }
+    26%, 28% { offset-distance: 20%; }
+    43%, 45% { offset-distance: 40%; }
+    60%, 62% { offset-distance: 60%; }
+    77%, 79% { offset-distance: 80%; }
+    91%, 94% { opacity: 1; offset-distance: 100%; }
+    98%, 100% { opacity: 0; offset-distance: 100%; }
   }
 
   @keyframes rv-li-halo-hop {
     0%, 7% { opacity: 0; offset-distance: 0%; }
     11% { opacity: .28; offset-distance: 0%; }
-    22%, 28% { offset-distance: 20%; }
-    37%, 43% { offset-distance: 40%; }
-    52%, 58% { offset-distance: 60%; }
-    67%, 73% { offset-distance: 80%; }
-    82%, 90% { opacity: .28; offset-distance: 100%; }
-    97%, 100% { opacity: 0; offset-distance: 100%; }
+    26%, 28% { offset-distance: 20%; }
+    43%, 45% { offset-distance: 40%; }
+    60%, 62% { offset-distance: 60%; }
+    77%, 79% { offset-distance: 80%; }
+    91%, 94% { opacity: .28; offset-distance: 100%; }
+    98%, 100% { opacity: 0; offset-distance: 100%; }
   }
 
   @keyframes rv-redox-pulse {
@@ -2779,11 +2779,11 @@ summary:focus-visible {
   @keyframes rv-nfpp-na-hop {
     0%, 7% { opacity: 0; offset-distance: 0%; }
     11% { opacity: 1; offset-distance: 0%; }
-    23%, 30% { offset-distance: 25%; }
-    42%, 49% { offset-distance: 50%; }
-    61%, 68% { offset-distance: 75%; }
-    80%, 89% { opacity: 1; offset-distance: 100%; }
-    96%, 100% { opacity: 0; offset-distance: 100%; }
+    29%, 31% { offset-distance: 25%; }
+    49%, 51% { offset-distance: 50%; }
+    69%, 71% { offset-distance: 75%; }
+    89%, 92% { opacity: 1; offset-distance: 100%; }
+    97%, 100% { opacity: 0; offset-distance: 100%; }
   }
 
   @keyframes rv-nfpp-site-pulse {
