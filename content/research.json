@@ -46,9 +46,9 @@
         "Structure prediction"
       ],
       "visual": {
-        "image": "/images/research/computational-materials-design.jpg",
-        "width": 1109,
-        "height": 560,
+        "image": "/images/research/computational-materials-design-stacked.webp",
+        "width": 1000,
+        "height": 1833,
         "alt": "Examples of atomistic structural relaxation, theoretical voltage prediction, and energy-landscape mapping"
       },
       "selectedPublications": [
@@ -76,9 +76,9 @@
         "Oxygen redox"
       ],
       "visual": {
-        "image": "/images/research/sodium-ion-materials.webp",
-        "width": 1202,
-        "height": 305,
+        "image": "/images/research/sodium-ion-materials-stacked.webp",
+        "width": 1000,
+        "height": 998,
         "alt": "Chemical-space mapping and cationic-potential-based structure prediction for P2 and O3 sodium layered oxides"
       },
       "selectedPublications": [
