@@ -614,7 +614,12 @@ summary:focus-visible {
 
 .research-visual-04 {
   --rv-accent: #6d61a2;
-  --rv-accent-soft: #65a79c;
+  --rv-accent-soft: #64b56b;
+  --rv-li: #64b56b;
+  --rv-se: #d2a24d;
+  --rv-se-soft: #f0d7a8;
+  --rv-se-dark: #aa762c;
+  --rv-anode: #5b6573;
 }
 
 .rv-assb-frame {
@@ -628,19 +633,19 @@ summary:focus-visible {
 .rv-assb-composite-fill,
 .rv-assb-electrolyte-frame,
 .rv-assb-anode-fill {
-  stroke: currentColor;
   stroke-width: 1;
 }
 
 .rv-assb-composite-fill {
   fill: rgba(7, 93, 187, .055);
+  stroke: currentColor;
 }
 
 .rv-assb-composite-network {
   fill: none;
-  stroke: var(--rv-accent-soft);
+  stroke: var(--rv-se);
   stroke-width: .9;
-  opacity: .36;
+  opacity: .28;
 }
 
 .rv-assb-active {
@@ -661,7 +666,7 @@ summary:focus-visible {
 }
 
 .rv-assb-composite-se {
-  fill: var(--rv-accent-soft);
+  fill: var(--rv-se);
   stroke: #fff;
   stroke-width: .8;
 }
@@ -671,71 +676,70 @@ summary:focus-visible {
 }
 
 .rv-assb-electrolyte-frame {
-  fill: rgba(101, 167, 156, .045);
+  fill: rgba(210, 162, 77, .08);
+  stroke: var(--rv-se-dark);
 }
 
 .rv-assb-grain {
-  fill: rgba(101, 167, 156, .11);
-  stroke: #548e87;
+  fill: rgba(210, 162, 77, .24);
+  stroke: var(--rv-se-dark);
   stroke-linejoin: round;
-  stroke-width: .8;
+  stroke-width: .75;
 }
 
-.rv-assb-grain-a,
-.rv-assb-grain-c,
 .rv-assb-grain-g,
 .rv-assb-grain-i {
-  fill: rgba(109, 97, 162, .075);
+  fill: rgba(240, 215, 168, .48);
 }
 
 .rv-assb-anode-fill {
-  fill: rgba(109, 97, 162, .075);
+  fill: rgba(91, 101, 115, .09);
+  stroke: var(--rv-anode);
 }
 
 .rv-assb-anode-sheets {
   fill: none;
-  stroke: #6d61a2;
+  stroke: var(--rv-anode);
   stroke-width: 1.2;
-  opacity: .54;
+  opacity: .62;
 }
 
 .rv-assb-current-collector {
-  fill: currentColor;
-  opacity: .26;
+  fill: var(--rv-anode);
+  opacity: .38;
 }
 
 .rv-assb-interface {
   fill: none;
-  stroke: #d2a24d;
+  stroke: #b56e78;
   stroke-dasharray: 3 3;
   stroke-width: 1.25;
-  opacity: .42;
+  opacity: .46;
 }
 
 .rv-assb-path {
   fill: none;
-  stroke: var(--rv-accent-soft);
+  stroke: var(--rv-li);
   stroke-dasharray: 4 4;
   stroke-linecap: round;
   stroke-width: 1.7;
-  opacity: .76;
+  opacity: .78;
 }
 
 .rv-assb-site {
-  fill: rgba(101, 167, 156, .16);
-  stroke: var(--rv-accent-soft);
+  fill: rgba(100, 181, 107, .16);
+  stroke: var(--rv-li);
   stroke-width: .85;
 }
 
 .rv-assb-ion {
-  fill: var(--rv-accent-soft);
+  fill: var(--rv-li);
   stroke: #fff;
   stroke-width: 1.4;
-  offset-path: path("M28 69C52 47 76 66 102 56S130 44 145 56S160 67 173 58S207 43 238 56");
+  offset-path: path("M28 69C58 47 93 66 139 56S149 48 161 58S203 43 238 56");
   offset-distance: 0%;
   offset-rotate: 0deg;
 }
-
 
 .rv-plane,
 .rv-electrode,

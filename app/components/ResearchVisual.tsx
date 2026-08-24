@@ -181,10 +181,10 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
       <path className="rv-assb-frame" d="M9 10H251V106H9Z" />
 
       <g className="rv-assb-composite">
-        <path className="rv-assb-composite-fill" d="M13 14H99V102H13Z" />
+        <path className="rv-assb-composite-fill" d="M13 14H136V102H13Z" />
         <path
           className="rv-assb-composite-network"
-          d="M45 14L41 44L99 39M13 49L41 44L54 102M41 44L99 78"
+          d="M45 14L41 44L100 38L136 35M13 49L41 44L54 102M41 44L99 78L136 69"
         />
 
         <circle className="rv-assb-active rv-assb-active-a" cx="25" cy="27" r="8" />
@@ -208,14 +208,23 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
           d="M45 75L58 69L69 77L66 91L52 96L42 87Z"
         />
         <circle className="rv-assb-active rv-assb-active-d" cx="83" cy="83" r="7.5" />
+        <path
+          className="rv-assb-active rv-assb-active-facet rv-assb-active-b"
+          d="M104 18L119 15L131 24L128 37L114 41L103 31Z"
+        />
+        <circle className="rv-assb-active" cx="113" cy="56" r="7.5" />
+        <path
+          className="rv-assb-active rv-assb-active-facet"
+          d="M103 73L118 69L131 79L127 94L112 98L101 87Z"
+        />
 
         {[
-          [68, 20], [64, 40], [74, 69], [38, 69],
+          [68, 20], [64, 40], [74, 69], [38, 69], [101, 49], [130, 51],
         ].map(([x, y]) => (
           <circle className="rv-assb-composite-se" cx={x} cy={y} r="2.8" key={`${x}-${y}`} />
         ))}
         {[
-          [20, 44], [36, 42], [92, 72], [74, 98],
+          [20, 44], [36, 42], [92, 72], [74, 98], [98, 24], [132, 68], [98, 99],
         ].map(([x, y]) => (
           <path
             className="rv-assb-composite-se rv-assb-composite-se-facet"
@@ -226,35 +235,34 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
         ))}
       </g>
 
-      <path className="rv-assb-interface rv-assb-interface-left" d="M102 15V101" />
+      <path className="rv-assb-interface rv-assb-interface-left" d="M139 15V101" />
 
       <g className="rv-assb-electrolyte">
-        <path className="rv-assb-electrolyte-frame" d="M105 14H169V102H105Z" />
-        <path className="rv-assb-grain rv-assb-grain-a" d="M105 14H137L132 43L105 48Z" />
-        <path className="rv-assb-grain rv-assb-grain-path-a" d="M137 14H169V46L132 43Z" />
-        <path className="rv-assb-grain rv-assb-grain-path-b" d="M105 48L132 43L140 73L105 78Z" />
-        <path className="rv-assb-grain rv-assb-grain-path-c" d="M132 43L169 46V75L140 73Z" />
-        <path className="rv-assb-grain rv-assb-grain-g" d="M105 78L140 73L135 102H105Z" />
-        <path className="rv-assb-grain rv-assb-grain-i" d="M140 73L169 75V102H135Z" />
+        <path className="rv-assb-electrolyte-frame" d="M142 14H158V102H142Z" />
+        <path className="rv-assb-grain rv-assb-grain-g" d="M142 14H158V31L142 35Z" />
+        <path className="rv-assb-grain rv-assb-grain-path-a" d="M142 35L158 31V49L142 53Z" />
+        <path className="rv-assb-grain rv-assb-grain-path-b" d="M142 53L158 49V67L142 71Z" />
+        <path className="rv-assb-grain rv-assb-grain-path-c" d="M142 71L158 67V85L142 89Z" />
+        <path className="rv-assb-grain rv-assb-grain-i" d="M142 89L158 85V102H142Z" />
       </g>
 
-      <path className="rv-assb-interface rv-assb-interface-right" d="M172 15V101" />
+      <path className="rv-assb-interface rv-assb-interface-right" d="M161 15V101" />
 
       <g className="rv-assb-anode">
-        <path className="rv-assb-anode-fill" d="M176 14H247V102H176Z" />
+        <path className="rv-assb-anode-fill" d="M166 14H247V102H166Z" />
         <path
           className="rv-assb-anode-sheets"
-          d="M180 29H243M180 43H243M180 57H243M180 71H243M180 85H243"
+          d="M170 29H243M170 43H243M170 57H243M170 71H243M170 85H243"
         />
         <path className="rv-assb-current-collector" d="M243 14H247V102H243Z" />
       </g>
 
       <path
         className="rv-assb-path"
-        d="M28 69C52 47 76 66 102 56S130 44 145 56S160 67 173 58S207 43 238 56"
+        d="M28 69C58 47 93 66 139 56S149 48 161 58S203 43 238 56"
       />
       {[
-        [28, 69], [70, 60], [105, 55], [136, 52], [166, 61], [201, 50], [238, 56],
+        [28, 69], [70, 60], [111, 56], [143, 55], [158, 58], [197, 50], [238, 56],
       ].map(([x, y]) => (
         <circle className="rv-assb-site" cx={x} cy={y} r="3.6" key={`${x}-${y}`} />
       ))}
