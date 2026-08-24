@@ -53,21 +53,20 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
       >
         <g className="rv-dft-symbol">
           <g className="rv-dft-orbit-frame">
-            <ellipse className="rv-dft-orbit rv-dft-orbit-a" cx="130" cy="43" rx="50" ry="16" />
+            <ellipse className="rv-dft-orbit rv-dft-orbit-a" cx="130" cy="58" rx="54" ry="17" />
             <circle className="rv-dft-electron rv-dft-electron-a" cx="0" cy="0" r="4.2" />
           </g>
-          <g className="rv-dft-orbit-frame" transform="rotate(60 130 43)">
-            <ellipse className="rv-dft-orbit rv-dft-orbit-b" cx="130" cy="43" rx="50" ry="16" />
+          <g className="rv-dft-orbit-frame" transform="rotate(60 130 58)">
+            <ellipse className="rv-dft-orbit rv-dft-orbit-b" cx="130" cy="58" rx="54" ry="17" />
             <circle className="rv-dft-electron rv-dft-electron-b" cx="0" cy="0" r="4.2" />
           </g>
-          <g className="rv-dft-orbit-frame" transform="rotate(120 130 43)">
-            <ellipse className="rv-dft-orbit rv-dft-orbit-c" cx="130" cy="43" rx="50" ry="16" />
+          <g className="rv-dft-orbit-frame" transform="rotate(120 130 58)">
+            <ellipse className="rv-dft-orbit rv-dft-orbit-c" cx="130" cy="58" rx="54" ry="17" />
             <circle className="rv-dft-electron rv-dft-electron-c" cx="0" cy="0" r="4.2" />
           </g>
-          <circle className="rv-dft-nucleus-halo" cx="130" cy="43" r="12" />
-          <circle className="rv-dft-nucleus" cx="130" cy="43" r="7.5" />
+          <circle className="rv-dft-nucleus-halo" cx="130" cy="58" r="12" />
+          <circle className="rv-dft-nucleus" cx="130" cy="58" r="7.5" />
         </g>
-        <text className="rv-dft-label" x="130" y="110" textAnchor="middle">DFT</text>
       </svg>
     );
   }
