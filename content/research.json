@@ -103,6 +103,13 @@
         "Cation disorder",
         "Solid-solid interfaces"
       ],
+      "visual": {
+        "image": "/images/research/solid-state-ion-conductors.webp",
+        "width": 1680,
+        "height": 945,
+        "alt": "Crystal structures and local coordination in LGPS-type sulfide conductors alongside cation-ordering models, ionic conductivity, and lithium diffusion pathways in a trigonal halide conductor",
+        "caption": "Crystal frameworks, cation ordering, and diffusion pathways in sulfide and halide superionic conductors"
+      },
       "selectedPublications": [
         {
           "title": "Design of a trigonal halide superionic conductor by regulating cation order-disorder",
