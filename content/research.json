@@ -16,9 +16,9 @@
         "Oxygen redox"
       ],
       "visual": {
-        "image": "/images/research/high-energy-cathodes-stacked.webp",
-        "width": 1000,
-        "height": 1771,
+        "image": "/images/research/high-energy-cathodes.jpg",
+        "width": 1122,
+        "height": 451,
         "alt": "O2-type layered structure, reversible transition-metal migration mechanism, and microscopy images after the first charge and discharge"
       },
       "selectedPublications": [
@@ -46,9 +46,9 @@
         "Structure prediction"
       ],
       "visual": {
-        "image": "/images/research/computational-materials-design-stacked.webp",
-        "width": 1000,
-        "height": 1833,
+        "image": "/images/research/computational-materials-design.jpg",
+        "width": 1109,
+        "height": 560,
         "alt": "Examples of atomistic structural relaxation, theoretical voltage prediction, and energy-landscape mapping"
       },
       "selectedPublications": [
@@ -76,9 +76,9 @@
         "Oxygen redox"
       ],
       "visual": {
-        "image": "/images/research/sodium-ion-materials-stacked.webp",
-        "width": 1000,
-        "height": 998,
+        "image": "/images/research/sodium-ion-materials.webp",
+        "width": 1202,
+        "height": 305,
         "alt": "Chemical-space mapping and cationic-potential-based structure prediction for P2 and O3 sodium layered oxides"
       },
       "selectedPublications": [
