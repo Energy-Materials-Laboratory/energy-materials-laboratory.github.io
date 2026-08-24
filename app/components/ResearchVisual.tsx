@@ -77,74 +77,66 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
         {...visualProps}
         className="research-visual research-visual-03"
       >
-        <defs>
-          <linearGradient id="rv-nfpp-polyhedron" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stopColor="#ffc16f" />
-            <stop offset="1" stopColor="#e87930" />
-          </linearGradient>
-          <radialGradient id="rv-nfpp-na" cx="32%" cy="28%" r="72%">
-            <stop offset="0" stopColor="#d5f5f6" />
-            <stop offset=".42" stopColor="#72c8cf" />
-            <stop offset="1" stopColor="#2d8f99" />
-          </radialGradient>
-          <radialGradient id="rv-nfpp-fe" cx="32%" cy="28%" r="72%">
-            <stop offset="0" stopColor="#ffc49d" />
-            <stop offset=".44" stopColor="#ef7c42" />
-            <stop offset="1" stopColor="#b7441e" />
-          </radialGradient>
-        </defs>
+        <rect className="rv-nfpp-cell-2d" x="18" y="9" width="224" height="98" />
 
-        <g className="rv-nfpp-cell">
-          <path className="rv-nfpp-cell-back" d="M55 19L207 12L238 76L84 87Z" />
-          <path className="rv-nfpp-cell-front" d="M35 30L188 23L218 89L64 100Z" />
-          <path className="rv-nfpp-cell-edge" d="M35 30L55 19M188 23L207 12M218 89L238 76M64 100L84 87" />
+        <g className="rv-nfpp-network">
+          <path d="M62 31L103 31L142 30L194 33M62 31L92 82L138 76L184 82L194 33M103 31L138 76M142 30L138 76" />
         </g>
 
-        <g className="rv-nfpp-framework">
-          <g className="rv-nfpp-polyhedron rv-nfpp-polyhedron-a">
-            <path d="M76 25L103 39L84 64L58 49Z" />
-            <path className="rv-nfpp-polyhedron-lines" d="M81 45L76 25M81 45L103 39M81 45L84 64M81 45L58 49" />
-            <circle className="rv-nfpp-fe" cx="81" cy="45" r="5.4" />
-          </g>
-          <g className="rv-nfpp-polyhedron rv-nfpp-polyhedron-b">
-            <path d="M145 19L173 35L153 59L126 44Z" />
-            <path className="rv-nfpp-polyhedron-lines" d="M150 39L145 19M150 39L173 35M150 39L153 59M150 39L126 44" />
-            <circle className="rv-nfpp-fe" cx="150" cy="39" r="5.4" />
-          </g>
-          <g className="rv-nfpp-polyhedron rv-nfpp-polyhedron-c">
-            <path d="M112 55L141 72L121 98L92 80Z" />
-            <path className="rv-nfpp-polyhedron-lines" d="M117 76L112 55M117 76L141 72M117 76L121 98M117 76L92 80" />
-            <circle className="rv-nfpp-fe" cx="117" cy="76" r="5.4" />
-          </g>
-          <g className="rv-nfpp-polyhedron rv-nfpp-polyhedron-d">
-            <path d="M181 50L210 66L190 93L161 76Z" />
-            <path className="rv-nfpp-polyhedron-lines" d="M186 71L181 50M186 71L210 66M186 71L190 93M186 71L161 76" />
-            <circle className="rv-nfpp-fe" cx="186" cy="71" r="5.4" />
-          </g>
-
-          <path className="rv-nfpp-link" d="M81 45L150 39L186 71L117 76ZM81 45L117 76M150 39L117 76" />
+        <g className="rv-nfpp-fe-framework">
           {[
-            [103, 39], [126, 44], [153, 59], [141, 72],
-            [92, 80], [161, 76], [181, 50], [190, 93],
+            [62, 31], [142, 30], [92, 82], [184, 82],
           ].map(([x, y]) => (
-            <circle className="rv-nfpp-p" cx={x} cy={y} r="3.1" key={`${x}-${y}`} />
+            <g className="rv-nfpp-fe-octahedron" transform={`translate(${x} ${y})`} key={`${x}-${y}`}>
+              <path d="M0 -17L18 0L0 17L-18 0Z" />
+              <path className="rv-nfpp-fe-lines" d="M0 0V-17M0 0L18 0M0 0V17M0 0L-18 0" />
+              <circle className="rv-nfpp-fe-center" cx="0" cy="0" r="3.7" />
+              <circle className="rv-nfpp-o" cx="0" cy="-17" r="2.6" />
+              <circle className="rv-nfpp-o" cx="18" cy="0" r="2.6" />
+              <circle className="rv-nfpp-o" cx="0" cy="17" r="2.6" />
+              <circle className="rv-nfpp-o" cx="-18" cy="0" r="2.6" />
+            </g>
           ))}
         </g>
 
-        <g className="rv-nfpp-sites">
-          {[
-            [45, 32, 5.5], [112, 20, 4.7], [198, 19, 5.8],
-            [55, 73, 4.5], [101, 52, 4.2], [151, 65, 4.8],
-            [215, 53, 4.5], [73, 96, 5.8], [155, 98, 5.3], [219, 88, 5.8],
-          ].map(([x, y, radius]) => (
-            <circle className="rv-nfpp-na-site" cx={x} cy={y} r={radius} key={`${x}-${y}`} />
-          ))}
+        <g className="rv-nfpp-polyanions">
+          <g className="rv-nfpp-po4" transform="translate(103 31)">
+            <path d="M0 -13L14 10L-14 10Z" />
+            <path className="rv-nfpp-p-lines" d="M0 1V-13M0 1L14 10M0 1L-14 10" />
+            <circle className="rv-nfpp-p-center" cx="0" cy="1" r="3.4" />
+            <circle className="rv-nfpp-o" cx="0" cy="-13" r="2.5" />
+            <circle className="rv-nfpp-o" cx="14" cy="10" r="2.5" />
+            <circle className="rv-nfpp-o" cx="-14" cy="10" r="2.5" />
+          </g>
+
+          <g className="rv-nfpp-po4" transform="translate(205 43)">
+            <path d="M0 -13L14 10L-14 10Z" />
+            <path className="rv-nfpp-p-lines" d="M0 1V-13M0 1L14 10M0 1L-14 10" />
+            <circle className="rv-nfpp-p-center" cx="0" cy="1" r="3.4" />
+            <circle className="rv-nfpp-o" cx="0" cy="-13" r="2.5" />
+            <circle className="rv-nfpp-o" cx="14" cy="10" r="2.5" />
+            <circle className="rv-nfpp-o" cx="-14" cy="10" r="2.5" />
+          </g>
+
+          <g className="rv-nfpp-p2o7" transform="translate(138 76)">
+            <path d="M0 -2L-14 -20L14 -20Z" />
+            <path d="M0 2L14 20L-14 20Z" />
+            <path className="rv-nfpp-p-lines" d="M0 -12L0 -2M0 -12L-14 -20M0 -12L14 -20M0 12L0 2M0 12L14 20M0 12L-14 20" />
+            <circle className="rv-nfpp-p-center" cx="0" cy="-12" r="3.2" />
+            <circle className="rv-nfpp-p-center" cx="0" cy="12" r="3.2" />
+            <circle className="rv-nfpp-o rv-nfpp-bridge-o" cx="0" cy="0" r="2.8" />
+          </g>
         </g>
 
-        <path className="rv-nfpp-channel rv-nfpp-channel-a" d="M45 32C70 21 88 33 112 20S167 14 198 19S214 35 215 53" />
-        <path className="rv-nfpp-channel rv-nfpp-channel-b" d="M55 73C78 64 84 54 101 52S133 66 151 65S197 72 219 88" />
-        <circle className="rv-nfpp-na-mobile rv-nfpp-na-mobile-a" cx="0" cy="0" r="7.2" />
-        <circle className="rv-nfpp-na-mobile rv-nfpp-na-mobile-b" cx="0" cy="0" r="6.2" />
+        <path className="rv-nfpp-channel rv-nfpp-channel-a" d="M27 16C42 31 31 49 45 64S51 88 66 101" />
+        <path className="rv-nfpp-channel rv-nfpp-channel-b" d="M193 14C213 27 210 47 224 60S221 84 237 100" />
+        {[
+          [27, 16], [45, 64], [66, 101], [193, 14], [224, 60], [237, 100],
+        ].map(([x, y]) => (
+          <circle className="rv-nfpp-na-site" cx={x} cy={y} r="4.5" key={`${x}-${y}`} />
+        ))}
+        <circle className="rv-nfpp-na-mobile rv-nfpp-na-mobile-a" cx="0" cy="0" r="6.2" />
+        <circle className="rv-nfpp-na-mobile rv-nfpp-na-mobile-b" cx="0" cy="0" r="5.5" />
       </svg>
     );
   }
