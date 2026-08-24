@@ -1,8 +1,14 @@
 import { assetPath } from "../../lib/paths";
 
 type ResearchVisualProps = {
-  image: string;
   index: string;
+};
+
+const researchImages: Record<string, string> = {
+  "01": "/images/research/high-energy-cathodes.jpg",
+  "02": "/images/research/computational-materials-design.jpg",
+  "03": "/images/research/sodium-ion-materials.webp",
+  "04": "/images/research/solid-state-ion-conductors.webp",
 };
 
 const overlayProps = {
@@ -54,7 +60,9 @@ function ResearchMotion({ index }: { index: string }) {
   );
 }
 
-export default function ResearchVisual({ image, index }: ResearchVisualProps) {
+export default function ResearchVisual({ index }: ResearchVisualProps) {
+  const image = researchImages[index] ?? researchImages["01"];
+
   return (
     <div className={`research-visual research-visual-${index}`} aria-hidden="true">
       <img

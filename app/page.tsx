@@ -112,7 +112,7 @@ export default function Home() {
             <Link href="/research" className="research-card" key={area.title}>
               <div className="research-card-topline">
                 <span className="card-index">{area.index}</span>
-                <ResearchVisual image={area.visual.image} index={area.index} />
+                <ResearchVisual index={area.index} />
               </div>
               <h3>{area.title}</h3>
               <p>{area.short}</p>
