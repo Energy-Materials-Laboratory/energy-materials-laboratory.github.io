@@ -259,10 +259,10 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
 
       <path
         className="rv-assb-path"
-        d="M28 69C58 47 93 66 139 56S149 48 161 58S203 43 238 56"
+        d="M28 69C58 47 93 66 139 56C146 54 154 56 161 57C188 59 211 47 238 56"
       />
       {[
-        [28, 69], [70, 60], [111, 56], [143, 55], [158, 58], [197, 50], [238, 56],
+        [28, 69], [70, 58], [111, 58], [143, 55], [158, 57], [197, 53], [238, 56],
       ].map(([x, y]) => (
         <circle className="rv-assb-site" cx={x} cy={y} r="3.6" key={`${x}-${y}`} />
       ))}
