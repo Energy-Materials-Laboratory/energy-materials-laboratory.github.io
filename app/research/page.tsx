@@ -47,15 +47,15 @@ export default function ResearchPage() {
             </div>
             <div className={`research-detail-visual${area.visual ? " has-figure" : ""}`}>
               {area.visual ? (
-                <figure className="research-detail-figure">
+                <div className="research-detail-figure">
                   <Image
                     alt={area.visual.alt}
                     height={area.visual.height}
-                    sizes="(max-width: 620px) calc(100vw - 52px), (max-width: 920px) calc(100vw - 72px), calc(100vw - 96px)"
+                    sizes="(max-width: 620px) calc(100vw - 56px), (max-width: 920px) calc(100vw - 84px), 54vw"
                     src={assetPath(area.visual.image)}
                     width={area.visual.width}
                   />
-                </figure>
+                </div>
               ) : (
                 <ResearchVisual index={area.index} />
               )}
