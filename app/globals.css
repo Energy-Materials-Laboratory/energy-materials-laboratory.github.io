@@ -608,8 +608,8 @@ summary:focus-visible {
 }
 
 .research-visual-03 {
-  --rv-accent: #d67745;
-  --rv-accent-soft: #edb38f;
+  --rv-accent: #3e9ca5;
+  --rv-accent-soft: #8bd0d5;
 }
 
 .research-visual-04 {
@@ -618,7 +618,6 @@ summary:focus-visible {
 }
 
 .rv-plane,
-.rv-na-slab,
 .rv-electrode,
 .rv-solid-frame {
   fill: rgba(7, 93, 187, .045);
@@ -634,7 +633,6 @@ summary:focus-visible {
 .rv-ion-guide,
 .rv-axis,
 .rv-threshold,
-.rv-na-path,
 .rv-solid-grid,
 .rv-conduction-path {
   fill: none;
@@ -644,7 +642,6 @@ summary:focus-visible {
 }
 
 .rv-ion-guide,
-.rv-na-path,
 .rv-conduction-path {
   stroke: var(--rv-accent);
   stroke-dasharray: 4 5;
@@ -652,7 +649,6 @@ summary:focus-visible {
 }
 
 .rv-tm-node,
-.rv-na-host,
 .rv-solid-node {
   fill: currentColor;
   opacity: .48;
@@ -681,17 +677,12 @@ summary:focus-visible {
   offset-path: path("M130 24C145 76 157 29 174 58S204 80 218 76S235 78 246 78");
 }
 
-.rv-na-ion {
-  offset-path: path("M27 61C49 61 52 45 75 45S101 68 124 68S151 45 174 45S205 62 233 52");
-}
-
 .rv-conducting-ion {
   offset-path: path("M28 70C56 70 60 43 86 43S112 75 139 75S165 38 191 38S211 61 234 48");
 }
 
 .rv-li-ion,
 .rv-energy-point,
-.rv-na-ion,
 .rv-conducting-ion {
   offset-distance: 0%;
   offset-rotate: 0deg;
@@ -803,17 +794,89 @@ summary:focus-visible {
   stroke-width: 1.5;
 }
 
-.rv-na-ion circle {
-  fill: var(--rv-accent);
+.rv-nfpp-cell path {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1;
+  opacity: .2;
+}
+
+.rv-nfpp-cell-back,
+.rv-nfpp-cell-front {
+  stroke-dasharray: 4 4;
+}
+
+.rv-nfpp-framework {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.rv-nfpp-polyhedron > path:first-child {
+  fill: url(#rv-nfpp-polyhedron);
+  fill-opacity: .78;
+  stroke: #c85e27;
+  stroke-linejoin: round;
+  stroke-width: 1.05;
+}
+
+.rv-nfpp-polyhedron-lines {
+  fill: none;
+  stroke: rgba(122, 52, 20, .62);
+  stroke-width: .75;
+}
+
+.rv-nfpp-fe {
+  fill: url(#rv-nfpp-fe);
+  stroke: #9f3818;
+  stroke-width: .9;
+}
+
+.rv-nfpp-p {
+  fill: #f39a4d;
+  stroke: #b95326;
+  stroke-width: .75;
+}
+
+.rv-nfpp-link {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: .9;
+  opacity: .42;
+}
+
+.rv-nfpp-na-site,
+.rv-nfpp-na-mobile {
+  fill: url(#rv-nfpp-na);
+  stroke: #1e7078;
+  stroke-width: .95;
+}
+
+.rv-nfpp-na-site {
+  opacity: .76;
+}
+
+.rv-nfpp-channel {
+  fill: none;
+  stroke: #4aaab2;
+  stroke-dasharray: 3.5 4.5;
+  stroke-linecap: round;
+  stroke-width: 1.35;
+  opacity: .58;
+}
+
+.rv-nfpp-na-mobile {
+  offset-distance: 0%;
+  offset-rotate: 0deg;
   stroke: #fff;
   stroke-width: 1.4;
 }
 
-.rv-na-ion path {
-  fill: none;
-  stroke: #fff;
-  stroke-linecap: round;
-  stroke-width: 1.2;
+.rv-nfpp-na-mobile-a {
+  offset-path: path("M45 32C70 21 88 33 112 20S167 14 198 19S214 35 215 53");
+}
+
+.rv-nfpp-na-mobile-b {
+  offset-path: path("M55 73C78 64 84 54 101 52S133 66 151 65S197 72 219 88");
 }
 
 .research-card:hover .research-visual {
@@ -826,7 +889,6 @@ summary:focus-visible {
 }
 
 .research-card:hover .rv-plane,
-.research-card:hover .rv-na-slab,
 .research-card:hover .rv-electrode,
 .research-card:hover .rv-solid-frame {
   fill: rgba(255, 255, 255, .07);
@@ -2359,8 +2421,20 @@ summary:focus-visible {
     animation: rv-dft-nucleus-pulse 3.6s ease-in-out infinite;
   }
 
-  .rv-na-ion {
+  .rv-nfpp-framework {
+    animation: rv-nfpp-breathe 5.8s ease-in-out infinite;
+  }
+
+  .rv-nfpp-na-site {
+    animation: rv-nfpp-site-pulse 4.6s ease-in-out infinite;
+  }
+
+  .rv-nfpp-na-mobile-a {
     animation: rv-path-travel 6.6s ease-in-out infinite;
+  }
+
+  .rv-nfpp-na-mobile-b {
+    animation: rv-path-travel 6.6s 3.3s ease-in-out infinite;
   }
 
   .rv-conducting-ion-a {
@@ -2404,6 +2478,16 @@ summary:focus-visible {
   @keyframes rv-dft-nucleus-pulse {
     0%, 100% { opacity: .5; transform: scale(.86); }
     50% { opacity: 1; transform: scale(1.12); }
+  }
+
+  @keyframes rv-nfpp-breathe {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.018); }
+  }
+
+  @keyframes rv-nfpp-site-pulse {
+    0%, 100% { opacity: .58; }
+    50% { opacity: .9; }
   }
 }
 
