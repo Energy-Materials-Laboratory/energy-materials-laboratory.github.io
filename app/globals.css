@@ -874,6 +874,13 @@ summary:focus-visible {
   opacity: .8;
 }
 
+.rv-nfpp-vacancy {
+  fill: #fff;
+  stroke: #d94c3f;
+  stroke-dasharray: 2.4 2.4;
+  stroke-width: 1.35;
+}
+
 .rv-nfpp-channel {
   fill: none;
   stroke: #d94c3f;
@@ -891,11 +898,7 @@ summary:focus-visible {
 }
 
 .rv-nfpp-na-mobile-a {
-  offset-path: path("M27 16C42 31 31 49 45 64S51 88 66 101");
-}
-
-.rv-nfpp-na-mobile-b {
-  offset-path: path("M193 14C213 27 210 47 224 60S221 84 237 100");
+  offset-path: path("M34 58C52 48 68 51 84 59S115 70 130 60S160 48 176 58S207 69 226 57");
 }
 
 .research-card:hover .research-visual {
@@ -2440,20 +2443,12 @@ summary:focus-visible {
     animation: rv-dft-nucleus-pulse 3.6s ease-in-out infinite;
   }
 
-  .rv-nfpp-polyanions {
-    animation: rv-nfpp-polyanion-pulse 5.8s ease-in-out infinite;
-  }
-
-  .rv-nfpp-na-site {
+  .rv-nfpp-vacancy {
     animation: rv-nfpp-site-pulse 4.6s ease-in-out infinite;
   }
 
   .rv-nfpp-na-mobile-a {
-    animation: rv-path-travel 6.6s ease-in-out infinite;
-  }
-
-  .rv-nfpp-na-mobile-b {
-    animation: rv-path-travel 6.6s 3.3s ease-in-out infinite;
+    animation: rv-nfpp-na-hop 7.2s ease-in-out infinite;
   }
 
   .rv-conducting-ion-a {
@@ -2499,9 +2494,14 @@ summary:focus-visible {
     50% { opacity: 1; transform: scale(1.12); }
   }
 
-  @keyframes rv-nfpp-polyanion-pulse {
-    0%, 100% { opacity: .78; }
-    50% { opacity: 1; }
+  @keyframes rv-nfpp-na-hop {
+    0%, 7% { opacity: 0; offset-distance: 0%; }
+    11% { opacity: 1; offset-distance: 0%; }
+    23%, 30% { offset-distance: 25%; }
+    42%, 49% { offset-distance: 50%; }
+    61%, 68% { offset-distance: 75%; }
+    80%, 89% { opacity: 1; offset-distance: 100%; }
+    96%, 100% { opacity: 0; offset-distance: 100%; }
   }
 
   @keyframes rv-nfpp-site-pulse {

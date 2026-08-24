@@ -128,15 +128,14 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
           </g>
         </g>
 
-        <path className="rv-nfpp-channel rv-nfpp-channel-a" d="M27 16C42 31 31 49 45 64S51 88 66 101" />
-        <path className="rv-nfpp-channel rv-nfpp-channel-b" d="M193 14C213 27 210 47 224 60S221 84 237 100" />
+        <path className="rv-nfpp-channel rv-nfpp-channel-a" d="M34 58C52 48 68 51 84 59S115 70 130 60S160 48 176 58S207 69 226 57" />
         {[
-          [27, 16], [45, 64], [66, 101], [193, 14], [224, 60], [237, 100],
+          [34, 58], [82, 58], [130, 60], [178, 58], [226, 57],
         ].map(([x, y]) => (
           <circle className="rv-nfpp-na-site" cx={x} cy={y} r="4.5" key={`${x}-${y}`} />
         ))}
+        <circle className="rv-nfpp-vacancy" cx="226" cy="57" r="6.1" />
         <circle className="rv-nfpp-na-mobile rv-nfpp-na-mobile-a" cx="0" cy="0" r="6.2" />
-        <circle className="rv-nfpp-na-mobile rv-nfpp-na-mobile-b" cx="0" cy="0" r="5.5" />
       </svg>
     );
   }
