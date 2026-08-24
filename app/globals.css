@@ -723,7 +723,7 @@ summary:focus-visible {
   fill: var(--rv-accent-soft);
   stroke: #fff;
   stroke-width: 1.4;
-  offset-path: path("M28 69C52 47 72 64 93 56S127 38 146 56S177 77 197 58S223 45 238 56");
+  offset-path: path("M28 69C52 47 76 66 102 56S130 44 145 56S160 67 173 58S207 43 238 56");
   offset-distance: 0%;
   offset-rotate: 0deg;
 }

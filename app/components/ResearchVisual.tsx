@@ -181,54 +181,51 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
       <path className="rv-assb-frame" d="M9 10H251V106H9Z" />
 
       <g className="rv-assb-composite">
-        <path className="rv-assb-composite-fill" d="M13 14H88V102H13Z" />
+        <path className="rv-assb-composite-fill" d="M13 14H99V102H13Z" />
         <path
           className="rv-assb-composite-network"
-          d="M49 14L45 51L88 45M13 53L45 51L55 102M45 51L88 84"
+          d="M51 14L46 51L99 44M13 53L46 51L57 102M46 51L99 84"
         />
         <circle className="rv-assb-active rv-assb-active-a" cx="31" cy="31" r="10.5" />
         <circle className="rv-assb-active rv-assb-active-b" cx="66" cy="28" r="7.5" />
         <circle className="rv-assb-active rv-assb-active-c" cx="36" cy="75" r="12" />
         <circle className="rv-assb-active rv-assb-active-d" cx="69" cy="78" r="8.5" />
         {[
-          [47, 27], [72, 49], [20, 55], [57, 61], [81, 92],
+          [47, 27], [80, 48], [20, 55], [60, 61], [90, 92],
         ].map(([x, y]) => (
           <circle className="rv-assb-composite-se" cx={x} cy={y} r="3.2" key={`${x}-${y}`} />
         ))}
       </g>
 
-      <path className="rv-assb-interface rv-assb-interface-left" d="M90 15V101" />
+      <path className="rv-assb-interface rv-assb-interface-left" d="M102 15V101" />
 
       <g className="rv-assb-electrolyte">
-        <path className="rv-assb-electrolyte-frame" d="M94 14H194V102H94Z" />
-        <path className="rv-assb-grain rv-assb-grain-a" d="M94 14H127L121 43L94 49Z" />
-        <path className="rv-assb-grain rv-assb-grain-path-a" d="M127 14H165L158 42L121 43Z" />
-        <path className="rv-assb-grain rv-assb-grain-c" d="M165 14H194V47L158 42Z" />
-        <path className="rv-assb-grain rv-assb-grain-d" d="M94 49L121 43L130 72L94 77Z" />
-        <path className="rv-assb-grain rv-assb-grain-path-b" d="M121 43L158 42L164 72H130Z" />
-        <path className="rv-assb-grain rv-assb-grain-path-c" d="M158 42L194 47V78L164 72Z" />
-        <path className="rv-assb-grain rv-assb-grain-g" d="M94 77L130 72L125 102H94Z" />
-        <path className="rv-assb-grain rv-assb-grain-h" d="M130 72H164L171 102H125Z" />
-        <path className="rv-assb-grain rv-assb-grain-i" d="M164 72L194 78V102H171Z" />
+        <path className="rv-assb-electrolyte-frame" d="M105 14H169V102H105Z" />
+        <path className="rv-assb-grain rv-assb-grain-a" d="M105 14H137L132 43L105 48Z" />
+        <path className="rv-assb-grain rv-assb-grain-path-a" d="M137 14H169V46L132 43Z" />
+        <path className="rv-assb-grain rv-assb-grain-path-b" d="M105 48L132 43L140 73L105 78Z" />
+        <path className="rv-assb-grain rv-assb-grain-path-c" d="M132 43L169 46V75L140 73Z" />
+        <path className="rv-assb-grain rv-assb-grain-g" d="M105 78L140 73L135 102H105Z" />
+        <path className="rv-assb-grain rv-assb-grain-i" d="M140 73L169 75V102H135Z" />
       </g>
 
-      <path className="rv-assb-interface rv-assb-interface-right" d="M198 15V101" />
+      <path className="rv-assb-interface rv-assb-interface-right" d="M172 15V101" />
 
       <g className="rv-assb-anode">
-        <path className="rv-assb-anode-fill" d="M202 14H247V102H202Z" />
+        <path className="rv-assb-anode-fill" d="M176 14H247V102H176Z" />
         <path
           className="rv-assb-anode-sheets"
-          d="M206 29H243M206 43H243M206 57H243M206 71H243M206 85H243"
+          d="M180 29H243M180 43H243M180 57H243M180 71H243M180 85H243"
         />
         <path className="rv-assb-current-collector" d="M243 14H247V102H243Z" />
       </g>
 
       <path
         className="rv-assb-path"
-        d="M28 69C52 47 72 64 93 56S127 38 146 56S177 77 197 58S223 45 238 56"
+        d="M28 69C52 47 76 66 102 56S130 44 145 56S160 67 173 58S207 43 238 56"
       />
       {[
-        [28, 69], [69, 59], [104, 51], [146, 56], [184, 66], [216, 50], [238, 56],
+        [28, 69], [70, 60], [105, 55], [136, 52], [166, 61], [201, 50], [238, 56],
       ].map(([x, y]) => (
         <circle className="rv-assb-site" cx={x} cy={y} r="3.6" key={`${x}-${y}`} />
       ))}
