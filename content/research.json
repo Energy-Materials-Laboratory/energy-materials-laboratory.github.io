@@ -16,9 +16,9 @@
         "Oxygen redox"
       ],
       "visual": {
-        "image": "/images/research/high-energy-cathodes.jpg",
-        "width": 1122,
-        "height": 451,
+        "image": "/images/research/high-energy-cathodes-stacked.webp",
+        "width": 1000,
+        "height": 1771,
         "alt": "O2-type layered structure, reversible transition-metal migration mechanism, and microscopy images after the first charge and discharge"
       },
       "selectedPublications": [
@@ -102,8 +102,8 @@
       ],
       "visual": {
         "image": "/images/research/solid-state-ion-conductors.webp",
-        "width": 1400,
-        "height": 2257,
+        "width": 2337,
+        "height": 900,
         "alt": "Crystal structures and local coordination in LGPS-type sulfide conductors alongside cation-ordering models, ionic conductivity, and lithium diffusion pathways in a trigonal halide conductor"
       },
       "selectedPublications": [
