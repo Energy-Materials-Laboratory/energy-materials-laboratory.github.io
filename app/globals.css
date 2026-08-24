@@ -629,6 +629,85 @@ summary:focus-visible {
   fill: rgba(105, 160, 110, .12);
 }
 
+.rv-cathode-cell {
+  fill: none;
+  stroke: currentColor;
+  stroke-dasharray: 3 4;
+  stroke-width: .9;
+  opacity: .18;
+}
+
+.rv-layer {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.rv-plane-cathode {
+  fill: rgba(7, 93, 187, .065);
+}
+
+.rv-layer-middle .rv-plane-accent {
+  fill: rgba(105, 160, 110, .14);
+  stroke: var(--rv-accent);
+  stroke-opacity: .7;
+}
+
+.rv-slab-network {
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: .9;
+  opacity: .38;
+}
+
+.rv-o-node {
+  fill: #eef5fb;
+  stroke: #4f7da5;
+  stroke-width: .75;
+}
+
+.rv-tm-node.rv-tm-node-0 {
+  fill: #2e72a3;
+  opacity: .86;
+}
+
+.rv-tm-node.rv-tm-node-1 {
+  fill: #6f67a5;
+  opacity: .82;
+}
+
+.rv-tm-node.rv-tm-node-2 {
+  fill: #c47857;
+  opacity: .82;
+}
+
+.rv-redox-ring {
+  fill: none;
+  stroke: #d6a33f;
+  stroke-width: 1.25;
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.rv-li-vacancy {
+  fill: rgba(255, 255, 255, .88);
+  stroke: var(--rv-accent);
+  stroke-dasharray: 2.4 2.4;
+  stroke-width: 1.25;
+}
+
+.rv-li-ion-halo {
+  fill: rgba(105, 160, 110, .14);
+  stroke: var(--rv-accent);
+  stroke-width: .8;
+  offset-path: path("M29 56H234");
+  offset-distance: 0%;
+  offset-rotate: 0deg;
+}
+
+
 .rv-bond,
 .rv-ion-guide,
 .rv-axis,
@@ -2407,11 +2486,31 @@ summary:focus-visible {
   }
 
   .rv-layer-top {
-    animation: rv-layer-shear 7.5s ease-in-out infinite;
+    animation: rv-layer-top-breathe 7.2s ease-in-out infinite;
+  }
+
+  .rv-layer-bottom {
+    animation: rv-layer-bottom-breathe 7.2s ease-in-out infinite;
+  }
+
+  .rv-layer-middle .rv-plane-accent {
+    animation: rv-li-layer-pulse 7.2s ease-in-out infinite;
   }
 
   .rv-li-ion {
-    animation: rv-path-travel 6.8s ease-in-out infinite;
+    animation: rv-li-hop 7.2s ease-in-out infinite;
+  }
+
+  .rv-li-ion-halo {
+    animation: rv-li-halo-hop 7.2s ease-in-out infinite;
+  }
+
+  .rv-redox-ring-top {
+    animation: rv-redox-pulse 5.2s ease-out infinite;
+  }
+
+  .rv-redox-ring-bottom {
+    animation: rv-redox-pulse 5.2s 2.6s ease-out infinite;
   }
 
   .rv-density-contour-outer {
@@ -2464,9 +2563,47 @@ summary:focus-visible {
     to { opacity: 1; transform: translateY(0); }
   }
 
-  @keyframes rv-layer-shear {
-    0%, 18%, 100% { transform: translateX(0); }
-    48%, 68% { transform: translateX(7px); }
+  @keyframes rv-layer-top-breathe {
+    0%, 14%, 100% { transform: translate(0, 0); }
+    44%, 68% { transform: translate(3px, -3px); }
+  }
+
+  @keyframes rv-layer-bottom-breathe {
+    0%, 14%, 100% { transform: translate(0, 0); }
+    44%, 68% { transform: translate(-3px, 3px); }
+  }
+
+  @keyframes rv-li-layer-pulse {
+    0%, 14%, 100% { fill-opacity: .72; stroke-opacity: .52; }
+    44%, 68% { fill-opacity: 1; stroke-opacity: .9; }
+  }
+
+  @keyframes rv-li-hop {
+    0%, 7% { opacity: 0; offset-distance: 0%; }
+    11% { opacity: 1; offset-distance: 0%; }
+    22%, 28% { offset-distance: 20%; }
+    37%, 43% { offset-distance: 40%; }
+    52%, 58% { offset-distance: 60%; }
+    67%, 73% { offset-distance: 80%; }
+    82%, 90% { opacity: 1; offset-distance: 100%; }
+    97%, 100% { opacity: 0; offset-distance: 100%; }
+  }
+
+  @keyframes rv-li-halo-hop {
+    0%, 7% { opacity: 0; offset-distance: 0%; }
+    11% { opacity: .28; offset-distance: 0%; }
+    22%, 28% { offset-distance: 20%; }
+    37%, 43% { offset-distance: 40%; }
+    52%, 58% { offset-distance: 60%; }
+    67%, 73% { offset-distance: 80%; }
+    82%, 90% { opacity: .28; offset-distance: 100%; }
+    97%, 100% { opacity: 0; offset-distance: 100%; }
+  }
+
+  @keyframes rv-redox-pulse {
+    0%, 18%, 100% { opacity: 0; transform: scale(.72); }
+    34% { opacity: .82; }
+    58% { opacity: 0; transform: scale(1.48); }
   }
 
   @keyframes rv-path-travel {

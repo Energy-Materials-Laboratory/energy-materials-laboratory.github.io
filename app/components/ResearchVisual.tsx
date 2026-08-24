@@ -15,32 +15,65 @@ export default function ResearchVisual({ index }: ResearchVisualProps) {
         {...visualProps}
         className="research-visual research-visual-01"
       >
+        <path
+          className="rv-cathode-cell"
+          d="M12 18V82M34 31V95M226 18V82M248 31V95"
+        />
+
         <g className="rv-layer rv-layer-top">
-          <path className="rv-plane" d="M12 18L226 18L248 31L34 31Z" />
-          <path className="rv-bond" d="M27 24H237" />
-          {[29, 70, 111, 152, 193, 234].map((x) => (
-            <circle className="rv-tm-node" cx={x} cy="24" r="5" key={x} />
+          <path className="rv-plane rv-plane-cathode" d="M12 18L226 18L248 31L34 31Z" />
+          <path
+            className="rv-slab-network"
+            d="M29 24L49 19L70 24L90 19L111 24L131 19L152 24L172 19L193 24L213 19L234 24M29 24L49 29L70 24L90 29L111 24L131 29L152 24L172 29L193 24L213 29L234 24"
+          />
+          {[29, 70, 111, 152, 193, 234].map((x, itemIndex) => (
+            <circle
+              className={`rv-tm-node rv-tm-node-${itemIndex % 3}`}
+              cx={x}
+              cy="24"
+              r="5.2"
+              key={x}
+            />
           ))}
+          {[49, 90, 131, 172, 213].flatMap((x) => [
+            <circle className="rv-o-node" cx={x} cy="19" r="2.35" key={`${x}-top`} />,
+            <circle className="rv-o-node" cx={x} cy="29" r="2.35" key={`${x}-bottom`} />,
+          ])}
+          <circle className="rv-redox-ring rv-redox-ring-top" cx="152" cy="24" r="8.2" />
         </g>
 
         <g className="rv-layer rv-layer-middle">
           <path className="rv-plane rv-plane-accent" d="M12 50L226 50L248 63L34 63Z" />
-          <path className="rv-bond" d="M27 56H237" />
-          {[29, 70, 111, 152, 193, 234].map((x) => (
+          <path className="rv-ion-guide" d="M29 56H234" />
+          {[29, 70, 111, 152, 193].map((x) => (
             <circle className="rv-li-site" cx={x} cy="56" r="4.5" key={x} />
           ))}
-          <circle className="rv-li-ion" cx="0" cy="0" r="7" />
+          <circle className="rv-li-vacancy" cx="234" cy="56" r="5.6" />
+          <circle className="rv-li-ion-halo" cx="0" cy="0" r="10.5" />
+          <circle className="rv-li-ion" cx="0" cy="0" r="6.3" />
         </g>
 
         <g className="rv-layer rv-layer-bottom">
-          <path className="rv-plane" d="M12 82L226 82L248 95L34 95Z" />
-          <path className="rv-bond" d="M27 88H237" />
-          {[29, 70, 111, 152, 193, 234].map((x) => (
-            <circle className="rv-tm-node" cx={x} cy="88" r="5" key={x} />
+          <path className="rv-plane rv-plane-cathode" d="M12 82L226 82L248 95L34 95Z" />
+          <path
+            className="rv-slab-network"
+            d="M29 88L49 83L70 88L90 83L111 88L131 83L152 88L172 83L193 88L213 83L234 88M29 88L49 93L70 88L90 93L111 88L131 93L152 88L172 93L193 88L213 93L234 88"
+          />
+          {[29, 70, 111, 152, 193, 234].map((x, itemIndex) => (
+            <circle
+              className={`rv-tm-node rv-tm-node-${(itemIndex + 1) % 3}`}
+              cx={x}
+              cy="88"
+              r="5.2"
+              key={x}
+            />
           ))}
+          {[49, 90, 131, 172, 213].flatMap((x) => [
+            <circle className="rv-o-node" cx={x} cy="83" r="2.35" key={`${x}-top`} />,
+            <circle className="rv-o-node" cx={x} cy="93" r="2.35" key={`${x}-bottom`} />,
+          ])}
+          <circle className="rv-redox-ring rv-redox-ring-bottom" cx="111" cy="88" r="8.2" />
         </g>
-
-        <path className="rv-ion-guide" d="M29 56H234" />
       </svg>
     );
   }
