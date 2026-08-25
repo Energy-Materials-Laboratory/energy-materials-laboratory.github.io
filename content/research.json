@@ -76,11 +76,10 @@
         "Oxygen redox"
       ],
       "visual": {
-        "image": "/images/research/sodium-ion-materials.webp",
-        "width": 1202,
-        "height": 305,
-        "alt": "Chemical-space mapping and cationic-potential-based structure prediction for P2 and O3 sodium layered oxides",
-        "layout": "split-horizontal"
+        "image": "/images/research/sodium-ion-materials.svg",
+        "width": 1200,
+        "height": 700,
+        "alt": "Schematic of sodium-ion transport between a battery and a layered cathode structure"
       },
       "selectedPublications": [
         {

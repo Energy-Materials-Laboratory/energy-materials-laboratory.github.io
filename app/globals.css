@@ -1670,43 +1670,6 @@ summary:focus-visible {
   gap: 16px;
 }
 
-.research-detail-figure-split {
-  display: grid;
-  gap: 12px;
-}
-
-.research-detail-figure-crop {
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-}
-
-.research-detail-figure-crop-left {
-  aspect-ratio: 1.7;
-}
-
-.research-detail-figure-crop-right {
-  aspect-ratio: 2.25;
-}
-
-.research-detail-figure-split .research-detail-figure-crop img {
-  position: absolute;
-  top: 50%;
-  max-width: none;
-  height: auto;
-  transform: translateY(-50%);
-}
-
-.research-detail-figure-split .research-detail-figure-crop-left img {
-  left: 0;
-  width: 232%;
-}
-
-.research-detail-figure-split .research-detail-figure-crop-right img {
-  right: 0;
-  width: 175%;
-}
-
 .research-detail-figure-stack img + img {
   padding-top: 16px;
   border-top: 1px solid var(--rule);
