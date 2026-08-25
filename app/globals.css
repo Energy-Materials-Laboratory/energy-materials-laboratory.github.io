@@ -1539,9 +1539,7 @@ summary:focus-visible {
 
 .research-detail-copy {
   grid-column: 2;
-  width: min(100%, 900px);
-  padding-inline: clamp(8px, 1.5vw, 18px);
-  box-sizing: border-box;
+  width: min(100%, 920px);
 }
 
 .research-number {
@@ -1559,7 +1557,7 @@ summary:focus-visible {
 }
 
 .research-detail-lead {
-  max-width: 820px;
+  max-width: 100%;
   margin: 0 0 16px;
   color: var(--ink);
   font-size: clamp(20px, 1.7vw, 24px);
@@ -1569,7 +1567,7 @@ summary:focus-visible {
 }
 
 .research-detail-description {
-  max-width: 820px;
+  max-width: 100%;
   margin: 0;
   color: var(--muted);
   font-size: var(--size-small);
