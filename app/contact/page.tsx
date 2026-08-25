@@ -1,3 +1,4 @@
+import EmailCopyButton from "../components/EmailCopyButton";
 import SiteShell from "../components/SiteShell";
 import contact from "../../content/contact.json";
 
