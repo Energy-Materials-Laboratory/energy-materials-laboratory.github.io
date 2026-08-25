@@ -1540,6 +1540,8 @@ summary:focus-visible {
 .research-detail-copy {
   grid-column: 2;
   width: min(100%, 900px);
+  padding-inline: clamp(8px, 1.5vw, 18px);
+  box-sizing: border-box;
 }
 
 .research-number {
