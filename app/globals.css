@@ -1375,6 +1375,10 @@ summary:focus-visible {
   color: #90c2f4;
 }
 
+.recruitment-detail .section-index {
+  font-size: clamp(16px, 1.2vw, 18px);
+}
+
 .recruit-grid h2 {
   margin: 0 0 24px;
   font-size: clamp(37px, 4vw, 58px);
@@ -2590,7 +2594,7 @@ summary:focus-visible {
 
 .recruitment-copy h2 {
   margin: 0 0 30px;
-  font-size: clamp(48px, 5.5vw, 76px);
+  font-size: clamp(42px, 4.5vw, 64px);
   font-weight: 640;
   letter-spacing: -.065em;
 }
@@ -2970,7 +2974,7 @@ summary:focus-visible {
   .gallery-grid { grid-template-columns: 1fr; }
   .gallery-wide { grid-column: auto; }
   .gallery-wide .gallery-image { aspect-ratio: 1.16; }
-  .recruitment-copy h2 { font-size: 50px; }
+  .recruitment-copy h2 { font-size: 42px; }
   .member-detail {
   padding-block: 32px 90px;
     .journal-entry {
