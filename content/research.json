@@ -9,12 +9,6 @@
       "title": "High-energy-density Li-ion cathodes",
       "short": "Linking redox chemistry, ion transport, and structural evolution to design cathodes with high capacity and durable cycling.",
       "detail": "Our group studies Li-rich layered oxides, high-Ni layered cathodes, and disordered-rocksalt materials. We resolve how high-valent transition-metal and oxygen redox, cation migration, oxygen dimerization, and phase evolution control capacity, voltage hysteresis or decay, and long-term stability. By integrating atomistic computation, synthesis, electrochemistry, and multiscale characterization, we translate degradation mechanisms into practical design rules.",
-      "tags": [
-        "Li-rich layered oxides",
-        "High-Ni cathodes",
-        "Disordered rocksalt",
-        "Oxygen redox"
-      ],
       "visual": {
         "image": "/images/research/high-energy-cathodes.jpg",
         "width": 1122,
@@ -39,12 +33,6 @@
       "title": "Computational materials design",
       "short": "Using first-principles calculations, high-throughput screening, and machine learning to explore chemical space systematically.",
       "detail": "First-principles calculations reveal mechanisms at time and length scales that are difficult to access experimentally. We screen synthesis feasibility, phase stability, redox energetics, voltage, ion diffusion, defect chemistry, and interfacial reactions across broad compositional spaces. High-throughput workflows and machine learning expand this search, while targeted synthesis and characterization close the loop between prediction and experiment.",
-      "tags": [
-        "DFT",
-        "High-throughput",
-        "Machine learning",
-        "Structure prediction"
-      ],
       "visual": {
         "image": "/images/research/computational-materials-design.jpg",
         "width": 1109,
@@ -69,17 +57,11 @@
       "title": "Sodium-ion battery materials",
       "short": "Establishing chemistry-specific design rules for affordable sodium-ion electrodes with high energy and long cycle life.",
       "detail": "The larger size and distinct chemistry of Na ions produce stacking preferences, phase transitions, and transport behavior that cannot be treated as a simple extension of lithium-ion materials. We map the chemical space of layered sodium transition-metal oxides, predict structure and redox activity, and validate promising compositions experimentally. The goal is to discover electrode materials that combine energy density, rate capability, and structural reversibility.",
-      "tags": [
-        "P2/O3 layered oxides",
-        "Structure prediction",
-        "Na-ion transport",
-        "Oxygen redox"
-      ],
       "visual": {
-        "image": "/images/research/sodium-ion-materials.svg",
-        "width": 1200,
-        "height": 700,
-        "alt": "Schematic of sodium-ion transport between a battery and a layered cathode structure"
+        "image": "/images/research/sodium-ion-materials.webp",
+        "width": 1202,
+        "height": 305,
+        "alt": "Chemical-space mapping and cationic-potential-based structure prediction for P2 and O3 sodium layered oxides"
       },
       "selectedPublications": [
         {
@@ -94,12 +76,6 @@
       "title": "Solid-state ion conductors and interfaces",
       "short": "An emerging direction connecting superionic-conductor design with stable solid-solid interfaces.",
       "detail": "Building on our work on defect chemistry in sulfide electrolytes and cation order-disorder in halide superionic conductors, we investigate how lattice topology, defects, and local structure govern ion transport. We are extending these principles toward electrochemical and chemo-mechanical stability at buried electrode-electrolyte interfaces for durable all-solid-state batteries.",
-      "tags": [
-        "Halide conductors",
-        "Sulfide electrolytes",
-        "Cation disorder",
-        "Solid-solid interfaces"
-      ],
       "visual": {
         "image": "/images/research/solid-state-halide-conductor.webp",
         "width": 2047,

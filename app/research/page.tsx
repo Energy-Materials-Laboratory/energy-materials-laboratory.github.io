@@ -27,7 +27,7 @@ function ResearchFigure({ visual }: { visual: ResearchFigureData }) {
           alt={image.alt}
           height={image.height}
           key={image.image}
-          sizes="(max-width: 620px) calc(100vw - 76px), (max-width: 920px) 520px, 38vw"
+          sizes="(max-width: 620px) calc(100vw - 76px), (max-width: 920px) calc(100vw - 150px), 900px"
           src={assetPath(image.image)}
           width={image.width}
         />
@@ -48,39 +48,39 @@ export default function ResearchPage() {
         {research.areas.map((area) => (
           <article className="research-detail" key={area.title}>
             <div className="research-number">{area.index}</div>
+
             <div className="research-detail-copy">
               <h2>{area.title}</h2>
               <p className="research-detail-lead">{area.short}</p>
               <p className="research-detail-description">{area.detail}</p>
-              <div className="tag-list">
-                {area.tags.map((tag) => <span key={tag}>{tag}</span>)}
-              </div>
-              <div className="research-selected">
-                <p className="research-selected-label">Selected publications</p>
-                <div className="research-selected-list">
-                  {area.selectedPublications.map((publication) => (
-                    <a
-                      href={`https://doi.org/${publication.doi}`}
-                      key={publication.doi}
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      <span>
-                        <strong>{publication.title}</strong>
-                        <small>{publication.venue}</small>
-                      </span>
-                      <b aria-hidden="true">↗</b>
-                    </a>
-                  ))}
-                </div>
-              </div>
             </div>
+
             <div className={`research-detail-visual${area.visual ? " has-figure" : ""}`}>
               {area.visual ? (
                 <ResearchFigure visual={area.visual} />
               ) : (
                 <ResearchVisual index={area.index} />
               )}
+            </div>
+
+            <div className="research-selected">
+              <p className="research-selected-label">Selected publications</p>
+              <div className="research-selected-list">
+                {area.selectedPublications.map((publication) => (
+                  <a
+                    href={`https://doi.org/${publication.doi}`}
+                    key={publication.doi}
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    <span>
+                      <strong>{publication.title}</strong>
+                      <small>{publication.venue}</small>
+                    </span>
+                    <b aria-hidden="true">↗</b>
+                  </a>
+                ))}
+              </div>
             </div>
           </article>
         ))}
