@@ -8,9 +8,12 @@ export default function ContactPage() {
   return (
     <SiteShell>
       <section className="contact-hero site-width">
-        <div>
-          <p className="eyebrow">{contact.hero.eyebrow}</p>
-          <h1>{contact.hero.titleLine1}<br />{contact.hero.titleLine2}</h1>
+        <div className="contact-intro">
+          <h1 className="contact-page-label">{contact.hero.eyebrow}</h1>
+          <div className="contact-intro-copy">
+            <p>{contact.recruitment.english}</p>
+            <p>{contact.recruitment.korean}</p>
+          </div>
         </div>
         <div className="contact-details">
           <div>
@@ -23,12 +26,6 @@ export default function ContactPage() {
             <h2>{contact.laboratory.room}</h2>
             <p>{contact.laboratory.addressLine1}<br />{contact.laboratory.addressLine2}</p>
             <a href={contact.laboratory.mapUrl} target="_blank" rel="noreferrer">{contact.laboratory.mapLabel} ↗</a>
-          </div>
-        </div>
-        <div className="contact-recruitment">
-          <div className="contact-recruitment-copy">
-            <p>{contact.recruitment.english}</p>
-            <p>{contact.recruitment.korean}</p>
           </div>
         </div>
       </section>
