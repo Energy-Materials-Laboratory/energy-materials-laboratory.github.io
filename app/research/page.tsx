@@ -6,6 +6,36 @@ import { assetPath } from "../../lib/paths";
 
 export const metadata = { title: research.metadataTitle };
 
+type ResearchImage = {
+  image: string;
+  width: number;
+  height: number;
+  alt: string;
+};
+
+type ResearchFigureData = ResearchImage | {
+  images: ResearchImage[];
+};
+
+function ResearchFigure({ visual }: { visual: ResearchFigureData }) {
+  const images = "images" in visual ? visual.images : [visual];
+
+  return (
+    <div className={`research-detail-figure${images.length > 1 ? " research-detail-figure-stack" : ""}`}>
+      {images.map((image) => (
+        <Image
+          alt={image.alt}
+          height={image.height}
+          key={image.image}
+          sizes="(max-width: 620px) calc(100vw - 76px), (max-width: 920px) 520px, 38vw"
+          src={assetPath(image.image)}
+          width={image.width}
+        />
+      ))}
+    </div>
+  );
+}
+
 export default function ResearchPage() {
   return (
     <SiteShell>
@@ -47,15 +77,7 @@ export default function ResearchPage() {
             </div>
             <div className={`research-detail-visual${area.visual ? " has-figure" : ""}`}>
               {area.visual ? (
-                <div className="research-detail-figure">
-                  <Image
-                    alt={area.visual.alt}
-                    height={area.visual.height}
-                    sizes="(max-width: 620px) calc(100vw - 76px), (max-width: 920px) 520px, 38vw"
-                    src={assetPath(area.visual.image)}
-                    width={area.visual.width}
-                  />
-                </div>
+                <ResearchFigure visual={area.visual} />
               ) : (
                 <ResearchVisual index={area.index} />
               )}

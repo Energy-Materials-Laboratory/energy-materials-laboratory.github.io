@@ -1665,6 +1665,16 @@ summary:focus-visible {
   margin: 0;
 }
 
+.research-detail-figure-stack {
+  display: grid;
+  gap: 16px;
+}
+
+.research-detail-figure-stack img + img {
+  padding-top: 16px;
+  border-top: 1px solid var(--rule);
+}
+
 .research-detail-figure img {
   width: 100%;
   height: auto;
