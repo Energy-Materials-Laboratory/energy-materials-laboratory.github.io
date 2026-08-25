@@ -101,20 +101,10 @@
         "Solid-solid interfaces"
       ],
       "visual": {
-        "images": [
-          {
-            "image": "/images/research/solid-state-sulfide-conductor.webp",
-            "width": 1348,
-            "height": 903,
-            "alt": "Crystal structures and local coordination environments in LGPS-type sulfide lithium-ion conductors"
-          },
-          {
-            "image": "/images/research/solid-state-halide-conductor.webp",
-            "width": 2047,
-            "height": 1480,
-            "alt": "Cation-ordering models, ionic conductivity, and structural motifs in a trigonal halide lithium-ion conductor"
-          }
-        ]
+        "image": "/images/research/solid-state-halide-conductor.webp",
+        "width": 2047,
+        "height": 1480,
+        "alt": "Cation-ordering models, ionic conductivity, and structural motifs in a trigonal halide lithium-ion conductor"
       },
       "selectedPublications": [
         {
