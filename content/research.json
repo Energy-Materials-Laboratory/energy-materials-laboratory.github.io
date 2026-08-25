@@ -79,7 +79,8 @@
         "image": "/images/research/sodium-ion-materials.webp",
         "width": 1202,
         "height": 305,
-        "alt": "Chemical-space mapping and cationic-potential-based structure prediction for P2 and O3 sodium layered oxides"
+        "alt": "Chemical-space mapping and cationic-potential-based structure prediction for P2 and O3 sodium layered oxides",
+        "layout": "split-horizontal"
       },
       "selectedPublications": [
         {

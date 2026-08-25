@@ -11,6 +11,7 @@ type ResearchImage = {
   width: number;
   height: number;
   alt: string;
+  layout?: string;
 };
 
 type ResearchFigureData = ResearchImage | {
@@ -19,6 +20,46 @@ type ResearchFigureData = ResearchImage | {
 
 function ResearchFigure({ visual }: { visual: ResearchFigureData }) {
   const images = "images" in visual ? visual.images : [visual];
+  const splitImage = images.length === 1 && images[0].layout === "split-horizontal"
+    ? images[0]
+    : null;
+
+  if (splitImage) {
+    const src = assetPath(splitImage.image);
+
+    return (
+      <div
+        aria-label={splitImage.alt}
+        className="research-detail-figure research-detail-figure-split"
+        role="img"
+      >
+        <div
+          aria-hidden="true"
+          className="research-detail-figure-crop research-detail-figure-crop-left"
+        >
+          <Image
+            alt=""
+            height={splitImage.height}
+            sizes="(max-width: 620px) calc(100vw - 76px), (max-width: 920px) 520px, 38vw"
+            src={src}
+            width={splitImage.width}
+          />
+        </div>
+        <div
+          aria-hidden="true"
+          className="research-detail-figure-crop research-detail-figure-crop-right"
+        >
+          <Image
+            alt=""
+            height={splitImage.height}
+            sizes="(max-width: 620px) calc(100vw - 76px), (max-width: 920px) 520px, 38vw"
+            src={src}
+            width={splitImage.width}
+          />
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className={`research-detail-figure${images.length > 1 ? " research-detail-figure-stack" : ""}`}>
