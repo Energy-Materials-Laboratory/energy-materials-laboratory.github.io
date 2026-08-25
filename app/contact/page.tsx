@@ -25,16 +25,14 @@ export default function ContactPage() {
             <a href={contact.laboratory.mapUrl} target="_blank" rel="noreferrer">{contact.laboratory.mapLabel} ↗</a>
           </div>
         </div>
-      </section>
-      <section className="recruitment-detail">
-        <div className="site-width">
+        <div className="contact-recruitment">
           <p className="section-index">{contact.recruitment.label}</p>
-          <div className="recruitment-copy">
+          <div className="contact-recruitment-copy">
             <h2>{contact.recruitment.title}</h2>
             <p>{contact.recruitment.english}</p>
             <p>{contact.recruitment.korean}</p>
             <EmailCopyButton
-              className="button button-light"
+              className="button button-primary"
               email={contact.principalInvestigator.email}
             >
               {contact.recruitment.actionLabel}
