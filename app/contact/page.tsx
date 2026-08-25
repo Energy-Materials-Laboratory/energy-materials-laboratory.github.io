@@ -1,4 +1,3 @@
-import EmailCopyButton from "../components/EmailCopyButton";
 import SiteShell from "../components/SiteShell";
 import contact from "../../content/contact.json";
 
@@ -26,17 +25,9 @@ export default function ContactPage() {
           </div>
         </div>
         <div className="contact-recruitment">
-          <p className="section-index">{contact.recruitment.label}</p>
           <div className="contact-recruitment-copy">
-            <h2>{contact.recruitment.title}</h2>
             <p>{contact.recruitment.english}</p>
             <p>{contact.recruitment.korean}</p>
-            <EmailCopyButton
-              className="button button-primary"
-              email={contact.principalInvestigator.email}
-            >
-              {contact.recruitment.actionLabel}
-            </EmailCopyButton>
           </div>
         </div>
       </section>
