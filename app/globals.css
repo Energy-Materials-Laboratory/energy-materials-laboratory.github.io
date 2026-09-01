@@ -1520,7 +1520,6 @@ summary:focus-visible {
   margin-top: 38px;
 }
 
-.page-hero-minimal + .research-detail-list,
 .page-hero-minimal + .member-groups,
 .page-hero-minimal + .patent-list,
 .page-hero-minimal + .gallery-grid,
@@ -2982,7 +2981,6 @@ summary:focus-visible {
   .page-hero-minimal + .portal-grid {
     margin-top: 28px;
   }
-  .page-hero-minimal + .research-detail-list,
   .page-hero-minimal + .member-groups,
   .page-hero-minimal + .patent-list,
   .page-hero-minimal + .gallery-grid {
