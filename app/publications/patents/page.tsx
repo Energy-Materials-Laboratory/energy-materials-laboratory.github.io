@@ -1,3 +1,5 @@
+import { Fragment } from "react";
+
 import SiteShell from "../../components/SiteShell";
 import publicationMeta from "../../../content/publications.json";
 import patentsContent from "../../../content/patents.json";
@@ -10,6 +12,32 @@ type Patent = {
   inventors: string;
   number: string;
 };
+
+const LAB_MEMBER_NAMES = new Set([
+  "김병훈",
+  "박민규",
+  "김명훈",
+  "신동혁",
+]);
+
+function PatentInventors({
+  inventors,
+}: {
+  inventors: string;
+}) {
+  const names = inventors.split(" · ");
+
+  return (
+    <>
+      {names.map((name, index) => (
+        <Fragment key={`${name}-${index}`}>
+          {index > 0 ? " · " : ""}
+          {LAB_MEMBER_NAMES.has(name) ? <b>{name}</b> : name}
+        </Fragment>
+      ))}
+    </>
+  );
+}
 
 export const metadata = {
   title: publicationMeta.metadata.patentsTitle,
@@ -70,7 +98,11 @@ export default function PatentsPage() {
                       {patent.english}
                     </p>
 
-                    <p>{patent.inventors}</p>
+                    <p>
+                      <PatentInventors
+                        inventors={patent.inventors}
+                      />
+                    </p>
                   </div>
 
                   <div>
