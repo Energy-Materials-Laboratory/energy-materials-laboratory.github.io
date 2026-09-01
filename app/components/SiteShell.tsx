@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Header from "./Header";
 import EmailCopyButton from "./EmailCopyButton";
@@ -27,7 +28,13 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
         </div>
         <div className="site-width footer-bottom">
           <span>{site.footer.copyright}</span>
-          <span>{site.footer.affiliation}</span>
+          <Image
+            className="footer-university-logo"
+            src="/skku-signature-gray.svg"
+            alt="Sungkyunkwan University"
+            width={671}
+            height={83}
+          />
         </div>
       </footer>
     </>

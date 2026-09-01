@@ -1453,7 +1453,7 @@ summary:focus-visible {
 }
 
 .footer-bottom {
-  min-height: 60px;
+  min-height: 78px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1461,6 +1461,12 @@ summary:focus-visible {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   color: rgba(255, 255, 255, 0.42);
   font-size: var(--size-label);
+}
+
+.footer-university-logo {
+  width: clamp(260px, 19vw, 320px);
+  height: auto;
+  flex: 0 0 auto;
 }
 
 .page-hero {
@@ -2965,7 +2971,15 @@ summary:focus-visible {
   .publication-row h3 { font-size: 20px; }
   .recruit-grid h2 { font-size: 39px; }
   .footer-grid { grid-template-columns: 1fr; gap: 30px; }
-  .footer-bottom { align-items: flex-start; flex-direction: column; justify-content: center; padding-block: 18px; }
+  .footer-bottom {
+    min-height: 0;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    padding-block: 20px;
+  }
+  .footer-university-logo { width: min(260px, 86vw); }
 
   .page-hero, .page-hero.compact { min-height: 360px; padding-block: 78px 48px; }
   .page-hero.page-hero-minimal {
