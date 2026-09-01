@@ -47,8 +47,6 @@ export default function ResearchPage() {
       <section className="research-detail-list site-width">
         {research.areas.map((area) => (
           <article className="research-detail" key={area.title}>
-            <div className="research-number">{area.index}</div>
-
             <div className="research-detail-copy">
               <h2>{area.title}</h2>
               <p className="research-detail-lead">{area.short}</p>

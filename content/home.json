@@ -29,9 +29,7 @@
     }
   ],
   "researchSection": {
-    "label": "Research areas",
-    "titleLine1": "One materials-science framework.",
-    "titleLine2": "Multiple battery chemistries.",
+    "title": "Research Areas",
     "actionLabel": "View all research"
   },
   "publicationsSection": {

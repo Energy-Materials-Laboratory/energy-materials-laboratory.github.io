@@ -521,6 +521,11 @@ summary:focus-visible {
   line-height: 1.04;
 }
 
+.research-section-heading h2 {
+  margin-top: 0;
+  color: var(--ink);
+}
+
 .research-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -543,24 +548,15 @@ summary:focus-visible {
   color: white;
 }
 
-.research-card .card-index {
-  display: block;
-  margin-top: 5px;
-  color: var(--blue);
-  font-family: var(--font-mono);
-  font-size: var(--size-label);
-}
-
 .research-card-topline {
   min-height: 124px;
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: 28px;
+  justify-content: flex-end;
+  gap: 0;
   margin-bottom: 29px;
 }
 
-.research-card:hover .card-index,
 .research-card:hover p {
   color: rgba(255, 255, 255, 0.78);
 }
@@ -1534,13 +1530,12 @@ summary:focus-visible {
 
 .research-detail-list {
   padding-block: 40px 120px;
-  border-top: 1px solid var(--ink);
+  border-top: 0;
 }
 
 .research-detail {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
-  column-gap: clamp(32px, 5vw, 72px);
+  grid-template-columns: minmax(0, 1fr);
   row-gap: 32px;
   align-items: start;
   padding-block: 76px;
@@ -1548,15 +1543,8 @@ summary:focus-visible {
 }
 
 .research-detail-copy {
-  grid-column: 2;
+  grid-column: 1;
   width: min(100%, 920px);
-}
-
-.research-number {
-  align-self: start;
-  color: var(--blue);
-  font-family: var(--font-mono);
-  font-size: var(--size-meta);
 }
 
 .research-detail h2 {
@@ -1585,7 +1573,7 @@ summary:focus-visible {
 }
 
 .research-selected {
-  grid-column: 2;
+  grid-column: 1;
   width: min(100%, 900px);
   margin-top: 4px;
 }
@@ -1646,7 +1634,7 @@ summary:focus-visible {
 }
 
 .research-detail-visual {
-  grid-column: 2;
+  grid-column: 1;
   width: min(100%, 920px);
   min-height: 280px;
   display: flex;
@@ -2925,7 +2913,6 @@ summary:focus-visible {
   .recruit-grid .button { justify-self: start; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 
-  .research-detail { grid-template-columns: 58px minmax(0, 1fr); column-gap: 32px; }
   .profile-hero { grid-template-columns: 1fr; }
   .profile-portrait { min-height: 520px; }
   .cv-section { grid-template-columns: 1fr; }
@@ -3001,7 +2988,6 @@ summary:focus-visible {
   .contact-intro-copy { gap: 14px; }
   .contact-intro-copy > p { font-size: 19px; }
   .research-detail { grid-template-columns: 1fr; gap: 24px; padding-block: 48px; }
-  .research-number,
   .research-detail-copy,
   .research-detail-visual,
   .research-selected { grid-column: 1; }

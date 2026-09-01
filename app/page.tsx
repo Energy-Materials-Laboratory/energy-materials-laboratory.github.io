@@ -100,10 +100,9 @@ export default function Home() {
       </section>
 
       <section className="research-section site-width">
-        <div className="section-heading">
+        <div className="section-heading research-section-heading">
           <div>
-            <p className="section-index">{home.researchSection.label}</p>
-            <h2>{home.researchSection.titleLine1}<br />{home.researchSection.titleLine2}</h2>
+            <h2>{home.researchSection.title}</h2>
           </div>
           <Link className="text-link" href="/research">{home.researchSection.actionLabel} <span aria-hidden="true">→</span></Link>
         </div>
@@ -111,7 +110,6 @@ export default function Home() {
           {research.areas.map((area) => (
             <Link href="/research" className="research-card" key={area.title}>
               <div className="research-card-topline">
-                <span className="card-index">{area.index}</span>
                 <ResearchVisual index={area.index} />
               </div>
               <h3>{area.title}</h3>
