@@ -1529,7 +1529,7 @@ summary:focus-visible {
 }
 
 .research-detail-list {
-  padding-block: 40px 120px;
+  padding-block: 0 80px;
   border-top: 0;
 }
 
@@ -1538,13 +1538,13 @@ summary:focus-visible {
   grid-template-columns: minmax(0, 1fr);
   row-gap: 32px;
   align-items: start;
-  padding-block: 76px;
+  padding-block: 56px;
   border-bottom: 1px solid var(--rule);
 }
 
 .research-detail-copy {
   grid-column: 1;
-  width: min(100%, 920px);
+  width: min(100%, 1080px);
 }
 
 .research-detail-copy,
@@ -1580,7 +1580,7 @@ summary:focus-visible {
 
 .research-selected {
   grid-column: 1;
-  width: min(100%, 900px);
+  width: min(100%, 1060px);
   margin-top: 4px;
 }
 
@@ -1641,7 +1641,7 @@ summary:focus-visible {
 
 .research-detail-visual {
   grid-column: 1;
-  width: min(100%, 920px);
+  width: min(100%, 1080px);
   min-height: 280px;
   display: flex;
   align-items: center;
