@@ -67,7 +67,6 @@ export default function Home() {
       <section className="publication-section site-width">
         <div className="section-heading publication-heading">
           <div>
-            <p className="section-index">{home.publicationsSection.label}</p>
             <h2>{home.publicationsSection.title}</h2>
           </div>
           <Link className="text-link" href="/publications/journals">{home.publicationsSection.actionLabel} <span aria-hidden="true">→</span></Link>
