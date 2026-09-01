@@ -1547,6 +1547,12 @@ summary:focus-visible {
   width: min(100%, 920px);
 }
 
+.research-detail-copy,
+.research-detail-visual,
+.research-selected {
+  margin-inline: auto;
+}
+
 .research-detail h2 {
   margin: 0 0 18px;
   font-size: clamp(32px, 3.4vw, 48px);
