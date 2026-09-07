@@ -15,6 +15,7 @@ type GroupMember = {
   cardPhoto?: string;
   cardPosition?: string;
   photo?: string;
+  isLabManager?: boolean;
 };
 
 export const metadata = {
@@ -34,6 +35,15 @@ export default function GroupMembersPage() {
       <section className="page-hero page-hero-minimal page-hero-borderless site-width">
         <h1 className="visually-hidden">{membersContent.group.eyebrow}</h1>
         <p className="eyebrow">{membersContent.group.eyebrow}</p>
+        <div
+          className="lab-manager-legend"
+          aria-label="Asterisk indicates the lab manager"
+        >
+          <span className="lab-manager-legend-marker" aria-hidden="true">
+            *
+          </span>
+          <span aria-hidden="true">: {membersContent.group.labManagerLabel}</span>
+        </div>
       </section>
 
       <section className="member-groups site-width">
@@ -46,7 +56,12 @@ export default function GroupMembersPage() {
                 const cardPhoto = member.cardPhoto || member.photo;
 
                 return (
-                  <article className="member-card" key={member.email}>
+                  <article
+                    className={`member-card${
+                      member.isLabManager ? " is-lab-manager" : ""
+                    }`}
+                    key={member.email}
+                  >
                     <Link
                       className="member-photo-link"
                       href={`/members/group/${member.slug}`}
@@ -76,8 +91,20 @@ export default function GroupMembersPage() {
                     </Link>
 
                     <h2>
-                      <Link href={`/members/group/${member.slug}`}>
+                      <Link
+                        href={`/members/group/${member.slug}`}
+                        aria-label={
+                          member.isLabManager
+                            ? `${member.name}, ${membersContent.group.labManagerLabel}`
+                            : undefined
+                        }
+                      >
                         {member.name}
+                        {member.isLabManager ? (
+                          <sup className="lab-manager-marker" aria-hidden="true">
+                            *
+                          </sup>
+                        ) : null}
                       </Link>
                     </h2>
 

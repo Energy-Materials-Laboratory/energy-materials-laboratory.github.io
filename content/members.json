@@ -105,6 +105,7 @@
     "titleLine1": "Different scales.",
     "titleLine2": "Shared curiosity.",
     "description": "Our group brings computation and experiment together through close, question-driven collaboration.",
+    "labManagerLabel": "Lab manager",
     "roleOrder": [
       {
         "heading": "MS/PhD Integrated Students",
@@ -126,6 +127,7 @@
         "email": "jcw990104@skku.edu",
         "role": "MS/PhD Integrated Student",
         "initials": "CW",
+        "isLabManager": true,
         "cardPhoto": "/images/members/cheolwoo-card-2026.jpg",
         "cardPosition": "50% 20%",
         "profilePhoto": "/images/members/cheolwoo-profile.jpg",

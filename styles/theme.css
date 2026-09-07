@@ -19,13 +19,13 @@
   --weight-label: 720;
 
   /* Main type sizes */
-  --size-body: 20px;
-  --size-small: 17px;
-  --size-label: 15px;
-  --size-meta: 16px;
-  --size-micro: 15px;
-  --size-card-body: 18px;
-  --size-list-title: 22px;
+  --size-body: 21px;
+  --size-small: 18px;
+  --size-label: 16px;
+  --size-meta: 17px;
+  --size-micro: 16px;
+  --size-card-body: 19px;
+  --size-list-title: 23px;
   --size-brand: clamp(25px, 2.15vw, 34px);
   --size-hero-title: clamp(51px, 4.6vw, 74px);
   --size-page-title: clamp(54px, 7.4vw, 104px);
@@ -42,13 +42,15 @@
   --soft-paper: #f5f7f9;
   --warm-paper: #f8f8f5;
   --ink: #111820;
-  --muted: #5e6874;
-  --light-muted: #8a949e;
-  --page-label: #4f5964;
+  --muted: #39434e;
+  --light-muted: #4d5965;
+  --page-label: #303b46;
   --rule: #d8dde2;
   --blue: #075dbb;
   --blue-bright: #0b66d3;
   --blue-dark: #06458a;
+  --lab-manager: #3e6f55;
+  --lab-manager-dark: #2e5942;
 
   /* Hero background blend */
   --hero-gradient-start: #ffffff;
