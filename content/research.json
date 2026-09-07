@@ -1,7 +1,7 @@
 {
   "metadataTitle": "Research",
   "hero": {
-    "eyebrow": "Research"
+    "eyebrow": "Research Areas"
   },
   "areas": [
     {
@@ -89,7 +89,7 @@
           "doi": "10.1126/science.adg6591"
         },
         {
-          "title": "Native defects in Li10GeP2S12 and their effect on lithium diffusion",
+          "title": "Native defects in Li₁₀GeP₂S₁₂ and their effect on lithium diffusion",
           "venue": "Chemistry of Materials · 2018",
           "doi": "10.1021/acs.chemmater.8b01163"
         }

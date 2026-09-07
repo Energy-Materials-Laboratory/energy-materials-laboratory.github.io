@@ -94,7 +94,7 @@ summary:focus-visible {
 .institution-bar {
   border-bottom: 1px solid var(--rule);
   background: #fbfcfd;
-  color: #3f4b56;
+  color: var(--muted);
   font-size: var(--size-label);
   font-weight: var(--weight-semibold);
   letter-spacing: 0.12em;
@@ -361,7 +361,7 @@ summary:focus-visible {
 .hero-text {
   max-width: 555px;
   margin: 0;
-  color: #3b4651;
+  color: var(--muted);
   font-size: var(--size-body);
   line-height: 1.62;
 }
@@ -467,7 +467,7 @@ summary:focus-visible {
 .pillar-strip p {
   max-width: 310px;
   margin: 0;
-  color: #3e4954;
+  color: var(--muted);
   font-size: var(--size-small);
   line-height: 1.5;
 }
@@ -1521,9 +1521,9 @@ summary:focus-visible {
   align-items: baseline;
   gap: 4px;
   margin-top: 10px;
-  color: var(--muted);
-  font-size: var(--size-meta);
-  font-weight: var(--weight-medium);
+  color: var(--lab-manager);
+  font-size: 19px;
+  font-weight: var(--weight-semibold);
   line-height: 1.45;
 }
 
@@ -1580,7 +1580,7 @@ summary:focus-visible {
   max-width: 100%;
   margin: 0 0 16px;
   color: var(--ink);
-  font-size: clamp(20px, 1.7vw, 24px);
+  font-size: clamp(21px, 1.75vw, 25px);
   font-weight: var(--weight-medium);
   letter-spacing: -.02em;
   line-height: 1.55;
@@ -1590,7 +1590,7 @@ summary:focus-visible {
   max-width: 100%;
   margin: 0;
   color: var(--muted);
-  font-size: var(--size-small);
+  font-size: 19px;
   line-height: 1.7;
 }
 
@@ -1628,7 +1628,7 @@ summary:focus-visible {
 }
 
 .research-selected-list strong {
-  font-size: var(--size-meta);
+  font-size: 18px;
   font-weight: var(--weight-semibold);
   line-height: 1.45;
 }
@@ -1636,7 +1636,7 @@ summary:focus-visible {
 .research-selected-list small {
   margin-top: 5px;
   color: var(--muted);
-  font-size: var(--size-label);
+  font-size: 17px;
   line-height: 1.45;
 }
 
@@ -2010,7 +2010,7 @@ summary:focus-visible {
 
 .member-card h2 {
   margin: 20px 0 7px;
-  font-size: 23px;
+  font-size: 25px;
   font-weight: 620;
   letter-spacing: -.035em;
 }

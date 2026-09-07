@@ -37,10 +37,10 @@ export default function GroupMembersPage() {
         <p className="eyebrow">{membersContent.group.eyebrow}</p>
         <div
           className="lab-manager-legend"
-          aria-label="Asterisk indicates the lab manager"
+          aria-label="Double dagger indicates the lab manager"
         >
           <span className="lab-manager-legend-marker" aria-hidden="true">
-            *
+            ‡
           </span>
           <span aria-hidden="true">: {membersContent.group.labManagerLabel}</span>
         </div>
@@ -102,7 +102,7 @@ export default function GroupMembersPage() {
                         {member.name}
                         {member.isLabManager ? (
                           <sup className="lab-manager-marker" aria-hidden="true">
-                            *
+                            ‡
                           </sup>
                         ) : null}
                       </Link>
