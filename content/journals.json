@@ -6,6 +6,38 @@
   },
   "journals": [
     {
+      "date": "2026-09",
+      "title": "Phosphorus-Enabled Reversible Jahn–Teller Phase Evolution in Manganese Spinel Cathodes",
+      "authors": [
+        {
+          "name": "Hyoi Jo",
+          "mark": "†"
+        },
+        {
+          "name": "Hyojun Kim",
+          "mark": "†"
+        },
+        {
+          "name": "Cheolwoo Jo",
+          "mark": "†",
+          "bold": true
+        },
+        {
+          "name": "Sungsoo Kim"
+        },
+        {
+          "name": "Byunghoon Kim",
+          "mark": "*",
+          "bold": true
+        },
+        {
+          "name": "Sung-Kyun Jung",
+          "mark": "*"
+        }
+      ],
+      "venue": "Energy & Environmental Science · Accepted"
+    },
+    {
       "date": "2026-07",
       "title": "Suppressing Transition Metal Migration via Cation Disorder Engineering for Enhanced Kinetics in Lithium-rich Cathodes",
       "authors": [
