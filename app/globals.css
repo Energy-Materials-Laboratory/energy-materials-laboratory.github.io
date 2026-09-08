@@ -2202,7 +2202,7 @@ summary:focus-visible {
 .member-detail-empty {
   max-width: 720px;
   margin: 0;
-  font-size: clamp(21px, 1.85vw, 27px);
+  font-size: clamp(16px, 1.2vw, 18px);
   letter-spacing: -.025em;
   line-height: 1.62;
 }
@@ -3149,7 +3149,7 @@ summary:focus-visible {
 
   .member-detail-bio,
   .member-detail-empty {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.58;
   }
 
