@@ -7,7 +7,7 @@
 - 사이트 문구와 목록: `content/*.json`
 - 글꼴·크기·굵기·색상: `styles/theme.css`
 - 전체 세부 레이아웃: `app/globals.css`
-- 메인 결정 이미지: `public/images/hero-layered-cathode.png`
+- 메인 결정 이미지: `public/images/hero-layered-cathode-refined.webp`
 - 자동 배포 설정: `.github/workflows/deploy-pages.yml`
 
 대부분의 일상적인 수정에는 `app` 폴더를 건드릴 필요가 없습니다.
