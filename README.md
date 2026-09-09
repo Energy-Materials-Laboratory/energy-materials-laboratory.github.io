@@ -7,7 +7,7 @@
 - 사이트 문구와 목록: `content/*.json`
 - 글꼴·크기·굵기·색상: `styles/theme.css`
 - 전체 세부 레이아웃: `app/globals.css`
-- 메인 결정 이미지: `public/images/hero-layered-cathode-refined.webp`
+- 메인 결정 이미지: `public/images/hero-layered-crystal-modern.webp`
 - 자동 배포 설정: `.github/workflows/deploy-pages.yml`
 
 대부분의 일상적인 수정에는 `app` 폴더를 건드릴 필요가 없습니다.
@@ -87,7 +87,7 @@ JSON을 수정할 때는 다음 규칙을 지킵니다.
 "image": "/images/new-hero-image.png"
 ```
 
-현재 이미지와 동일한 1672×941 비율을 권장합니다.
+현재 이미지는 4:3 비율(1448×1086)이며, 전체 구조가 잘리지 않도록 표시됩니다.
 
 ## Custom domain
 
