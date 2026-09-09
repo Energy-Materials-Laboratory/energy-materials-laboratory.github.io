@@ -54,8 +54,8 @@
 
   /* Hero background blend */
   --hero-gradient-start: #ffffff;
-  --hero-gradient-middle: #ffffff;
-  --hero-gradient-end-rgb: 255, 255, 255;
+  --hero-gradient-middle: #f8fafc;
+  --hero-gradient-end-rgb: 242, 246, 250;
 
   /* Layout */
   --site-width: 1360px;
