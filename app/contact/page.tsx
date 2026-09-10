@@ -9,7 +9,7 @@ export default function ContactPage() {
     <SiteShell>
       <section className="contact-hero site-width">
         <div className="contact-intro">
-          <h1 className="contact-page-label">{contact.hero.eyebrow}</h1>
+          <h1 className="visually-hidden">{contact.hero.eyebrow}</h1>
           <div className="contact-intro-copy">
             <p>{contact.recruitment.english}</p>
             <p lang="ko" className="recruitment-korean">{contact.recruitment.korean}</p>
