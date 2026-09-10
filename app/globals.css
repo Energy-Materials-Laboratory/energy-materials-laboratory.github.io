@@ -1931,6 +1931,7 @@ summary:focus-visible {
 }
 
 .member-group > .section-index {
+  letter-spacing: .025em;
   font-size: calc(var(--size-label) + 2px);
   text-transform: none;
   padding-bottom: 20px;
@@ -2137,6 +2138,7 @@ summary:focus-visible {
 }
 
 .member-detail-intro .eyebrow {
+  letter-spacing: .025em;
   font-size: calc(var(--size-label) + 2px);
   text-transform: none;
   margin: 0;
@@ -2199,6 +2201,7 @@ summary:focus-visible {
 
 .member-detail-lead > .section-index,
 .member-detail-section > .section-index {
+  letter-spacing: .04em;
   margin: 0 0 28px;
 }
 

@@ -145,7 +145,44 @@
           "Lithium-ion batteries",
           "Cathode materials"
         ],
-        "selectedPublications": []
+        "selectedPublications": [
+          {
+            "title": "Phosphorus-Enabled Reversible Jahn–Teller Phase Evolution in Manganese Spinel Cathodes",
+            "authors": [
+              {
+                "name": "Hyoi Jo",
+                "mark": "†",
+                "bold": false
+              },
+              {
+                "name": "Hyojun Kim",
+                "mark": "†",
+                "bold": false
+              },
+              {
+                "name": "Cheolwoo Jo",
+                "mark": "†",
+                "bold": true
+              },
+              {
+                "name": "Sungsoo Kim",
+                "mark": "",
+                "bold": false
+              },
+              {
+                "name": "Byunghoon Kim",
+                "mark": "*",
+                "bold": true
+              },
+              {
+                "name": "Sung-Kyun Jung",
+                "mark": "*",
+                "bold": false
+              }
+            ],
+            "venue": "Energy & Environmental Science · Accepted"
+          }
+        ]
       },
       {
         "name": "Jaehoon Lim",
@@ -241,7 +278,61 @@
         "researchInterests": [
           "Lithium-ion batteries"
         ],
-        "selectedPublications": []
+        "selectedPublications": [
+          {
+            "title": "A Review of Failure Modes and Safety Strategies of Lithium-ion Batteries from Materials to Systems",
+            "authors": [
+              {
+                "name": "Jin Hyeok Yang",
+                "mark": "†",
+                "bold": false
+              },
+              {
+                "name": "Jae Yoon Sung",
+                "mark": "†",
+                "bold": false
+              },
+              {
+                "name": "Hyunji Kweon",
+                "mark": "†",
+                "bold": false
+              },
+              {
+                "name": "Seohyun Kim",
+                "mark": "†",
+                "bold": true
+              },
+              {
+                "name": "Byunghoon Kim",
+                "mark": "*",
+                "bold": true
+              },
+              {
+                "name": "Jongsoon Kim",
+                "mark": "*",
+                "bold": false
+              },
+              {
+                "name": "Junyoung Mun",
+                "mark": "*",
+                "bold": false
+              },
+              {
+                "name": "Jung Ho Kim",
+                "mark": "*",
+                "bold": false
+              },
+              {
+                "name": "Ki Jae Kim",
+                "mark": "*",
+                "bold": false
+              }
+            ],
+            "venue": "Advanced Science · e76228",
+            "doi": "10.1002/advs.76228",
+            "href": "https://doi.org/10.1002/advs.76228"
+          }
+        ]
       },
       {
         "name": "Kihwan Choi",

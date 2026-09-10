@@ -6,6 +6,7 @@ import EmailCopyButton from "../../../components/EmailCopyButton";
 import SiteShell from "../../../components/SiteShell";
 import membersContent from "../../../../content/members.json";
 import { assetPath } from "../../../../lib/paths";
+import type { PublicationAuthor } from "../../../../lib/publications";
 
 type Education = {
   degree: string;
@@ -15,10 +16,11 @@ type Education = {
 
 type SelectedPublication = {
   title: string;
-  authors?: string;
+  authors?: string | PublicationAuthor[];
   venue?: string;
   year?: string;
   href?: string;
+  doi?: string;
 };
 
 type Member = {
@@ -155,9 +157,26 @@ export default async function MemberProfilePage({
                             </a>
                           ) : publication.title}
                         </h2>
-                        {publication.authors ? <p>{publication.authors}</p> : null}
+                        {publication.authors ? (
+                          <p>
+                            {typeof publication.authors === "string"
+                              ? publication.authors
+                              : publication.authors.map((author, authorIndex, authors) => (
+                                  <span key={`${author.name}-${authorIndex}`}>
+                                    {authorIndex > 0 ? (authorIndex === authors.length - 1 ? ", and " : ", ") : ""}
+                                    {author.bold ? <strong>{author.name}</strong> : author.name}
+                                    {author.mark ? <sup>{author.mark}</sup> : null}
+                                  </span>
+                                ))}
+                          </p>
+                        ) : null}
                         {publication.venue || publication.year ? (
-                          <small>{[publication.venue, publication.year].filter(Boolean).join(" · ")}</small>
+                          <small>
+                            {[publication.venue, publication.year].filter(Boolean).join(" · ")}
+                            {publication.doi ? (
+                              <> · <a href={`https://doi.org/${publication.doi}`} target="_blank" rel="noreferrer">DOI: {publication.doi}</a></>
+                            ) : null}
+                          </small>
                         ) : null}
                       </div>
                     </article>
