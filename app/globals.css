@@ -97,7 +97,7 @@ summary:focus-visible {
   color: var(--muted);
   font-size: var(--size-label);
   font-weight: var(--weight-semibold);
-  letter-spacing: 0.12em;
+  letter-spacing: .025em;
 }
 
 .institution-inner {
@@ -304,8 +304,8 @@ summary:focus-visible {
   color: var(--light-muted);
   font-size: var(--size-micro);
   font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
   border-top: 1px solid #edf0f2;
 }
 
@@ -320,8 +320,8 @@ summary:focus-visible {
   color: var(--blue);
   font-size: var(--size-label);
   font-weight: var(--weight-bold);
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .hero {
@@ -1179,8 +1179,8 @@ summary:focus-visible {
   color: var(--blue);
   font-size: var(--size-label);
   font-weight: var(--weight-bold);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .featured-publication-meta {
@@ -1313,8 +1313,8 @@ summary:focus-visible {
   color: var(--blue);
   font-size: var(--size-label);
   font-weight: var(--weight-bold);
-  letter-spacing: .14em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .publication-list {
@@ -1431,7 +1431,7 @@ summary:focus-visible {
   color: white;
   font-size: 20px !important;
   font-weight: 680;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .footer-label {
@@ -1439,8 +1439,8 @@ summary:focus-visible {
   color: #7caee0;
   font-size: var(--size-micro) !important;
   font-weight: 700;
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .footer-grid a:hover,
@@ -1512,7 +1512,7 @@ summary:focus-visible {
   color: var(--page-label);
   font-size: clamp(23px, 1.9vw, 30px);
   font-weight: var(--weight-bold);
-  letter-spacing: .11em;
+  letter-spacing: .025em;
   line-height: 1.35;
 }
 
@@ -1605,8 +1605,8 @@ summary:focus-visible {
   color: var(--blue);
   font-size: var(--size-label);
   font-weight: var(--weight-bold);
-  letter-spacing: .14em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .research-selected-list {
@@ -1809,8 +1809,8 @@ summary:focus-visible {
 
   font-family: var(--font-mono);
   font-size: var(--size-micro);
-  letter-spacing: 0.15em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .profile-intro {
@@ -2002,8 +2002,8 @@ summary:focus-visible {
 
   font-family: var(--font-mono);
   font-size: var(--size-micro);
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .member-photo:not(.has-photo) span,
@@ -2128,8 +2128,8 @@ summary:focus-visible {
 
   font-family: var(--font-mono);
   font-size: var(--size-micro);
-  letter-spacing: 0.13em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .member-detail-intro {
@@ -2168,8 +2168,8 @@ summary:focus-visible {
   font-family: var(--font-mono);
   font-size: var(--size-label);
   font-weight: var(--weight-label);
-  letter-spacing: .12em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .member-detail-contact > .email-copy {
@@ -2466,9 +2466,9 @@ summary:focus-visible {
   color: var(--light-muted);
   font-family: var(--font-mono);
   font-size: var(--size-micro);
-  letter-spacing: 0.1em;
+  letter-spacing: .025em;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .patent-list {
@@ -2561,8 +2561,8 @@ summary:focus-visible {
   top: 16px;
   font-family: var(--font-mono);
   font-size: var(--size-micro);
-  letter-spacing: .15em;
-  text-transform: uppercase;
+  letter-spacing: .025em;
+  text-transform: none;
 }
 
 .gallery-card h2 {
@@ -2603,9 +2603,9 @@ summary:focus-visible {
   color: var(--ink);
   font-size: clamp(42px, 3.6vw, 54px);
   font-weight: var(--weight-bold);
-  letter-spacing: .07em;
+  letter-spacing: .025em;
   line-height: 1.08;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .contact-intro-copy {

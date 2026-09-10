@@ -1,6 +1,6 @@
 {
   "hero": {
-    "eyebrow": "Materials · Mechanisms · Discovery",
+    "eyebrow": "Materials · mechanisms · discovery",
     "title": "Materials for batteries. Understood from atoms to systems.",
     "description": "We integrate first-principles computation, high-throughput screening, synthesis, and multiscale characterization to discover advanced energy materials.",
     "primaryAction": {
@@ -29,7 +29,7 @@
     }
   ],
   "researchSection": {
-    "title": "Research Areas",
+    "title": "Research areas",
     "actionLabel": "View all research"
   },
   "publicationsSection": {
