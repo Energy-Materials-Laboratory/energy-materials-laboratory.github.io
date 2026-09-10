@@ -6,7 +6,7 @@
   "areas": [
     {
       "index": "01",
-      "title": "High-energy-density Li-ion cathodes",
+      "title": "High energy density Li-ion cathodes",
       "short": "Linking redox chemistry, ion transport, and structural evolution to design cathodes with high capacity and durable cycling.",
       "detail": "Our group studies Li-rich layered oxides, high-Ni layered cathodes, and disordered-rocksalt materials. We resolve how high-valent transition-metal and oxygen redox, cation migration, oxygen dimerization, and phase evolution control capacity, voltage hysteresis or decay, and long-term stability. By integrating atomistic computation, synthesis, electrochemistry, and multiscale characterization, we translate degradation mechanisms into practical design rules.",
       "visual": {

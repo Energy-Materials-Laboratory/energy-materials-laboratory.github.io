@@ -125,7 +125,7 @@ export default function Home() {
           <div className="recruitment-copy">
             <h2>{contact.recruitment.title}</h2>
             <p>{contact.recruitment.english}</p>
-            <p>{contact.recruitment.korean}</p>
+            <p lang="ko" className="recruitment-korean">{contact.recruitment.korean}</p>
             <EmailCopyButton
               className="button button-light"
               email={contact.principalInvestigator.email}

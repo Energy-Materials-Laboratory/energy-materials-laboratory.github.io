@@ -12,7 +12,7 @@ export default function ContactPage() {
           <h1 className="contact-page-label">{contact.hero.eyebrow}</h1>
           <div className="contact-intro-copy">
             <p>{contact.recruitment.english}</p>
-            <p>{contact.recruitment.korean}</p>
+            <p lang="ko" className="recruitment-korean">{contact.recruitment.korean}</p>
           </div>
         </div>
         <div className="contact-details">
