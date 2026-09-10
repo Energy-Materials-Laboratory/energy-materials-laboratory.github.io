@@ -75,12 +75,6 @@ export default async function MemberProfilePage({
 
   const profilePhoto = member.profilePhoto || member.photo;
 
-  const hasDetails = Boolean(
-    member.bio ||
-      member.education.length ||
-      member.researchInterests.length ||
-      member.selectedPublications.length,
-  );
 
   return (
     <SiteShell>
@@ -138,20 +132,17 @@ export default async function MemberProfilePage({
                   ))}
                 </div>
               </section>
-            ) : null}
-
-            {member.researchInterests.length > 0 ? (
+            ) : (
               <section className="member-detail-section">
-                <p className="section-index">Research interests</p>
-                <ul className="member-interest-list">
-                  {member.researchInterests.map((interest) => <li key={interest}>{interest}</li>)}
-                </ul>
+                <p className="section-index">Education</p>
+                <p className="member-detail-empty">Education details will be updated soon.</p>
               </section>
-            ) : null}
+            )}
 
-            {member.selectedPublications.length > 0 ? (
-              <section className="member-detail-section">
-                <p className="section-index">Selected publications</p>
+          </div>
+
+              <section className="member-detail-section member-detail-publications">
+                <p className="section-index">Publications</p>
                 <div className="member-publication-list">
                   {member.selectedPublications.map((publication, index) => (
                     <article key={`${publication.title}-${index}`}>
@@ -172,13 +163,10 @@ export default async function MemberProfilePage({
                     </article>
                   ))}
                 </div>
+                {member.selectedPublications.length === 0 ? (
+                  <p className="member-detail-empty">No publications listed yet.</p>
+                ) : null}
               </section>
-            ) : null}
-
-            {!hasDetails ? (
-              <p className="member-detail-note">More information about this member will be added here.</p>
-            ) : null}
-          </div>
         </section>
       </div>
     </SiteShell>

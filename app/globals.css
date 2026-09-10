@@ -1931,6 +1931,8 @@ summary:focus-visible {
 }
 
 .member-group > .section-index {
+  font-size: calc(var(--size-label) + 2px);
+  text-transform: none;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--ink);
 }
@@ -2135,12 +2137,14 @@ summary:focus-visible {
 }
 
 .member-detail-intro .eyebrow {
+  font-size: calc(var(--size-label) + 2px);
+  text-transform: none;
   margin: 0;
 }
 
 .member-detail-intro h1 {
   margin: 28px 0 48px;
-  font-size: clamp(54px, 6.2vw, 88px);
+  font-size: clamp(50px, 5.6vw, 78px);
   font-weight: var(--weight-display);
   letter-spacing: -.065em;
   line-height: .96;
@@ -2169,7 +2173,7 @@ summary:focus-visible {
 .member-detail-contact > .email-copy {
   width: fit-content;
   color: var(--blue-dark);
-  font-size: var(--size-card-body);
+  font-size: calc(var(--size-card-body) + 2px);
   font-weight: var(--weight-semibold);
   line-height: 1.45;
   overflow-wrap: anywhere;
@@ -3091,7 +3095,7 @@ summary:focus-visible {
 
   .member-detail-intro h1 {
     margin-block: 24px 38px;
-    font-size: clamp(46px, 7vw, 64px);
+    font-size: clamp(43px, 6.4vw, 58px);
   }
 
   .member-detail-contact {
@@ -3123,7 +3127,7 @@ summary:focus-visible {
 
   .member-detail-intro h1 {
     margin-block: 22px 34px;
-    font-size: clamp(45px, 14vw, 58px);
+    font-size: clamp(41px, 12.5vw, 53px);
   }
 
   .member-detail-contact {
@@ -3133,7 +3137,7 @@ summary:focus-visible {
   }
 
   .member-detail-contact > .email-copy {
-    font-size: var(--size-meta);
+    font-size: calc(var(--size-meta) + 2px);
   }
 
   .email-copy-feedback {
@@ -3161,4 +3165,12 @@ summary:focus-visible {
   .member-education-list h2 {
     font-size: 22px;
   }
+}
+
+/* Full-width publications below Profile and Education. */
+.member-detail-publications {
+  grid-column: 1 / -1;
+  min-width: 0;
+  padding-top: 23px;
+  border-top: 1px solid var(--ink);
 }
