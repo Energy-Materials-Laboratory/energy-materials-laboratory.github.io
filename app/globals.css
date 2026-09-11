@@ -1820,9 +1820,14 @@ summary:focus-visible {
   padding: 70px clamp(42px, 6vw, 96px);
 }
 
+.profile-intro > .eyebrow {
+  font-size: 19px;
+  letter-spacing: .015em;
+}
+
 .profile-intro h1 {
   margin: 24px 0 28px;
-  font-size: var(--size-profile-title);
+  font-size: clamp(58px, 6.1vw, 88px);
   font-weight: var(--weight-display);
   letter-spacing: -.075em;
   line-height: .95;
@@ -1830,7 +1835,7 @@ summary:focus-visible {
 
 .profile-role {
   color: var(--muted);
-  font-size: 19px;
+  font-size: 21px;
   line-height: 1.65;
 }
 
@@ -1840,7 +1845,7 @@ summary:focus-visible {
   gap: 24px;
   margin-top: 36px;
   color: var(--blue-dark);
-  font-size: var(--size-meta);
+  font-size: 18px;
   font-weight: 620;
 }
 
@@ -1856,6 +1861,7 @@ summary:focus-visible {
 }
 
 .cv-column > .section-index {
+  font-size: 17px;
   padding-bottom: 18px;
   border-bottom: 1px solid var(--ink);
 }
@@ -1871,12 +1877,12 @@ summary:focus-visible {
 .cv-item > span {
   color: var(--muted);
   font-family: var(--font-mono);
-  font-size: var(--size-label);
+  font-size: 17px;
 }
 
 .cv-item h2 {
   margin: 0 0 8px;
-  font-size: 21px;
+  font-size: 23px;
   font-weight: 620;
 }
 
@@ -1885,7 +1891,7 @@ summary:focus-visible {
   display: block;
   margin: 4px 0;
   color: var(--muted);
-  font-size: var(--size-meta);
+  font-size: 18px;
   line-height: 1.55;
 }
 
@@ -1894,6 +1900,7 @@ summary:focus-visible {
 }
 
 .awards-section > .section-index {
+  font-size: 17px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--ink);
 }
@@ -1909,7 +1916,7 @@ summary:focus-visible {
 .award-row span,
 .award-row p {
   color: var(--muted);
-  font-size: var(--size-meta);
+  font-size: 18px;
 }
 
 .award-row h3,
@@ -1918,7 +1925,7 @@ summary:focus-visible {
 }
 
 .award-row h3 {
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 610;
 }
 
@@ -3050,6 +3057,8 @@ summary:focus-visible {
   .profile-portrait { min-height: 420px; }
   .profile-intro { padding: 58px 24px; }
   .profile-intro h1 { font-size: 65px; }
+  .profile-intro > .eyebrow { font-size: 18px; }
+  .profile-role { font-size: 20px; }
   .cv-item { grid-template-columns: 68px 1fr; }
   .award-row { grid-template-columns: 68px 1fr; }
   .award-row p { grid-column: 2; }
