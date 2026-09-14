@@ -205,7 +205,7 @@ summary:focus-visible {
 }
 
 .recruitment-summary > div {
-  padding: 19px 24px 20px 0;
+  padding: 22px 24px 23px 0;
 }
 
 .recruitment-summary > div + div {
@@ -215,16 +215,16 @@ summary:focus-visible {
 
 .recruitment-summary span {
   display: block;
-  margin-bottom: 7px;
+  margin-bottom: 8px;
   color: #0a67ad;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 800;
   letter-spacing: .08em;
 }
 
 .recruitment-summary strong {
   color: #1d3b54;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.5;
 }
 
@@ -286,8 +286,10 @@ summary:focus-visible {
   .recruitment-description { margin-top: 22px; padding: 19px 18px; }
   .recruitment-description p { font-size: 14px; }
   .recruitment-summary { grid-template-columns: 1fr; }
-  .recruitment-summary > div { padding: 16px 0; }
+  .recruitment-summary > div { padding: 18px 0; }
   .recruitment-summary > div + div { padding-left: 0; border-top: 1px solid #dfe7ee; border-left: 0; }
+  .recruitment-summary span { font-size: 13px; }
+  .recruitment-summary strong { font-size: 16px; }
   .recruitment-modal-footer { align-items: stretch; flex-direction: column; gap: 18px; margin-top: 22px; }
   .recruitment-modal-actions { justify-content: space-between; gap: 12px; }
 }
