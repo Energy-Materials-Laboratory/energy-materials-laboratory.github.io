@@ -49,15 +49,6 @@ export default function RecruitmentModal() {
             <Image className="recruitment-title-logo" src="/images/eml-logo-blue.png" alt="Energy Materials Lab" width={1164} height={768} priority />
           </div>
 
-          <div className="recruitment-description">
-            <p className="recruitment-description-en">
-              Our group is recruiting graduate students and undergraduate researchers interested in lithium-ion batteries, energy materials, first-principles calculations, and machine learning.
-            </p>
-            <p lang="ko">
-              우리 연구실은 함께 연구할 대학원생과 학부연구생을 모집하고 있습니다. 리튬이차전지, 에너지소재, 제일원리계산 및 머신러닝에 관심이 있는 학생은 CV와 간단한 자기소개를 보내주세요.
-            </p>
-          </div>
-
           <div className="recruitment-summary" aria-label="Recruitment information">
             <div>
               <span>모집 대상</span>
@@ -67,6 +58,15 @@ export default function RecruitmentModal() {
               <span>입학 시기</span>
               <strong>2026학년도 2학기 · 2027학년도 1학기</strong>
             </div>
+          </div>
+
+          <div className="recruitment-description">
+            <p className="recruitment-description-en">
+              Our group is recruiting graduate students and undergraduate researchers interested in rechargeable batteries, energy materials, first-principles calculations, and machine learning.
+            </p>
+            <p lang="ko">
+              우리 연구실은 함께 연구할 대학원생과 학부연구생을 모집하고 있습니다. 이차전지, 에너지소재, 제일원리계산 및 머신러닝에 관심이 있는 학생은 CV와 간단한 자기소개를 보내주세요.
+            </p>
           </div>
 
           <div className="recruitment-modal-footer">

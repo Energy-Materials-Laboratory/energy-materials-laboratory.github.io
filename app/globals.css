@@ -177,7 +177,7 @@ summary:focus-visible {
 }
 
 .recruitment-description {
-  margin-top: 30px;
+  margin-top: 24px;
   padding: 24px 26px;
   border-left: 3px solid #1680c5;
   background: #f2f7fb;
@@ -200,7 +200,7 @@ summary:focus-visible {
 .recruitment-summary {
   display: grid;
   grid-template-columns: .9fr 1.2fr;
-  margin-top: 24px;
+  margin-top: 30px;
   border-block: 1px solid #dfe7ee;
 }
 
