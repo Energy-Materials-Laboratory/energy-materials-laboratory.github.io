@@ -86,6 +86,212 @@ summary:focus-visible {
   outline-offset: 4px;
 }
 
+.recruitment-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: grid;
+  place-items: center;
+  padding: 28px;
+  overflow-y: auto;
+  background: rgba(8, 22, 37, .68);
+  backdrop-filter: blur(8px);
+}
+
+.recruitment-modal {
+  position: relative;
+  width: min(920px, 100%);
+  max-height: calc(100vh - 56px);
+  overflow-y: auto;
+  border: 1px solid rgba(10, 70, 132, .18);
+  background: #fff;
+  box-shadow: 0 36px 100px rgba(4, 23, 43, .32);
+}
+
+.recruitment-modal::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto;
+  height: 5px;
+  background: #076bbd;
+}
+
+.recruitment-modal-close {
+  position: absolute;
+  z-index: 1;
+  top: 18px;
+  right: 20px;
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  border-radius: 50%;
+  background: #f2f6f9;
+  color: #18354e;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.recruitment-modal-body {
+  padding: 50px 52px 44px;
+}
+
+.recruitment-kicker {
+  display: flex;
+  align-items: center;
+  margin: 0 0 20px;
+  color: #076bbd;
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: .13em;
+}
+
+.recruitment-title-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 172px;
+  align-items: center;
+  gap: 42px;
+}
+
+.recruitment-modal h2 {
+  margin: 0;
+  color: #142f48;
+  font-size: clamp(31px, 4vw, 45px);
+  font-weight: 500;
+  letter-spacing: -.045em;
+  line-height: 1.2;
+}
+
+.recruitment-modal h2 strong {
+  color: #075fa9;
+  font-weight: 800;
+}
+
+.recruitment-title-logo {
+  width: 148px;
+  height: 94px;
+  object-fit: contain;
+}
+
+.recruitment-description {
+  margin-top: 30px;
+  padding: 24px 26px;
+  border-left: 3px solid #1680c5;
+  background: #f2f7fb;
+}
+
+.recruitment-description p {
+  margin: 0;
+  color: #2d485f;
+  font-size: 15px;
+  font-weight: 550;
+  line-height: 1.72;
+}
+
+.recruitment-description .recruitment-description-en {
+  margin-bottom: 12px;
+  color: #173b59;
+  font-weight: 650;
+}
+
+.recruitment-summary {
+  display: grid;
+  grid-template-columns: .9fr 1.2fr;
+  margin-top: 24px;
+  border-block: 1px solid #dfe7ee;
+}
+
+.recruitment-summary > div {
+  padding: 19px 24px 20px 0;
+}
+
+.recruitment-summary > div + div {
+  padding-left: 28px;
+  border-left: 1px solid #dfe7ee;
+}
+
+.recruitment-summary span {
+  display: block;
+  margin-bottom: 7px;
+  color: #0a67ad;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.recruitment-summary strong {
+  color: #1d3b54;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.recruitment-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 28px;
+}
+
+.recruitment-modal-footer > p {
+  max-width: 340px;
+  margin: 0;
+  color: #23435e;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+.recruitment-modal-footer > p span {
+  display: block;
+  margin-bottom: 3px;
+  color: #1f3b53;
+  font-weight: 800;
+}
+
+.recruitment-modal-actions {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  color: #244962;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.recruitment-apply-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 20px;
+  padding: 15px 20px;
+  background: #075fa9;
+  color: #fff;
+}
+
+.recruitment-apply-button:hover {
+  background: #064f8c;
+}
+
+@media (max-width: 720px) {
+  .recruitment-modal-backdrop { padding: 14px; place-items: start center; }
+  .recruitment-modal { max-height: calc(100vh - 28px); }
+  .recruitment-modal-close { top: 14px; right: 14px; width: 38px; height: 38px; }
+  .recruitment-modal-body { padding: 46px 24px 26px; }
+  .recruitment-kicker { margin-bottom: 14px; font-size: 14px; }
+  .recruitment-title-row { grid-template-columns: 1fr; gap: 14px; }
+  .recruitment-title-logo { width: 110px; height: 70px; justify-self: start; order: -1; }
+  .recruitment-modal h2 { font-size: clamp(27px, 8.5vw, 36px); }
+  .recruitment-description { margin-top: 22px; padding: 19px 18px; }
+  .recruitment-description p { font-size: 14px; }
+  .recruitment-summary { grid-template-columns: 1fr; }
+  .recruitment-summary > div { padding: 16px 0; }
+  .recruitment-summary > div + div { padding-left: 0; border-top: 1px solid #dfe7ee; border-left: 0; }
+  .recruitment-modal-footer { align-items: stretch; flex-direction: column; gap: 18px; margin-top: 22px; }
+  .recruitment-modal-actions { justify-content: space-between; gap: 12px; }
+}
+
 .site-width {
   width: min(calc(100% - 64px), var(--site-width));
   margin-inline: auto;

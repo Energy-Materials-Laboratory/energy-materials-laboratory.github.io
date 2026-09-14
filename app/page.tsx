@@ -2,6 +2,7 @@ import Link from "next/link";
 import EmailCopyButton from "./components/EmailCopyButton";
 import PublicationCarousel from "./components/PublicationCarousel";
 import ResearchVisual from "./components/ResearchVisual";
+import RecruitmentModal from "./components/RecruitmentModal";
 import SiteShell from "./components/SiteShell";
 import contact from "../content/contact.json";
 import home from "../content/home.json";
@@ -37,6 +38,7 @@ export default function Home() {
 
   return (
     <SiteShell>
+      <RecruitmentModal />
       <section className="hero site-width" aria-labelledby="hero-title">
         <div className="hero-copy">
           <p className="eyebrow">{home.hero.eyebrow}</p>
