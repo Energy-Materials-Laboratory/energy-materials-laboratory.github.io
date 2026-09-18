@@ -6,8 +6,8 @@
   },
   "journals": [
     {
-      "date": "2026-09",
-      "title": "Phosphorus-Enabled Reversible Jahn–Teller Phase Evolution in Manganese Spinel Cathodes",
+      "date": "2026-09-16",
+      "title": "Phosphorus-enabled reversible Jahn–Teller phase evolution in manganese spinel cathodes",
       "authors": [
         {
           "name": "Hyoi Jo",
@@ -35,7 +35,10 @@
           "mark": "*"
         }
       ],
-      "venue": "Energy & Environmental Science · Accepted"
+      "venue": "Energy & Environmental Science",
+      "doi": "10.1039/D6EE04410G",
+      "cover": "/images/publications/2026-phosphorus-enabled-jahn-teller.png",
+      "coverAlt": "First page of Phosphorus-enabled reversible Jahn–Teller phase evolution in manganese spinel cathodes"
     },
     {
       "date": "2026-07",
