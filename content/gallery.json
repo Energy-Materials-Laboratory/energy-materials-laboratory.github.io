@@ -7,6 +7,26 @@
   },
   "events": [
     {
+      "slug": "2026-fall-semester-group-dinner",
+      "title": "2026 Fall Semester Group Dinner",
+      "date": "2026-09-22",
+      "cover": "/images/gallery/2026-fall-semester-group-dinner/cover.jpg",
+      "coverAlt": "Energy Materials Lab members at the 2026 fall semester group dinner",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2026-fall-semester-group-dinner/01.jpg",
+          "alt": "Lab members celebrating the start of the fall semester",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2026-fall-semester-group-dinner/02.jpg",
+          "alt": "Barbecue at the 2026 fall semester group dinner",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
       "slug": "2026-teachers-day",
       "title": "2026 Teacher's Day",
       "date": "2026-05-15",
@@ -169,3 +189,4 @@
     }
   ]
 }
+
