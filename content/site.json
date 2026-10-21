@@ -2,7 +2,10 @@
   "metadata": {
     "title": "Energy Materials Lab · SKKU",
     "titleTemplate": "%s · Energy Materials Lab",
-    "description": "Byunghoon Kim Research Group at Sungkyunkwan University. We integrate computation and experiment to discover advanced materials for next-generation batteries."
+    "description": "Byunghoon Kim Research Group at Sungkyunkwan University. We integrate computation and experiment to discover advanced materials for next-generation batteries.",
+    "siteUrl": "https://eml.skku.edu",
+    "ogImage": "/images/og-hero-layered-cathode.jpg",
+    "ogImageAlt": "Layered cathode illustration with blue transition-metal-oxygen layers, red oxygen markers, and green interlayer lithium markers"
   },
   "institution": {
     "university": "Sungkyunkwan University",
