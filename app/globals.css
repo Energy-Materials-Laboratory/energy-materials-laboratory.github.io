@@ -261,6 +261,32 @@ summary:focus-visible {
   font-weight: 700;
 }
 
+.recruitment-modal-dismiss {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
+  padding-top: 14px;
+  border-top: 1px solid #dfe7ee;
+}
+
+.recruitment-modal-dismiss button {
+  padding: 4px 0;
+  border: 0;
+  background: none;
+  color: #5b7184;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.recruitment-modal-dismiss button:hover,
+.recruitment-modal-dismiss button:focus-visible {
+  color: #1f3b53;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .recruitment-apply-button {
   display: inline-flex;
   align-items: center;
@@ -292,6 +318,7 @@ summary:focus-visible {
   .recruitment-summary strong { font-size: 16px; }
   .recruitment-modal-footer { align-items: stretch; flex-direction: column; gap: 18px; margin-top: 22px; }
   .recruitment-modal-actions { justify-content: space-between; gap: 12px; }
+  .recruitment-modal-dismiss { margin-top: 18px; padding-top: 12px; }
 }
 
 .site-width {
