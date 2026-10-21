@@ -2,10 +2,44 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
+
+const HIDE_UNTIL_KEY = "eml-recruitment-hide-until";
+
+function isHiddenToday() {
+  try {
+    const hideUntil = Number(window.localStorage.getItem(HIDE_UNTIL_KEY));
+    return Number.isFinite(hideUntil) && Date.now() < hideUntil;
+  } catch {
+    // Storage blocked (private mode, strict settings): show the notice as before.
+    return false;
+  }
+}
+
+function hideUntilTomorrow() {
+  const nextMidnight = new Date();
+  nextMidnight.setHours(24, 0, 0, 0);
+  try {
+    window.localStorage.setItem(HIDE_UNTIL_KEY, String(nextMidnight.getTime()));
+  } catch {
+    // Storage blocked: the notice simply closes for this visit.
+  }
+}
+
+// Storage is read once per render; nothing needs to be subscribed to.
+const subscribeToNothing = () => () => {};
 
 export default function RecruitmentModal() {
-  const [isOpen, setIsOpen] = useState(true);
+  // The static HTML is rendered as "hidden"; the browser then decides,
+  // so the server output and the first client render always agree.
+  const hiddenToday = useSyncExternalStore(
+    subscribeToNothing,
+    isHiddenToday,
+    () => true,
+  );
+  const [isDismissed, setIsDismissed] = useState(false);
+  const isOpen = !hiddenToday && !isDismissed;
+  const close = () => setIsDismissed(true);
 
   useEffect(() => {
     if (!isOpen) return;
@@ -18,7 +52,7 @@ export default function RecruitmentModal() {
 
   useEffect(() => {
     const closeOnEscape = (event: KeyboardEvent) => {
-      if (event.key === "Escape") setIsOpen(false);
+      if (event.key === "Escape") close();
     };
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
@@ -27,7 +61,7 @@ export default function RecruitmentModal() {
   if (!isOpen) return null;
 
   return (
-    <div className="recruitment-modal-backdrop" role="presentation" onMouseDown={() => setIsOpen(false)}>
+    <div className="recruitment-modal-backdrop" role="presentation" onMouseDown={() => close()}>
       <section
         className="recruitment-modal"
         role="dialog"
@@ -35,7 +69,7 @@ export default function RecruitmentModal() {
         aria-labelledby="recruitment-modal-title"
         onMouseDown={(event) => event.stopPropagation()}
       >
-        <button className="recruitment-modal-close" type="button" aria-label="Close recruitment notice" onClick={() => setIsOpen(false)}>
+        <button className="recruitment-modal-close" type="button" aria-label="Close recruitment notice" onClick={() => close()}>
           <span aria-hidden="true">×</span>
         </button>
 
@@ -72,9 +106,21 @@ export default function RecruitmentModal() {
           <div className="recruitment-modal-footer">
             <p><span>지원 및 문의</span> byunghoonkim@skku.edu</p>
             <div className="recruitment-modal-actions">
-              <Link href="/research" onClick={() => setIsOpen(false)}>Research areas <span aria-hidden="true">↗</span></Link>
+              <Link href="/research" onClick={() => close()}>Research areas <span aria-hidden="true">↗</span></Link>
               <a className="recruitment-apply-button" href="mailto:byunghoonkim@skku.edu?subject=Energy%20Materials%20Lab%20Application">Apply via email <span aria-hidden="true">→</span></a>
             </div>
+          </div>
+
+          <div className="recruitment-modal-dismiss">
+            <button
+              type="button"
+              onClick={() => {
+                hideUntilTomorrow();
+                close();
+              }}
+            >
+              오늘 하루 보지 않기
+            </button>
           </div>
         </div>
       </section>
