@@ -130,7 +130,7 @@ export default function JournalsPage() {
                       }-${publication.title}`}
                     >
                       <span className="journal-number">
-                        {String(index + 1).padStart(2, "0")}
+                        {String(yearlyPublications.length - index).padStart(2, "0")}
                       </span>
 
                       <div className="journal-copy">
