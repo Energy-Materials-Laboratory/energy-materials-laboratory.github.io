@@ -7,6 +7,31 @@
   },
   "events": [
     {
+      "slug": "2026-battery-symposium-japan",
+      "title": "2026 Battery Symposium in Japan",
+      "date": "2026-11-24",
+      "cover": "/images/gallery/2026-battery-symposium-japan/cover.jpg",
+      "coverAlt": "Signage for the 67th Battery Symposium in Japan at Pacifico Yokohama",
+      "coverPosition": "50% 50%",
+      "photos": [
+        {
+          "src": "/images/gallery/2026-battery-symposium-japan/01.jpg",
+          "alt": "Group photo at the 67th Battery Symposium in Japan",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2026-battery-symposium-japan/02.jpg",
+          "alt": "Group dinner during the Battery Symposium trip",
+          "position": "50% 50%"
+        },
+        {
+          "src": "/images/gallery/2026-battery-symposium-japan/03.jpg",
+          "alt": "Udon lunch during the Battery Symposium trip",
+          "position": "50% 50%"
+        }
+      ]
+    },
+    {
       "slug": "2026-fall-semester-group-dinner",
       "title": "2026 Fall Semester Group Dinner",
       "date": "2026-09-22",
