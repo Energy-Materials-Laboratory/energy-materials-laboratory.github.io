@@ -87,8 +87,6 @@ export default async function GalleryDetailPage({
         </Link>
 
         <header className="gallery-detail-header">
-          <p className="eyebrow">Lab archive</p>
-
           <h1>{event.title}</h1>
 
           <time dateTime={event.date}>
